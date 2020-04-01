@@ -1,0 +1,313 @@
+1: Identify the letter of the choice that best matches the phrase or definition.
+
+References content that is either nontextual or that cannot be interpreted by an XML parser
+nparsed entity
+
+Used when you want to insert content into a DTD itself 
+parameter entity
+
+The smaller chunks into which a DTD can be broken 
+module
+
+Most standard vocabularies make these available online for inspection 
+DTDs
+
+Draws its content from an external file 
+external entity
+
+Interpreted by XML parsers as a reference to another entity 
+symbol
+
+This supplies a name for a data type and provides clues about how an application should handle the data 
+notation
+
+References content to be used within an XML document 
+general entity
+
+Includes its content in the DTD 
+internal entity
+
+Enables you to divide a DTD into two parts: one interpreted by parsers, and one containing declarations that parsers ignore 
+conditional section
+
+
+2: A(n) _____ content model is a list of child elements that follow a defined order.
+sequence
+
+3: Which of the following is accomplished by an attribute-list declaration?
+All of these are correct.
+
+4: An XML element is not limited to either parsed character data or child elements.
+False
+
+5: An element declaration can specify which of the following?
+All of the these are correct.
+
+6: An attribute declared using the NAME token must have a value equal to the value of an ID attribute located somewhere in the same document.
+False
+
+7: It is best not to work with mixed content if you want a tightly structured document.
+False
+
+8: _____ is ignored within a comment, so you can spread comment text over several lines without affecting DTD code.
+White space
+
+9: Case-based Critical Thinking Questions
+<!ATTLIST course credits CDATA “4”>
+
+10:  As shown in the accompanying figure, the external subset would define some basic rules for all of the documents, and the internal subset would define rules that are specific to each document.
+True
+
+11:  The DOCTYPE declaration has to be added to a document epilog as shown in the accompanying figure.
+True
+
+12: The chunks into which a DTD can be broken with parameter entities are known as _____.
+modules
+
+13: The NMTOKEN data types cannot contain _____.
+white space
+
+14: External DTDs work the same way as _____ style sheets.
+external
+
+15: You can divide a DTD into _____ parts.
+two
+
+16: Element names can contain which of the following?
+numbers
+
+17: An entity whose content is found within the DTD is known as a(n) external entity.
+False
+
+18: A DTD can be used to enforce a specific data structure on document content.
+False
+
+19:  The DOCTYPE declaration has to be added to the document _____, after the XML declaration and before the document’s root element, as shown in the accompanying figure.
+prolog
+
+20: The _____ value for the content model in an element declaration means an element cannot store any content.
+EMPTY
+
+21: Case-based Critical Thinking Questions
+Casey is using XML to store information about the students in the science classes that he teaches. He wants to design a DTD that he can use to validate the XML documents that he uses for this purpose, and he comes to you for help. Casey wants to include a declaration for an element named “note” that can contain any type of content. Which of the following is an appropriate element declaration for this element?
+<!ELEMENT note ANY>
+
+22: The _____ attribute default means that the attribute must appear with every occurrence of the element.
+#REQUIRED
+
+23: DTDs use more general numbering with a(n) _____ symbol, which specifies the number of occurrences of each element.
+modifying
+
+24: A(n) _____ is a collection of rules that define the content and structure of an XML document.
+DTD
+
+25: Case-based Critical Thinking Questions
+Rosalind wants to add attribute declarations to her DTD, and she turns to you for information about the possible attribute types. You tell Rosalind about the CDATA attribute type. Which of the following attribute values would NOT be allowed for an attribute of this type?
+Bob & Jenny
+
+26: To test for validity, an XML parser must be able to compare your XML document with the _____ rules you set up in the DTD.
+validity
+
+27: An entity that references content that cannot be interpreted by the XML parser is a(n) _____ entity.
+unparsed
+
+28: An element _____ declaration specifies an element’s name and indicates what kind of content the element can contain.
+type
+
+29: _____ types are character strings that follow certain rules for format and content.
+Tokenized
+
+30: The _____ symbol indicates that an element occurs at least once.
++
+
+31: A DOCTYPE declaration like the one in the accompanying figure is also known as a(n) _____.
+DTD
+
+32: What are the limitations of mixed content elements? Under what circumstances should you not use them?
+[Not graded]
+
+33: Once an ID value has been declared in a document, other attribute values can refer to it using the _____ token.
+IDREF
+
+34: A DTD is entered into the document in a statement called a document _____ declaration.
+type
+
+35: In a valid document, at least two elements must be declared in the DTD.
+False
+
+36: The _____ content model allows an element to store any type of content.
+ANY
+
+37: _____ content allows an element to contain both parsed character data and child elements.
+Mixed
+
+38: Case-based Critical Thinking Questions
+Rosalind wants to add attribute declarations to her DTD, and she turns to you for information about the possible attribute types. Rosalind wants to define a required attribute called “semester” of an element named “course.” She wants to ensure that this attribute takes on one of three values: fall, spring, or summer. Which type of attribute should she use?
+an enumerated type
+
+39: Case-based Critical Thinking Questions
+Rosalind wants to add attribute declarations to her DTD, and she turns to you for information about the possible attribute types. You help Rosalind write the declaration of the “semester” attribute described in the previous problem. Which of the following is an appropriate declaration for this attribute?
+<!ATTLIST course semester (fall | spring | summer) #REQUIRED>
+
+40: A(n) _____ associates the value of an attribute with a <!NOTATION> declaration that is inserted elsewhere in the DTD.
+notation
+
+41:  The locations of external subsets like that shown in the accompanying figure can be defined using _____ types of identifiers.
+two
+
+42: An attribute that contains a list of XML names, each separated by a blank space, can be defined using the _____ data type.
+NMTOKENS
+
+43: A modifying symbol is placed directly before the element it modifies.
+False
+
+44: Case-based Critical Thinking Questions
+Casey is using XML to store information about the students in the science classes that he teaches. He wants to design a DTD that he can use to validate the XML documents that he uses for this purpose, and he comes to you for help. Casey needs to declare an “address” element that can be used to store a student’s address. If he intends to store the address as parsed character data, which of the following is an appropriate declaration for this element?
+<!ELEMENT address (#PCDATA)>
+
+45: In a DTD, a _____ symbol specifies the number of occurrences of each element.
+modifying
+
+46: To create a parsed entity that references content from an external file using a system _____, you use the declaration <!ENTITY entity SYSTEM ? “uri?”>.
+identifier
+
+47: If a processor encounters more than one declaration for the same attribute, it ignores the first statement.
+False
+
+48: The attributes of the attribute value type _____ contain a list of entities separated by white space.
+ENTITIES
+
+49: A(n) notation must supply a name for the data type and provide clues about how applications should handle the data.
+False
+
+50: The attributes of the attribute value type _____ contain an accepted XML name.
+NMTOKEN
+
+51: Content referenced by an entity can be either _____.
+parsed or unparsed
+
+52: Case-based Critical Thinking Questions
+Casey is using XML to store information about the students in the science classes that he teaches. He wants to design a DTD that he can use to validate the XML documents that he uses for this purpose, and he comes to you for help. Casey next wants to write a declaration for an element named “advanced” that he will use to record the fact that a student is advanced. This element will not contain any content. Which of the following is an appropriate element declaration for this element?
+<!ELEMENT advanced EMPTY>
+
+53: The _____ symbol is used for inserting parameter entities.
+%
+
+54: How many DOCTYPE declarations can there be in an XML document?
+1
+
+55: If an entity's content is found within the DTD, the entity is known as a(n) _____ entity.
+internal
+
+56: A(n) _____ is added to the DOCTYPE declaration to provide information about the DTD to the XML parser.
+public identifier
+
+57: Which of the following is a type of identifier for the location of an external subset like the one in the accompanying figure?
+system
+
+58: Case-based Critical Thinking Questions
+Casey is using XML to store information about the students in the science classes that he teaches. He wants to design a DTD that he can use to validate the XML documents that he uses for this purpose, and he comes to you for help. After you teach Casey about declarations for elements with child elements, he constructs the element declaration <!ELEMENT class ((seminar | lesson | workshop), time?)>. Given this declaration, which of the following is NOT a valid “class” element?
+<class><seminar>Oil Painting</seminar><lesson>brushstrokes</lesson></class>
+
+59: Any attribute that has been declared by the data type ID is a candidate for an ID _____.
+reference
+
+60: When the _____ symbol is used with a choice list, the element can contain any number of occurrences of child elements or PCDATA, or it can contain no content at all.
+*
+
+61: The syntax for creating a conditional section is _____.
+<![keyword[
+declarations
+]]>
+
+62: The content-model value can be one of _____ specific keywords or one of two content descriptions.
+three
+
+63: One way to create a valid document is to design a(n) _____ for the document.
+DTD
+
+64: Case-based Critical Thinking Questions
+Casey is using XML to store information about the students in the science classes that he teaches. He wants to design a DTD that he can use to validate the XML documents that he uses for this purpose, and he comes to you for help. You tell Casey that he must declare the DTD using a DOCTYPE statement. Where should the DOCTYPE go?
+after the XML declaration and before the document’s root element
+
+65: Case-based Critical Thinking Questions
+ID
+
+66: Attribute-list declarations can be located anywhere within the document type declaration.
+False
+
+67: Which of the following is a part into which a DTD like the one in the accompanying figure can be divided?
+internal subset
+
+68: XML parsers interpret the _____ symbol as a reference to another entity and attempt to resolve the reference.
+&
+
+69: DTDs do not support _____, and thus are of limited value in compound documents.
+namespaces
+
+70: Used in conjunction with an XML parser that supports data validation, a DTD can be used to accomplish what?
+[Not graded]
+
+71: An element declaration employing the #PCDATA content model shown in the accompanying figure does not allow for child elements.
+True
+
+72: Attributes that are limited to a set of possible values are known as _____ types.
+enumerated
+
+73: Most standard XML vocabularies have _____ identifiers.
+public
+
+74: The declaration _____ would permit this element in an XML document: <name>Lea Ziegler</name>.
+<!ELEMENT name (#PCDATA)>
+
+75: While very flexible, elements with _____ content do not add much defined structure to a document.
+mixed
+
+76: Because a DTD is not written in the XML language, XML _____ must support the syntax and language requirements needed to interpret DTD code.
+parsers
+
+77: For a DTD to validate either binary data, such as images or video clips, or character data that is not well formed, you need to work with parsed entities.
+False
+
+78: A(n) _____ specifies an element’s name and indicates what kind of content it can contain.
+element declaration
+
+79: The _____ content model is reserved for elements that store no content.
+EMPTY
+
+80: In a(n) _____ subset, the declarations are placed in an external file that is accessed from the XML document.
+external
+
+81: Generally, elements contain parsed character data or child elements.
+False
+
+82: The _____ value for the content model in an element declaration means the element can contain only parsed character data.
+#PCDATA
+
+83: One way to create a valid document is to design a document type definition, or DTD, for the document.
+False
+
+84: Attribute values do not allow you to control the format of the character data.
+False
+
+85: An attribute declared as a(n) _____ token must have a value equal to the value of an ID attribute located somewhere in the same document.
+IDREF
+
+86: Which of the following is a part into which a DTD like the one in the accompanying figure can be divided?
+external subset
+
+87: To test for validity, an XML parser must be able to compare the XML document with the rules established in the DTD.
+False
+
+88: The _____ value for the content model in an element declaration means the element can contain both parsed character data and child elements.
+#PCDATA with sequence
+
+89: What are the five possible values for content-model in the element declaration?
+[Not graded]
+
+90: The #FIXED attribute default is used to indicate that the use of an attribute is optional.
+False
+
+91: Entities can reference content found either in an external file or within the DTD itself.
+False
+

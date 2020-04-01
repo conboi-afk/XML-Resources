@@ -1,0 +1,273 @@
+1: "If you find it difficult to work with recursive templates, you can instead create loops in Saxon using the _____ extension.
+while
+
+2: The accompanying figure shows a sample node set, with the context node shaded blue. In each image, the objects in the node set that are selected by a specific step pattern axis value are numbered and shaded in red. Which axis value is represented by image G?
+following-sibling
+
+3: "You can test whether a processor supports a particular extension element or attribute using the _____ function
+element-available()
+
+4: _____ is the processor used by Internet Explorer.
+MSXML
+
+5: ​In a step pattern, to go in a different direction from the context node you change the node-test value.
+False
+
+6: Identify the letter of the choice that best matches the phrase or definition.
+[MC]
+
+7: "The first step in using extensions is to define an extension#8217;s namespace within the _____ element.
+stylesheet
+
+8: key() function can also be used with a(n) _____ to select a specific node from a node set.
+predicate
+
+9: The following expression uses a _____ key() function to return the count of all property elements from the city of Longmont:"count(key("cityNames", "Longmont")).
+nested
+
+10: Sandra is working with an XML file containing product orders with the structure shown in the accompanying figure. She was just introduced to step patterns, and would like to incorporate them into the style sheet she is developing to display the orders data. She comes to you for help in developing expressions incorporating step patterns./pbr //ppp data-keepme="true" style="font-family: ' font-size: 11pt; color: #000000; font-weight: normal; "Sandra would like to write an expression to select the third order element that follows the context node as a sibling. Which of the following do you tell her is the correct expression?
+following-sibling::order[3]
+
+11: The key() function cannot be used with data from external documents.​
+False
+
+12: If you designate one node set as"$n1and the other as"$n2, the expression:"generate-id($n1) = generate-id($n2)returns a value of _____ if the node set referenced by"$n1is the same as the node set referenced by"$n2.
+true
+
+13: You can use the _____ function to create global variables that reference the root nodes of external documents.
+document()
+
+14: "The _____ step to employ Muenchian grouping is to create a key for the element or attribute that you want to group using the key element.
+first
+
+15: In XPath 1.0, you cannot use document()function or variables in a key element's _____ attribute.
+match
+
+16: One item you can declare in a DTD is the "ID" attribute, which provides a way to uniquely identify a particular item in the source document. Review the syntax for declaring the ID attribute, and explain two benefits of declaring an ID.
+[Not graded]
+
+17: "The _____ math extension functions in EXSLT calculates the nodes with the lowest value in emnode-set/em.
+math.lowest(emnode-set/em)
+
+18: The accompanying figure shows a sample node set, with the context node shaded blue. In each image, the objects in the node set that are selected by a specific step pattern axis value are numbered and shaded in red. Which axis value is represented by image F?
+following
+
+19: Sandra is working with an XML file containing product orders with the structure shown in the accompanying figure. She was just introduced to step patterns, and would like to incorporate them into the style sheet she is developing to display the orders data. She comes to you for help in developing expressions incorporating step patterns./pbr //ppp data-keepme="true" style="font-family: ' font-size: 11pt; color: #000000; font-weight: normal; "Sandra would like to write an expression that moves up the node tree from the context node, selecting all of the elements that are order elements for the customer with the ID jbrown2738. Which of the following do you tell her is the correct expression?
+ancestor::order[custID="jbrown2738"]
+
+20:  "IDs can be associated only with elements.
+False
+
+21: The accompanying figure shows a sample node set, with the context node shaded blue. In each image, the objects in the node set that are selected by a specific step pattern axis value are numbered and shaded in red. Which axis value is represented by image J?
+preceding-sibling
+
+22: "Once you generate the list of unique values, you can use the _____ element to write code to the result document for each unique value.
+apply-templates
+
+23:  "The _____ function generates a unique ID for a specified node set.
+generate-id()
+
+24: To create a template for a particular node, include the mode attribute in the opening xsl:template tag.
+False
+
+25: Craig is working to develop an XSLT application to display election results, using XML files with the structures shown in the accompanying figure. He has heard that you have experience developing applications, and comes to you for guidance. Craig would like to be able to use data from both documents in his application. You suggest he create variables that will allow him to pull the node sets from both files. Which of the following shows the correct syntax to create a variable named"candidatesDocto reference the root node of the candidates.xml file?
+xsl:variable name="candidatesDoc" select="document('candidates.xml')"
+
+26: Craig is working to develop an XSLT application to display election results, using XML files with the structures shown in the accompanying figure. He has heard that you have experience developing applications, and comes to you for guidance. Craig would like to add a key named"precinctNamesbased on each votes element's precinct name. Which of the following elements do you recommend he add to the style sheet to create the key with the correct syntax?
+xsl:key name="precinctNames" match="//votes" use="@precinct"
+
+27: When a processor encounters an extension element it does not recognize, it searches inside of that element for the _____ element.
+fallback
+
+28: Provide an overview of the three key steps involved in employing Muenchian grouping.
+[Not graded]
+
+29: A DTD provides a way to uniquely identify a particular item in the source document.​
+False
+
+30: Keys are declared in the style sheet, not in the DTD of the source document.​
+False
+
+31: Keys are declared in the _____.
+style sheet
+
+32: The XML processor creates a(n) _____ that matches each element to a specific ID.
+index
+
+33: You can use the _____ function to create links for specific locations within a web page.
+generate-id()
+
+34: In a step pattern, the _____ defines properties of the node to be matched.
+predicate
+
+35: The node-test part of the step pattern specifies the direction the XSLT processor should move.
+False
+
+36: The accompanying figure shows a sample node set, with the context node shaded blue. In each image, the objects in the node set that are selected by a specific step pattern axis value are numbered and shaded in red. Which axis value is represented by image A?
+ancestor
+
+37: The _____ provides an expression that the node value should match.
+predicate
+
+38: The _____ attribute tells the XSLT processor which prefixes to regard as prefixes for extensions.
+extension-element-prefixes
+
+39: Craig is working to develop an XSLT application to display election results, using XML files with the structures shown in the accompanying figure. He has heard that you have experience developing applications, and comes to you for guidance. Now that candidatesDocvariable has been created, Craig would like to define a key named"cKeybased on the values of candidateIDattribute for the candidate. Which of the following do you tell him shows the correct syntax to use to define this key?
+xsl:key name="cKey" match="candidate" use="@candidateID"
+
+40: The _____ function returns a node-set that matches a specified value from a key index.
+key()
+
+41: The general syntax of a step pattern is _____.
+axis::node-test[predicate]
+
+42: To declare an"IDattribute as optional in the source document's DTD, use the expression _____.
+!ATTLIST element attribute ID #IMPLIEDgt;
+
+43: ​Traditional IDs, such as Social Security numbers or ISBNs, are commonly declared as ID attributes in DTDs.
+False
+
+44: The abbreviated form of the step pattern"self::node()is _____.
+.
+
+45: A community of XSLT developers created a standard collection of extension elements and extension functions called EXSLT.
+False
+
+46: The _____ step to employ Muenchian grouping is to add the following expression to the select attribute of a"for-eachor an"apply-templateselement:"node set[generate-id()=generate-id(key(name,expression)[1])].
+second
+
+47: Craig is working to develop an XSLT application to display election results, using XML files with the structures shown in the accompanying figure. He has heard that you have experience developing applications, and comes to you for guidance. Now that precinctNameskey has been declared, Craig would like to use it to return a count of all votes from the precinct of Ceylon. Which of the following functions do you suggest he use to do this?
+count(key("precinctNames", "Ceylon"))
+
+48: The key value itself does not have to be entered explicitly; it can also be inserted as a(n) _____ to a node in the source document.
+reference
+
+49:  Because only one template can be processed with any node, the processor must choose between competing templates for the same node. Using the"mode '"attribute is one way of explicitly assigning a template to a specific node. Explain the default priority number rules used by an XSLT processor to determine template priority.
+[Not graded]
+
+50:  The default value for the axis portion of the step pattern is self/spanspan style="font-family: '".
+False
+
+51: Templates with no mode attribute are applied to the specified node set.​
+False
+
+52: You can have your processor test whether it supports a particular extension function using the _____ function.
+function-available()
+
+53: In generate-id()function, if you omit the node set argument, the function _____.
+is applied to the current context node
+
+54: If you want to use keys with an external document, you have to first change the _____ node so that it points to a location path within that document.
+context
+
+55: The _____ function returns a node-set that matches a specified value from a key index.
+key()
+
+56: Sandra is working with an XML file containing product orders with the structure shown in the accompanying figure. She was just introduced to step patterns, and would like to incorporate them into the style sheet she is developing to display the orders data. She comes to you for help in developing expressions incorporating step patterns./pbr //ppp data-keepme="true" style="font-family: ' font-size: 11pt; color: #000000; font-weight: normal; "Sandra would like to write an abbreviated expression to select the parent of the current context node. Which of the following do you tell her is the correct abbreviated expression?
+..
+
+57: Keys can be thought of as generalized IDs, without their limitations.
+False
+
+58: In a step pattern, the _____ specifies the direction in which the processor should move through the node tree.
+axis
+
+59: You can support processors that do not recognize an extension element or attribute by using the fallback '"element.
+False
+
+60: The _____ function returns a node set based on IDs defined in the document#8217;s DTD.
+id()
+
+61: ​All IDs belong to the same index, even if they are associated with different attributes.
+False
+
+62: The _____ is an index based on a node specified in the"match '"attribute using the values from a node specified in the"use '"attribute.
+key
+
+63: When an XSLT processor encounters two templates with the same name, it uses the last one defined in the style sheet.
+False
+
+64: You can use the generate-id() function to create links for specific locations within a web page.​
+False
+
+65: Sandra is working with an XML file containing product orders with the structure shown in the accompanying figure. She was just introduced to step patterns, and would like to incorporate them into the style sheet she is developing to display the orders data. She comes to you for help in developing expressions incorporating step patterns./pbr //ppp data-keepme="true" style="font-family: ' font-size: 11pt; color: #000000; font-weight: normal; "Sandra would like to write an expression to create a node set of all the items elements. Which of the following do you tell her is the correct expression?
+orders/order[items]
+
+66: The accompanying figure shows a sample node set, with the context node shaded blue. In each image, the objects in the node set that are selected by a specific step pattern axis value are numbered and shaded in red. Which axis value is represented by image D?
+descendant
+
+67: The syntax for declaring a required"IDattribute is _____.
+!ATTLIST element attribute ID #REQUIREDgt;
+
+68: Many XSLT processors support _____ functions that extend the list of functions available to XPath and XSLT expressions.
+extension
+
+69: _____ is a programming technique in which nodes are grouped based on unique values taken from a key index matched to unique IDs created by the"generate-id() '"function.
+Muenchian grouping
+
+70: The _____ attribute provides a way to uniquely identify a particular item in the source document.
+ID
+
+71: ID attributes must be valid XML names and, therefore, they cannot contain _____ or begin with numbers.
+spaces
+
+72: When two templates can be applied to the same node set, you distinguish them by adding the _____ attribute within xsl:templategt;tag.
+mode
+
+73: The expression to select the first property element from the city of Longmont is _____.
+key("cityNames", "Longmont")[1]
+
+74: The _____ step to employ Muenchian grouping is to reference the group value using emexpression /emwhere emexpression/em is the element or attribute used to group the node set.
+third
+
+75: In addition to extension functions, you can also use extension elements and _____ in your style sheets.
+attributes
+
+76: Ancestor nodes have the same relation to parent nodes that _____ nodes have to child nodes.
+descendant
+
+77: Many XSLT processors support extension _____ that extend the data types associated with XSLT attributes.
+attribute values
+
+78: To reverse a node set, you use the XPath reverse() '"function.
+False
+
+79: The step pattern axis value _____ selects all nodes that appear before the context node in the source document, excluding the context node's own ancestors.
+preceding
+
+80: Craig is working to develop an XSLT application to display election results, using XML files with the structures shown in the accompanying figure. He has heard that you have experience developing applications, and comes to you for guidance. Craig used the code you suggested to create cKeykey. However, he says he encountering problems when he tries to use this key to actually display data from the candidates.xml external file using the key. You explain to him that he will have to explicitly change the context node to rootelement of the candidates.xml file first using a _____ element.
+for-each
+
+81: One useful tool for debugging a style sheet is the XSLT 1.0 _____ element.
+message
+
+82: Sandra is working with an XML file containing product orders with the structure shown in the accompanying figure. She was just introduced to step patterns, and would like to incorporate them into the style sheet she is developing to display the orders data. She comes to you for help in developing expressions incorporating step patterns. Sandra would like to write an expression to show only those orders that have a preceding sibling containing the same"orderDate. Which of the following do you tell her is the correct expression?
+orderDate=preceding::order/orderDate
+
+83: To create a key, add the key element at the top level of the style sheet as a child of the _____ element.
+stylesheet
+
+84: Keys are not limited to valid _____ names and thus can be based on commonly used IDs, such as Social Security numbers.
+XML
+
+85: The first step in using extensions is to define an extension#8217;s namespace within the root '"element.
+False
+
+86: The step pattern axis value _____ selects all nodes that are descendants of the context node, starting with the context node and moving down the node tree.
+descendant-or-self
+
+87: To generate an ID that identifies a specific node or node set within the source document, XPath provides the _____ function.
+generate-id()
+
+88: Keys have _____ as well as values, allowing the style sheet author to create multiple distinct keys rather than rely on a single index.
+names
+
+89: _____ are location paths that allow the processor to move freely around the node tree in any direction.
+Step patterns
+
+90: In a predicate, the expressions are resolved relative to the context node.​
+False
+
+91: Generated IDs are useful when the link has to reference an external page or website, but not for hypertext links within a single page.​
+False
+

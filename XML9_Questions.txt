@@ -1,0 +1,303 @@
+1: When a query is based on elements in which there is no predefined set of unique values, you can construct a list of unique values using the XPath 2.0 _____ function.
+​distinct-values()
+
+2: The prolog of an XQuery document contains a series of declarations with each declaration terminated with a _____.​
+​semi-colon
+
+3: In a FLWOR query you can include the _____ keyword within the for clause to track the number of iterations.
+​at
+
+4: When you import a library module, the module _____ in the import statement must match the one in the library module file.
+​URI
+
+5: In the FLWOR query shown in the accompanying figure, the box labeled _____ indicates the clause that sorts the query.
+​F
+
+6: The _____ module is the XQuery file that contains the query to be executed and any variables or functions declared in the query prolog.
+main
+
+7: You can use multiple _____ clauses in a FLWOR query structure to create nested sequences.
+​for
+
+8: XQuery 3.0 adds the _____ clause to the already established FLWOR structure.
+group by
+
+9: In a FLWOR query structure, the _____ clause declares a variable and gives it an initial value.
+​let
+
+10: ​With XQuery, the user can summarize data with aggregate functions.
+False
+
+11: Agnes has been using XQuery to design queries using path expressions. Her next project will involve multiple source documents and require more complicated criteria. She has heard that a FLWOR structure could be effective for such cases, and comes to you for assistance in developing a FLWOR structure query.
+​let
+
+12: A(n) _____ module is an external XQuery file that contains only the declarations for namespaces, variables, and user-defined functions.
+​library
+
+13: XQuery files are usually saved with the file extension _____.
+All of these are correct.
+
+14: The _____ keyword allows the variable value to be set by the processor when the query is run.
+external
+
+15: XQuery 3.0 provides a robust debugging technique using the try… _____ structure.
+catch
+
+16: You cannot use XQuery in place of XSLT to transform a source document.
+False
+
+17: Alfonso has been working with XQuery, and would like to create a library module to centralize the global variables and functions he's created. He has encountered some problems in implementing the library module, and comes to you for help.​
+​declare
+
+18: You can add an element to a query through a(n) _____, which uses XML-like syntax to insert the element markup tags directly into the query expression.
+​direct element constructor
+
+19: ​Identify the letter of the choice that best matches the phrase or definition.​
+
+Keyword used to create a parameter whose value is assigned by the XQuery processor 
+​external
+
+​Used to start a variable name 
+​$
+
+​Used to terminate declarations in an XQuery prolog 
+​;
+
+​Standard method for creating structured documentation 
+​xqdoc
+
+​Saxon parameter used to create easily readable result text 
+​!indent=yes
+
+​Used to set up fundamental properties of a query 
+​prolog
+
+​Declaration used to create a variable in an XQuery prolog 
+​declare variable
+
+​Last clause in a FLWOR structure 
+​return
+
+​Contains the query to be executed 
+​main module
+
+​First clause in a FLWOR structure 
+​for
+
+
+20: You cannot sort the results of a query created using a path expression.
+False
+
+21: The last statement in the FLWOR structure is always the _____ clause.
+​return
+
+22: XQuery comments can be nested within one another to provide more information to the user.
+False
+
+23: A(n) query function contains a collection of statements that can be referenced throughout the query document.
+False
+
+24: Agnes has been using XQuery to design queries using path expressions. Her next project will involve multiple source documents and require more complicated criteria. She has heard that a FLWOR structure could be effective for such cases, and comes to you for assistance in developing a FLWOR structure query.
+​where
+
+25: In the FLWOR query shown in the accompanying figure, the box labeled _____ indicates the root element.
+​E
+
+26: For larger documents and more complicated search criteria, it is generally easier and more efficient to use _____ to transform a source document.
+​XQuery
+
+27: Alfonso has been working with XQuery, and would like to create a library module to centralize the global variables and functions he's created. He has encountered some problems in implementing the library module, and comes to you for help.​
+​namespace prefix
+
+28: In the user-defined functions shown in the accompanying figure, the box labeled _____ indicates a function parameter.
+​B
+
+29: As with XSLT, many calculations and operations in XQuery can be performed using recursion, in which the XQuery function calls itself repeatedly until a stopping condition is met. Provide the general structure of a recursive function in XQuery, and explain the role of each part of the structure.​
+[Not graded]
+
+30: In a FLWOR query, only one where clause is allowed per query, and it must be placed before all of the for and let clauses.
+False
+
+31: In an XQuery file, the _____ is an optional section that is placed at the beginning of the query and is used to set up fundamental properties of the query.
+prolog
+
+32: A query can be written using a(n) _____, which is simply an XPath expression that retrieves element and attribute nodes from a source document based on specified criteria.
+path expression
+
+33: The path expression _____ uses a predicate to select only those store elements from the gjc_stores.xml file that operate in the state of Colorado.
+​doc('gjc_stores.xml')//store[state='CO']
+
+34: Element values are enclosed within a set of square brackets.
+False
+
+35: Module library files are often saved with the file extension _____.
+​.xqm
+
+36: Variables defined within the _____ have global scope and can be referenced throughout the query document.​
+​prolog
+
+37: In a FLWOR query structure, variables defined in the for clause update their value at each step in the iteration, but a variable defined in the _____ clause has a single unchanged value.
+​let
+
+38: A query _____ contains a collection of statements that can be referenced throughout the query document.
+​function
+
+39: You can add comments to any part of the XQuery file using the statement _____.
+​(: comment :)
+
+40: In an XQuery file, namespaces need to be declared in the query body.
+False
+
+41: The _____ clause was added to the FLWOR structure in XQuery 3.0 to provide a way of counting each iteration in the query result.
+count
+
+42: When you import a library module, the module URI in the import statement must match the URI in the library module file.
+False
+
+43: In a FLWOR query structure, the _____ clause specifies a condition by which the items in the iterated sequence are filtered.
+​where
+
+44: In general, a processor can run a where clause faster than it can run a predicate expression.
+False
+
+45: A(n) _____ is a database operation used to combine two or more database tables based on fields or columns that are common to the tables.
+join
+
+46: In XQuery, variables are assigned using the _____ symbol.​
+​:=
+
+47: Essentially any text in the query that is not part of an expression is treated as _____ and displayed as part of the query result without modification.
+literal text
+
+48: In the FLWOR query shown in the accompanying figure, the box labeled _____ indicates the clause that displays the results of the query.
+​D
+
+49: If you do not specify an output file, Saxon will display the query result in _____.
+​the command window
+
+50: The XSLT doc() function is not supported in XQuery.
+False
+
+51: One option to format query results is to add the declaration _____ to the XQuery prolog, which preserves all of the white space characters from the XQuery file and writes them to the result document.
+​declare boundary-space preserve;
+
+52: Agnes has been using XQuery to design queries using path expressions. Her next project will involve multiple source documents and require more complicated criteria. She has heard that a FLWOR structure could be effective for such cases, and comes to you for assistance in developing a FLWOR structure query.
+​return
+
+53: In the for clause of a FLWOR query, the _____ attribute is optional.
+​type
+
+54: XQuery provides several tools to create formatted output.
+False
+
+55: A(n) _____ contains the declarations for namespaces, variables, and user-defined functions—which can be imported into other query documents.
+library module
+
+56: The FLWOR structure needs to be enclosed within a set of _____ so that the XQuery processor evaluates the expression before writing the query result into its containing element.
+​curly braces
+
+57: In an XQuery variable declaration, text strings need to be enclosed within single or double quotes.
+False
+
+58: In a FLWOR query structure, the _____ clause iterates through a sequence of values, calculating an expression for each item in the sequence.
+​for
+
+59: In the order by clause of a FLWOR query, the default is to sort items in descending order.
+False
+
+60: ​In an XQuery file, the query body consists of a single expression that retrieves data from a source document based on criteria provided in the query expression.
+False
+
+61: In an XQuery file, the _____ namespace is used for creating user-defined functions.
+local
+
+62: In a FLWOR query, variables defined in a for or let clause act as local variables.
+False
+
+63: To declare an external variable, add the keyword _____ to the variable declaration.
+​external
+
+64: ​The first expression in a FLWOR query structure is the _____ clause.
+​for
+
+65: XQuery is a _____ programming language like XSLT.
+​declarative
+
+66: To run a query, you need a(n) _____ that parses, analyzes, and evaluates the query.
+query processor
+
+67: Variables declared in a library module must be assigned to the module namespace.
+False
+
+68: To calculate a summary statistic like a total, enclose the query expression within the _____ function.
+sum()
+
+69: Agnes has been using XQuery to design queries using path expressions. Her next project will involve multiple source documents and require more complicated criteria. She has heard that a FLWOR structure could be effective for such cases, and comes to you for assistance in developing a FLWOR structure query.
+​return
+
+70: A path expression is usually more compact and easier to apply for simple queries compared to a FLWOR structure.
+False
+
+71: Agnes has been using XQuery to design queries using path expressions. Her next project will involve multiple source documents and require more complicated criteria. She has heard that a FLWOR structure could be effective for such cases, and comes to you for assistance in developing a FLWOR structure query.
+​where
+
+72: You can automatically generate comments for your query through the use of _____ comments, which are a standard method for creating structured documentation.
+​xqdoc
+
+73: Alfonso has been working with XQuery, and would like to create a library module to centralize the global variables and functions he's created. He has encountered some problems in implementing the library module, and comes to you for help.​
+​import statement
+
+74: In a FLWOR query structure, the _____ clause sorts the items in the sequence based on a supplied expression.
+​order by
+
+75: In XQuery, the _____ namespace is used for creating user-defined functions.
+​local
+
+76: _____ variables are variables whose values are determined when the query is run by the processor.
+External
+
+77: In an XQuery document, all string values and file references need to be enclosed within matching curly braces.
+False
+
+78: Agnes has been using XQuery to design queries using path expressions. Her next project will involve multiple source documents and require more complicated criteria. She has heard that a FLWOR structure could be effective for such cases, and comes to you for assistance in developing a FLWOR structure query.
+​for
+
+79: ​XQuery is a subset of XPath 2.0.
+False
+
+80: As with XSLT, many calculations and operations in XQuery can be performed using _____, in which the XQuery function calls itself repeatedly until a stopping condition is met.
+​recursion
+
+81: In April 2014, the W3C gave the _____ specifications Recommendation status, indicating that it was a mature and stable language ready to be deployed in working environments.
+XQuery 3.0
+
+82: One way to query data from several sources is to apply a _____ clause to each document source.
+​for
+
+83: XQuery is written in text format as a collection of _____.
+​expressions
+
+84: A well-designed query is efficient, runs quickly, and is less prone to error. You should design your queries to be clear and concise, easy to maintain, and easy for others to interpret and edit if necessary. Describe at least three of the main principles of effective query design outlined in the tutorial.​
+[Not graded]
+
+85: In the user-defined functions shown in the accompanying figure, the box labeled _____ indicates the data type returned by the function.
+​C
+
+86: ​Describe the use of joins in in XQuery, and differentiate between an inner join and outer join. Which is the default join type in XQuery?
+[Not graded]
+
+87: The _____ statement retrieves all of the variables and functions defined in a library module.
+​import
+
+88: If you do not specify a data type, XQuery applies the _____ data type, allowing the variable to contain any type of data.
+​xs:anyType
+
+89: The XQuery prolog declaration _____ specifies whether empty elements should appear last in any node ordering or first.
+​declare default order
+
+90: Agnes has been using XQuery to design queries using path expressions. Her next project will involve multiple source documents and require more complicated criteria. She has heard that a FLWOR structure could be effective for such cases, and comes to you for assistance in developing a FLWOR structure query.
+​for
+
+91: In the user-defined functions shown in the accompanying figure, the box labeled _____ indicates a function name.
+​A
+

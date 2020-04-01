@@ -1,0 +1,869 @@
+Question 1
+0 / 1 pts
+p/ppp data-keepme="true" style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "If you find it difficult to work with recursive templates, you can instead create loops innbsp;Saxon using the _____ extension./p/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"loop/span/p
+Correct Answer
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"while/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;for-each/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"do-until/span/p
+ 
+UnansweredQuestion 2
+0 / 1 pts
+pp style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203;img alt="" src="ppg/cognero/Tutorial_7_Building_an_XSLT_Application/media/12358d22-f668-45f7-971e-237a0839b324.PNG" //pbr //ppp data-keepme="true" style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "The accompanying figure shows a sample node set, with the context node shaded blue. In each image, the objects in the node set that are selected by a specific step pattern axis value are numbered and shaded in red. Which axis value is represented by image G?/p/p
+
+ 
+
+12358d22-f668-45f7-971e-237a0839b324.PNG
+
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"following/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"descendant/span/p
+Correct Answer
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;following-sibling/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;preceding-sibling/span/p
+ 
+UnansweredQuestion 3
+0 / 1 pts
+p/ppp data-keepme="true" style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "You can test whether a processor supports a particular extension element or attribute using the _____ function/p/p
+Correct Answer
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;element-available()/span/p
+  p style="font-family:'times new roman';font-size:11pt;color:#000000;font-weight:normal;"#8203;available()/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;test-element()/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;element-check()/span/p
+ 
+UnansweredQuestion 4
+0 / 1 pts
+p/ppp data-keepme="true" style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "_____ is the processor used by Internet Explorer./p/p
+  p style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203;IEXML/p
+  p style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203;MSXSLT/p
+Correct Answer
+  p style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203;MSXML/p
+  p style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203;IEXSLT/p
+ 
+Question 5
+0 / 1 pts
+​In a step pattern, to go in a different direction from the context node you change the node-test value.
+
+You Answered
+  True 
+  False 
+ 
+Question 6
+0 / 1 pts
+p/ppp data-keepme="true" style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "#8203;Identify the letter of the choice that best matches the phrase or definition./p/p
+You Answered
+p style="font-family:times new roman;font-size:11pt;color:#000000;font-weight:normal;"#8203;Part of the step pattern that species the direction the XSLT processor should move/p 
+  
+Correct Answer p style="font-family:'Times New Roman';font-size:11pt;color:#000000;font-weight:normal;"span style="font-size:11pt;font-weight:normal;font-family:'Times New Roman';color:#000000;"#8203;axis/span/p
+You Answered
+p style="font-family:times new roman;font-size:11pt;color:#000000;font-weight:normal;"#8203;Function to return nodes with the highest value in node-set/p 
+  
+Correct Answer p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-size:11pt;font-weight:normal;font-family:'Courier New';color:#000000;"#8203;math.highest(node-set)/span/p
+You Answered
+p style="font-family:times new roman;font-size:11pt;color:#000000;font-weight:normal;"#8203;Function used to test availability of an extension function/p 
+  
+Correct Answer p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-size:11pt;font-weight:normal;font-family:'Courier New';color:#000000;"function-available/span/p
+You Answered
+p style="font-family:times new roman;font-size:11pt;color:#000000;font-weight:normal;"#8203;Indicates an optional ID/p 
+  
+Correct Answer p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-size:11pt;font-weight:normal;font-family:'Courier New';color:#000000;"#8203;#IMPLIED/span/p
+You Answered
+p style="font-family:times new roman;font-size:11pt;color:#000000;font-weight:normal;"#8203;Used to distinguish one template from another when applied to the same node set/p 
+  
+Correct Answer p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-size:11pt;font-weight:normal;font-family:'Courier New';color:#000000;"#8203;mode/span span style="font-family:'Times New Roman';font-size:11pt;font-weight:normal;color:#000000;"attribute/span/p
+You Answered
+p style="font-family:times new roman;font-size:11pt;color:#000000;font-weight:normal;"#8203;Function to return the maximum value from node-set/p 
+  
+Correct Answer p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Times New Roman';font-size:11pt;font-weight:normal;color:#000000;"#8203;/spanspan style="font-size:11pt;font-weight:normal;font-family:'Courier New';color:#000000;"math.max(node-set)/span/p
+You Answered
+p style="font-family:times new roman;font-size:11pt;color:#000000;font-weight:normal;"#8203;Extension used to create a loop with the Saxon processor/p 
+  
+Correct Answer p style="font-family:'Times New Roman';font-size:11pt;color:#000000;font-weight:normal;"span style="font-size:11pt;font-weight:normal;font-family:'Times New Roman';color:#000000;"#8203;while/span/p
+You Answered
+p style="font-family:times new roman;font-size:11pt;color:#000000;font-weight:normal;"#8203;Axis value that selects all children of the context node/p 
+  
+Correct Answer p style="font-family:'Times New Roman';font-size:11pt;color:#000000;font-weight:normal;"span style="font-size:11pt;font-weight:normal;font-family:'Times New Roman';color:#000000;"#8203;child/span/p
+You Answered
+p style="font-family:times new roman;font-size:11pt;color:#000000;font-weight:normal;"#8203;Element used to simplify grouping in XSLT 2.0/p 
+  
+Correct Answer p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Times New Roman';font-size:11pt;font-weight:normal;color:#000000;"#8203;/spanspan style="font-size:11pt;font-weight:normal;font-family:'Courier New';color:#000000;"for-each-group/span/p
+You Answered
+p style="font-family:times new roman;font-size:11pt;color:#000000;font-weight:normal;"#8203;Axis value that selects all namespace nodes of the context node/p 
+  
+Correct Answer p style="font-family:'Times New Roman';font-size:11pt;color:#000000;font-weight:normal;"span style="font-size:11pt;font-weight:normal;font-family:'Times New Roman';color:#000000;"#8203;namespace/span/p
+ 
+UnansweredQuestion 7
+0 / 1 pts
+p/ppp data-keepme="true" style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "The first step in using extensions is to define an extension#8217;s namespace within the _____ element./p/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"root/span/p
+Correct Answer
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"stylesheet/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"template/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"output/span/p
+ 
+UnansweredQuestion 8
+0 / 1 pts
+p/ppp data-keepme="true" style="font-family: times new roman; font-size: 11pt; color: #000000; font-weight: normal; "span style="font-family:'times new roman';"The/span span style="font-family:'Courier New';"key()/span span style="font-family:'times new roman';"function can also be used with a(n) _____ to select a specific node from a node set./span/p/p
+  p style="font-family:'times new roman';font-size:11pt;color:#000000;font-weight:normal;"#8203;ID/p
+  p style="font-family:'times new roman';font-size:11pt;color:#000000;font-weight:normal;"#8203;index/p
+Correct Answer
+  p style="font-family:'times new roman';font-size:11pt;color:#000000;font-weight:normal;"#8203;predicate/p
+  p style="font-family:'times new roman';font-size:11pt;color:#000000;font-weight:normal;"#8203;DTD/p
+ 
+UnansweredQuestion 9
+0 / 1 pts
+p/ppp data-keepme="true" style="font-family: times new roman; font-size: 11pt; color: #000000; font-weight: normal; "span style="font-family:'times new roman';"The following expression uses a _____/span span style="font-family:'Courier New';"key()/span span style="font-family:'times new roman';"function to return the count of all property elements from the city of Longmont:/span span style="font-family:'Courier New';"count(key("cityNames", "Longmont"))/spanspan style="font-family:'times new roman';"./span/p/p
+  p style="font-family:'times new roman';font-size:11pt;color:#000000;font-weight:normal;"#8203;compound/p
+  p style="font-family:'times new roman';font-size:11pt;color:#000000;font-weight:normal;"#8203;recursive/p
+Correct Answer
+  p style="font-family:'times new roman';font-size:11pt;color:#000000;font-weight:normal;"#8203;nested/p
+  p style="font-family:'times new roman';font-size:11pt;color:#000000;font-weight:normal;"#8203;complex/p
+ 
+UnansweredQuestion 10
+0 / 1 pts
+pp style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203;img alt="" src="ppg/cognero/Tutorial_7_Building_an_XSLT_Application/media/6526c0c0-99eb-49e7-9a72-269f8c0ab69b.PNG" //p p style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "Sandra is working with an XML file containing product orders with the structure shown in the accompanying figure. She was just introduced to step patterns, and would like to incorporate them into the style sheet she is developing to display the orders data. She comes to you for help in developing expressions incorporating step patterns./pbr //ppp data-keepme="true" style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "Sandra would like to write an expression to select the third order element that follows the context node as a sibling. Which of the following do you tell her is the correct expression?/p/p
+
+ 
+
+6526c0c0-99eb-49e7-9a72-269f8c0ab69b.PNG
+
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;sibling::order[3]/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;following::order[3]/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;sibling-or-self::order[3]/span/p
+Correct Answer
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;following-sibling::order[3]/span/p
+ 
+Question 11
+0 / 1 pts
+The key() function cannot be used with data from external documents.​
+
+You Answered
+  True 
+  False 
+ 
+UnansweredQuestion 12
+0 / 1 pts
+p/ppp data-keepme="true" style="font-family: times new roman; font-size: 11pt; color: #000000; font-weight: normal; "span style="font-family:'times new roman';"If you designate one node set as/span span style="font-family:'Courier New';"$n1/span span style="font-family:'times new roman';"and the other as/span span style="font-family:'Courier New';"$n2/spanspan style="font-family:'times new roman';", the expression:/span span style="font-family:'Courier New';"generate-id($n1) = generate-id($n2)/span span style="font-family:'times new roman';"returns a value of _____ if the node set referenced by/span span style="font-family:'Courier New';"$n1/span span style="font-family:'times new roman';"is the same as the node set referenced by/span span style="font-family:'Courier New';"$n2/spanspan style="font-family:'times new roman';"./span/p/p
+  p style="font-family:'times new roman';font-size:11pt;color:#000000;font-weight:normal;"#8203;false/p
+  p style="font-family:'times new roman';font-size:11pt;color:#000000;font-weight:normal;"#8203;union/p
+Correct Answer
+  p style="font-family:'times new roman';font-size:11pt;color:#000000;font-weight:normal;"#8203;true/p
+  p style="font-family:'times new roman';font-size:11pt;color:#000000;font-weight:normal;"#8203;implied/p
+ 
+Question 13
+0 / 1 pts
+p/ppp style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "You can use the _____ function to create global variables that reference the root nodes of external documents.#8203;/p/p
+You Answered
+
+Correct Answers
+document() 
+ 
+UnansweredQuestion 14
+0 / 1 pts
+p/ppp data-keepme="true" style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "The _____ step to employ Muenchian grouping is to create a key for the element or attribute that you want to group using the key element./p/p
+Correct Answer
+  p style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203;first/p
+  p style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203;second/p
+  p style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203;third/p
+  p style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203;fourth/p
+ 
+UnansweredQuestion 15
+0 / 1 pts
+p/ppp data-keepme="true" style="font-family: times new roman; font-size: 11pt; color: #000000; font-weight: normal; "span style="font-family:'times new roman';"In XPath 1.0, you cannot use the/span span style="font-family:'Courier New';"document()/span span style="font-family:'times new roman';"function or variables in a key element's _____ attribute./span/p/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"use/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"name/span/p
+Correct Answer
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"match/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"select/span/p
+ 
+Question 16
+Not yet graded / 1 pts
+p/ppp style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "span style="font-family: 'times new roman';"One item you can declare in a DTD is the/span span style="font-family: 'Courier New';"ID/span span style="font-family: 'times new roman';"attribute, which provides a way to uniquely identify a particular itemnbsp;in the source document.nbsp;/spanspan style="font-size: 11pt;"Review the syntax for declaring the span style="font-family: 'Courier New';"ID/span attribute, and explain two benefits of declaring an ID.#8203;/span/p/p
+Your Answer:
+ 
+UnansweredQuestion 17
+0 / 1 pts
+p/ppp data-keepme="true" style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "The _____ math extension functions in EXSLT calculates the nodes with the lowest value in emnode-set/em./p/p
+Correct Answer
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;math.lowest(emnode-set/em)/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"math.min(emnode-set/em)/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;math.floor(emnode-set/em)/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;math.bottom(emnode-set/em)/span/p
+ 
+UnansweredQuestion 18
+0 / 1 pts
+pp style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203;img alt="" src="ppg/cognero/Tutorial_7_Building_an_XSLT_Application/media/12358d22-f668-45f7-971e-237a0839b324.PNG" //pbr //ppp data-keepme="true" style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "The accompanying figure shows a sample node set, with the context node shaded blue. In each image, the objects in the node set that are selected by a specific step pattern axis value are numbered and shaded in red. Which axis value is represented by image F?/p/p
+
+ 
+
+12358d22-f668-45f7-971e-237a0839b324.PNG
+
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;following-sibling/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"descendant/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"ancestor/span/p
+Correct Answer
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"following/span/p
+ 
+UnansweredQuestion 19
+0 / 1 pts
+pp style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203;img alt="" src="ppg/cognero/Tutorial_7_Building_an_XSLT_Application/media/6526c0c0-99eb-49e7-9a72-269f8c0ab69b.PNG" //p p style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "Sandra is working with an XML file containing product orders with the structure shown in the accompanying figure. She was just introduced to step patterns, and would like to incorporate them into the style sheet she is developing to display the orders data. She comes to you for help in developing expressions incorporating step patterns./pbr //ppp data-keepme="true" style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "Sandra would like to write an expression that moves up the node tree from the context node, selecting all of the elements that are order elements for the customer with the ID jbrown2738. Which of the following do you tell her is the correct expression?/p/p
+
+ 
+
+6526c0c0-99eb-49e7-9a72-269f8c0ab69b.PNG
+
+Correct Answer
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"ancestor::order[custID="jbrown2738"]/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;preceding::order[custID="jbrown2738"]/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;parent::order[custID="jbrown2738"]/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;descendant::order[custID="jbrown2738"]/span/p
+ 
+Question 20
+0 / 1 pts
+p/ppp style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "IDs can be associated only with span style="text-decoration: underline;"elements/span./p/p
+You Answered
+  True 
+  False 
+ 
+UnansweredQuestion 21
+0 / 1 pts
+pp style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203;img alt="" src="ppg/cognero/Tutorial_7_Building_an_XSLT_Application/media/12358d22-f668-45f7-971e-237a0839b324.PNG" //pbr //ppp data-keepme="true" style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "The accompanying figure shows a sample node set, with the context node shaded blue. In each image, the objects in the node set that are selected by a specific step pattern axis value are numbered and shaded in red. Which axis value is represented by image J?/p/p
+
+12358d22-f668-45f7-971e-237a0839b324.PNG
+
+Correct Answer
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;preceding-sibling/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"preceding/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"ancestor/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;following-sibling/span/p
+ 
+UnansweredQuestion 22
+0 / 1 pts
+p/ppp data-keepme="true" style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "Once you generate the list of unique values, you can use the _____ element to write code to the result document for each unique value./p/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"namespace/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"stylesheet/span/p
+Correct Answer
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;apply-templates/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"template/span/p
+ 
+Question 23
+0 / 1 pts
+p/ppp style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "The _____ function generates a unique ID for a specified node set.#8203;/p/p
+You Answered
+
+Correct Answers
+generate-id() 
+ 
+Question 24
+0 / 1 pts
+p/ppp style="font-family: times new roman; font-size: 11pt; color: #000000; font-weight: normal; "span style="font-family: 'times new roman';"To create a template for a particular node, include the span style="text-decoration: underline;"mode/span attribute in the opening/span span style="font-family: 'Courier New';"lt;xsl:templategt;/span span style="font-family: 'times new roman';"tag./span/p/p
+You Answered
+  True 
+  False 
+ 
+UnansweredQuestion 25
+0 / 1 pts
+pp style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203;img alt="" src="ppg/cognero/Tutorial_7_Building_an_XSLT_Application/media/3a2d94c7-739b-4d63-b4b3-bd5860cc5fc9.PNG" //p p style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "Craig is working to develop an XSLT application to display election results, using XML files with the structures shown in the accompanying figure. He has heard that you have experience developing applications, and comes to you for guidance./pbr //ppp data-keepme="true" style="font-family: times new roman; font-size: 11pt; color: #000000; font-weight: normal; "span style="font-family:'times new roman';"Craig would like to be able to use data from both documents in his application. You suggest he create variables that will allow him to pull the node sets from both files. Which of the following shows the correct syntax to create a variable named/span span style="font-family:'Courier New';"candidatesDoc/span span style="font-family:'times new roman';"to reference the root node of the candidates.xml file?/span/p/p
+
+ 
+
+3a2d94c7-739b-4d63-b4b3-bd5860cc5fc9.PNG
+
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;lt;xsl:variable name="candidatesDoc" match="document('candidates.xml')" /gt;/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;lt;xsl:variable name="candidatesDoc" select="doc('candidates.xml')" /gt;/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"lt;xsl:variable name="candidatesDoc" match="doc('candidates.xml')" /gt;/span/p
+Correct Answer
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;lt;xsl:variable name="candidatesDoc" select="document('candidates.xml')" /gt;/span/p
+ 
+UnansweredQuestion 26
+0 / 1 pts
+pp style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203;img alt="" src="ppg/cognero/Tutorial_7_Building_an_XSLT_Application/media/3a2d94c7-739b-4d63-b4b3-bd5860cc5fc9.PNG" //p p style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "Craig is working to develop an XSLT application to display election results, using XML files with the structures shown in the accompanying figure. He has heard that you have experience developing applications, and comes to you for guidance./pbr //ppp data-keepme="true" style="font-family: times new roman; font-size: 11pt; color: #000000; font-weight: normal; "span style="font-family:'times new roman';"Craig would like to add a key named/span span style="font-family:'Courier New';"precinctNames/span span style="font-family:'times new roman';"based on each votes element's precinct name. Which of the following elements do you recommend he add to the style sheet to create the key with the correct syntax?/span/p/p
+
+ 
+
+3a2d94c7-739b-4d63-b4b3-bd5860cc5fc9.PNG
+
+Correct Answer
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;lt;xsl:key name="precinctNames" match="//votes" use="@precinct" /gt;/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;lt;xsl:key name="precinctNames" match="//votes" select="@precinct" /gt;/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"lt;xsl:key name="precinctNames" match="//votes" use="precinct" /gt;/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;lt;xsl:key name="precinctNames" match="//votes" select="precinct" /gt;/span/p
+ 
+UnansweredQuestion 27
+0 / 1 pts
+p/ppp data-keepme="true" style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "When a processor encounters an extension element it does not recognize, it searches inside of that element for the _____ element./p/p
+Correct Answer
+  p style="font-family:'times new roman';font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"fallback/span/p
+  p style="font-family:'times new roman';font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"else/span/p
+  p style="font-family:'times new roman';font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"default/span/p
+  p style="font-family:'times new roman';font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"catch/span/p
+ 
+Question 28
+Not yet graded / 1 pts
+p/ppp style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "Provide an overview of the three key steps involved in employing Muenchian grouping.#8203;/p/p
+Your Answer:
+ 
+Question 29
+0 / 1 pts
+A DTD provides a way to uniquely identify a particular item in the source document.​
+
+You Answered
+  True 
+  False 
+ 
+Question 30
+0 / 1 pts
+Keys are declared in the style sheet, not in the DTD of the source document.​
+
+You Answered
+  True 
+  False 
+ 
+UnansweredQuestion 31
+0 / 1 pts
+p/ppp data-keepme="true" style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "Keys are declared in the _____./p/p
+  p style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203;DTD/p
+  p style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203;source document/p
+  p style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203;namespace/p
+Correct Answer
+  p style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203;style sheet/p
+ 
+UnansweredQuestion 32
+0 / 1 pts
+p/ppp data-keepme="true" style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "The XML processor creates a(n) _____ that matches each element to a specific ID./p/p
+Correct Answer
+  p style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203;index/p
+  p style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203;library/p
+  p style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203;path/p
+  p style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203;attribute/p
+ 
+Question 33
+0 / 1 pts
+p/ppp style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "You can use the _____ function to create links for specific locations within a web page./p/p
+You Answered
+
+Correct Answers
+generate-id() 
+ 
+UnansweredQuestion 34
+0 / 1 pts
+p/ppp data-keepme="true" style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "In a step pattern, the _____ defines properties of the node to be matched./p/p
+  p style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203;node test/p
+Correct Answer
+  p style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203;predicate/p
+  p style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203;axis/p
+  p style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203;template/p
+ 
+Question 35
+0 / 1 pts
+p/ppp style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "The span style="text-decoration: underline;"node-test/span part of the step pattern specifies the direction the XSLT processor should move.#8203;/p/p
+You Answered
+  True 
+  False 
+ 
+UnansweredQuestion 36
+0 / 1 pts
+pp style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203;img alt="" src="ppg/cognero/Tutorial_7_Building_an_XSLT_Application/media/12358d22-f668-45f7-971e-237a0839b324.PNG" //pbr //ppp data-keepme="true" style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "The accompanying figure shows a sample node set, with the context node shaded blue. In each image, the objects in the node set that are selected by a specific step pattern axis value are numbered and shaded in red. Which axis value is represented by image A?/p/p
+
+ 
+
+12358d22-f668-45f7-971e-237a0839b324.PNG
+
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;ancestor-or-self/span/p
+Correct Answer
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"ancestor/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"preceding/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;preceding-sibling/span/p
+ 
+Question 37
+0 / 1 pts
+p/ppp style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "The _____ provides an expression that the node value should match./p/p
+You Answered
+
+Correct Answers
+predicate 
+ 
+UnansweredQuestion 38
+0 / 1 pts
+p/ppp data-keepme="true" style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "The _____ attribute tells the XSLT processor which prefixes to regard as prefixes for extensions.#8203;/p/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"prefixes/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"extension-prefixes/span/p
+Correct Answer
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;extension-element-prefixes/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"xmlns/span/p
+ 
+UnansweredQuestion 39
+0 / 1 pts
+pp style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203;img alt="" src="ppg/cognero/Tutorial_7_Building_an_XSLT_Application/media/3a2d94c7-739b-4d63-b4b3-bd5860cc5fc9.PNG" //p p style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "Craig is working to develop an XSLT application to display election results, using XML files with the structures shown in the accompanying figure. He has heard that you have experience developing applications, and comes to you for guidance./pbr //ppp data-keepme="true" style="font-family: times new roman; font-size: 11pt; color: #000000; font-weight: normal; "span style="font-family:'times new roman';"Now that the/span span style="font-family:'Courier New';"candidatesDoc/span span style="font-family:'times new roman';"variable has been created, Craig would like to define a key named/span span style="font-family:'Courier New';"cKey/span span style="font-family:'times new roman';"based on the values of the/span span style="font-family:'Courier New';"candidateID/span span style="font-family:'times new roman';"attribute for the candidate. Which of the following do you tell him shows the correct syntax to use to define this key?/span/p/p
+
+ 
+
+3a2d94c7-739b-4d63-b4b3-bd5860cc5fc9.PNG
+
+Correct Answer
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;lt;xsl:key name="cKey" match="candidate" use="@candidateID" /gt;/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;lt;xsl:key name="cKey" match="candidate" select="@candidateID" /gt;/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;lt;xsl:key name="cKey" match="candidate" use="candidateID" /gt;/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;lt;xsl:key name="cKey" match="candidate" select="candidateID" /gt;/span/p
+ 
+UnansweredQuestion 40
+0 / 1 pts
+p/ppp data-keepme="true" style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "The _____ function returns a node-set that matches a specified value from a key index./p/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"index()/span/p
+Correct Answer
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;key()/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;return()/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;id()/span/p
+ 
+UnansweredQuestion 41
+0 / 1 pts
+p/ppp data-keepme="true" style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "The general syntax of a step pattern is _____./p/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"axis::predicate[node-test]/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;axis[node-test::predicate]/span/p
+Correct Answer
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"axis::node-test[predicate]/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;axis[predicate::node-test]/span/p
+ 
+UnansweredQuestion 42
+0 / 1 pts
+p/ppp data-keepme="true" style="font-family: times new roman; font-size: 11pt; color: #000000; font-weight: normal; "span style="font-family:'times new roman';"To declare an/span span style="font-family:'Courier New';"ID/span span style="font-family:'times new roman';"attribute as optional in the source document's DTD, use the expression _____./span/p/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"lt;!ATTLIST element attribute ID #OPTIONALgt;/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;lt;!ATTLIST element ID #IMPLIED attributegt;/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"lt;!ATTLIST element ID #OPTIONAL attributegt;/span/p
+Correct Answer
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;lt;!ATTLIST element attribute ID #IMPLIEDgt;/span/p
+ 
+Question 43
+0 / 1 pts
+​Traditional IDs, such as Social Security numbers or ISBNs, are commonly declared as ID attributes in DTDs.
+
+You Answered
+  True 
+  False 
+ 
+UnansweredQuestion 44
+0 / 1 pts
+p/ppp data-keepme="true" style="font-family: times new roman; font-size: 11pt; color: #000000; font-weight: normal; "span style="font-family:'times new roman';"The abbreviated form of the step pattern/span span style="font-family:'Courier New';"self::node()/span span style="font-family:'times new roman';"is _____./span/p/p
+Correct Answer
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;./span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;../span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;..//span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;//span/p
+ 
+Question 45
+0 / 1 pts
+p/ppp style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "A community of XSLT developers created a standard collection of extension elements and extension functions called span style="text-decoration: underline;"EXSLT/span.#8203;/p/p
+You Answered
+  True 
+  False 
+ 
+UnansweredQuestion 46
+0 / 1 pts
+p/ppp data-keepme="true" style="font-family: times new roman; font-size: 11pt; color: #000000; font-weight: normal; "span style="font-family:'times new roman';"The _____ step to employ Muenchian grouping is to add the following expression to the select attribute of a/span span style="font-family:'Courier New';"for-each/span span style="font-family:'times new roman';"or an/span span style="font-family:'Courier New';"apply-templates/span span style="font-family:'times new roman';"element:/span span style="font-family:'Courier New';"node set[generate-id()=generate-id(key(name,expression)[1])]/spanspan style="font-family:'times new roman';"./span/p/p
+  p style="font-family:'times new roman';font-size:11pt;color:#000000;font-weight:normal;"#8203;first/p
+Correct Answer
+  p style="font-family:'times new roman';font-size:11pt;color:#000000;font-weight:normal;"#8203;second/p
+  p style="font-family:'times new roman';font-size:11pt;color:#000000;font-weight:normal;"#8203;third/p
+  p style="font-family:'times new roman';font-size:11pt;color:#000000;font-weight:normal;"#8203;fourth/p
+ 
+UnansweredQuestion 47
+0 / 1 pts
+pp style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203;img alt="" src="ppg/cognero/Tutorial_7_Building_an_XSLT_Application/media/3a2d94c7-739b-4d63-b4b3-bd5860cc5fc9.PNG" //p p style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "Craig is working to develop an XSLT application to display election results, using XML files with the structures shown in the accompanying figure. He has heard that you have experience developing applications, and comes to you for guidance./pbr //ppp data-keepme="true" style="font-family: times new roman; font-size: 11pt; color: #000000; font-weight: normal; "span style="font-family:'times new roman';"Now that the/span span style="font-family:'Courier New';"precinctNames/span span style="font-family:'times new roman';"key has been declared, Craig would like to use it to return a count of all votes from the precinct of Ceylon. Which of the following functions do you suggest he use to do this?/span/p/p
+
+ 
+
+3a2d94c7-739b-4d63-b4b3-bd5860cc5fc9.PNG
+
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"count(key="precinctNames" select="Ceylon")/span/p
+Correct Answer
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"count(key("precinctNames", "Ceylon"))/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;count::precinctNames//"Ceylon"/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"key("precinctNames", count("Ceylon"))/span/p
+ 
+UnansweredQuestion 48
+0 / 1 pts
+p/ppp data-keepme="true" style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "The key value itself does not have to be entered explicitly; it can also be inserted asnbsp;a(n) _____ to a node in the source document./p/p
+  p style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203;pointer/p
+Correct Answer
+  p style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203;reference/p
+  p style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203;extension/p
+  p style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203;ancestor/p
+ 
+Question 49
+Not yet graded / 1 pts
+p/ppp style="font-family: times new roman; font-size: 11pt; color: #000000; font-weight: normal; "span style="font-family: 'times new roman';"Because only one template can be processed with any node, the processor must choose between competing templates for the same node. Using the/span span style="font-family: 'Courier New';"mode/span span style="font-family: 'times new roman';"attribute is one way of explicitly assigning a template to a specific node.nbsp;/spanspan style="font-size: 11pt;"Explain the default priority number rules used by an XSLT processor to determine template priority./span/p/p
+Your Answer:
+ 
+Question 50
+0 / 1 pts
+p/ppp style="font-family: times new roman; font-size: 11pt; color: #000000; font-weight: normal; "span style="font-family: 'times new roman';"The default value for the axis portion of the step pattern is/span span style="text-decoration: underline;"span style="font-family: 'Courier New';"self/span/spanspan style="font-family: 'times new roman';"./span/p/p
+You Answered
+  True 
+  False 
+ 
+Question 51
+0 / 1 pts
+Templates with no mode attribute are applied to the specified node set.​
+
+You Answered
+  True 
+  False 
+ 
+UnansweredQuestion 52
+0 / 1 pts
+p/ppp data-keepme="true" style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "You can have your processor test whether it supports a particular extension function using the _____ function./p/p
+Correct Answer
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;function-available()/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;available()/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;test-function()/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;function-check()/span/p
+ 
+UnansweredQuestion 53
+0 / 1 pts
+p/ppp data-keepme="true" style="font-family: times new roman; font-size: 11pt; color: #000000; font-weight: normal; "span style="font-family:'times new roman';"In the/span span style="font-family:'Courier New';"generate-id()/span span style="font-family:'times new roman';"function, if you omit the node set argument, the function _____./span/p/p
+Correct Answer
+  p style="font-family:'times new roman';font-size:11pt;color:#000000;font-weight:normal;"#8203;is applied to the current context node/p
+  p style="font-family:'times new roman';font-size:11pt;color:#000000;font-weight:normal;"#8203;is applied to the root node/p
+  p style="font-family:'times new roman';font-size:11pt;color:#000000;font-weight:normal;"#8203;is applied to all nodes/p
+  p style="font-family:'times new roman';font-size:11pt;color:#000000;font-weight:normal;"#8203;returns an error/p
+ 
+UnansweredQuestion 54
+0 / 1 pts
+p/ppp data-keepme="true" style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "If you want to use keys with an external document, you have to first change the _____ node so that it points to a location path within that document./p/p
+  p style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203;root/p
+  p style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203;target/p
+  p style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203;parent/p
+Correct Answer
+  p style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203;context/p
+ 
+Question 55
+0 / 1 pts
+p/ppp style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "The _____ function returns a node-set that matches a specified value from a key index.#8203;/p/p
+You Answered
+
+Correct Answers
+key() 
+ 
+UnansweredQuestion 56
+0 / 1 pts
+pp style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203;img alt="" src="ppg/cognero/Tutorial_7_Building_an_XSLT_Application/media/6526c0c0-99eb-49e7-9a72-269f8c0ab69b.PNG" //p p style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "Sandra is working with an XML file containing product orders with the structure shown in the accompanying figure. She was just introduced to step patterns, and would like to incorporate them into the style sheet she is developing to display the orders data. She comes to you for help in developing expressions incorporating step patterns./pbr //ppp data-keepme="true" style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "Sandra would like to write an abbreviated expression to select the parent of the current context node. Which of the following do you tell her is the correct abbreviated expression?/p/p
+
+ 
+
+6526c0c0-99eb-49e7-9a72-269f8c0ab69b.PNG
+
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;./span/p
+Correct Answer
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;../span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;..//span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;*/span/p
+ 
+Question 57
+0 / 1 pts
+p/ppp style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "span style="text-decoration: underline;"Keys/span can be thought of as generalized IDs, without their limitations./p/p
+You Answered
+  True 
+  False 
+ 
+UnansweredQuestion 58
+0 / 1 pts
+p/ppp data-keepme="true" style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "In a step pattern, the _____ specifies the direction in which the processor should move through the node tree./p/p
+  p style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203;predicate/p
+  p style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203;node test/p
+Correct Answer
+  p style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203;axis/p
+  p style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203;template/p
+ 
+Question 59
+0 / 1 pts
+p/ppp style="font-family: times new roman; font-size: 11pt; color: #000000; font-weight: normal; "span style="font-family: 'times new roman';"You can support processors that do not recognize an extension element or attribute by using the/span span style="text-decoration: underline;"span style="font-family: 'Courier New';"fallback/span/span span style="font-family: 'times new roman';"element./span/p/p
+You Answered
+  True 
+  False 
+ 
+Question 60
+0 / 1 pts
+p/ppp style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "The _____ function returns a node set based on IDs defined in the document#8217;s DTD./p/p
+You Answered
+
+Correct Answers
+id() 
+ 
+Question 61
+0 / 1 pts
+​All IDs belong to the same index, even if they are associated with different attributes.
+
+You Answered
+  True 
+  False 
+ 
+Question 62
+0 / 1 pts
+p/ppp style="font-family: times new roman; font-size: 11pt; color: #000000; font-weight: normal; "span style="font-family: 'times new roman';"The _____ is an index based on a node specified in the/span span style="font-family: 'Courier New';"match/span span style="font-family: 'times new roman';"attribute using the values from a node specified in the/span span style="font-family: 'Courier New';"use/span span style="font-family: 'times new roman';"attribute.#8203;/span/p/p
+You Answered
+
+Correct Answers
+key 
+ 
+Question 63
+0 / 1 pts
+p/ppp style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "When an XSLT processor encounters two templates with the same name, it uses the span style="text-decoration: underline;"last/span one defined in the style sheet./p/p
+You Answered
+  True 
+  False 
+ 
+Question 64
+0 / 1 pts
+You can use the generate-id() function to create links for specific locations within a web page.​
+
+You Answered
+  True 
+  False 
+ 
+UnansweredQuestion 65
+0 / 1 pts
+pp style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203;img alt="" src="ppg/cognero/Tutorial_7_Building_an_XSLT_Application/media/6526c0c0-99eb-49e7-9a72-269f8c0ab69b.PNG" //p p style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "Sandra is working with an XML file containing product orders with the structure shown in the accompanying figure. She was just introduced to step patterns, and would like to incorporate them into the style sheet she is developing to display the orders data. She comes to you for help in developing expressions incorporating step patterns./pbr //ppp data-keepme="true" style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "Sandra would like to write an expression to create a node set of all the items elements. Which of the following do you tell her is the correct expression?/p/p
+
+ 
+
+6526c0c0-99eb-49e7-9a72-269f8c0ab69b.PNG
+
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;orders::order/items/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;items=order/items/span/p
+Correct Answer
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;orders/order[items]/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;orders::order/@items/span/p
+ 
+UnansweredQuestion 66
+0 / 1 pts
+pp style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203;img alt="" src="ppg/cognero/Tutorial_7_Building_an_XSLT_Application/media/12358d22-f668-45f7-971e-237a0839b324.PNG" //pbr //ppp data-keepme="true" style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "The accompanying figure shows a sample node set, with the context node shaded blue. In each image, the objects in the node set that are selected by a specific step pattern axis value are numbered and shaded in red. Which axis value is represented by image D?#8203;/p/p
+
+ 
+
+12358d22-f668-45f7-971e-237a0839b324.PNG
+
+Correct Answer
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"descendant/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"child/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"following/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;following-sibling/span/p
+ 
+UnansweredQuestion 67
+0 / 1 pts
+p/ppp data-keepme="true" style="font-family: times new roman; font-size: 11pt; color: #000000; font-weight: normal; "span style="font-family:'times new roman';"The syntax for declaring a required/span span style="font-family:'Courier New';"ID/span span style="font-family:'times new roman';"attribute is _____./span/p/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;lt;!ATTLIST element #REQUIRED attribute IDgt;/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"lt;!ATTLIST element ID #REQUIRED attributegt;/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"lt;!ATTLIST element ID attribute #REQUIREDgt;/span/p
+Correct Answer
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;lt;!ATTLIST element attribute ID #REQUIREDgt;/span/p
+ 
+Question 68
+0 / 1 pts
+p/ppp style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "Many XSLT processors support _____ functions that extend the list of functions available to XPath and XSLT expressions./p/p
+You Answered
+
+Correct Answers
+extension 
+ 
+Question 69
+0 / 1 pts
+p/ppp style="font-family: times new roman; font-size: 11pt; color: #000000; font-weight: normal; "span style="font-family: 'times new roman';"_____ is a programming technique in which nodes are grouped based on unique values taken from a key index matched to unique IDs created by the/span span style="font-family: 'Courier New';"generate-id()/span span style="font-family: 'times new roman';"function.#8203;/span/p/p
+You Answered
+
+Correct Answers
+Muenchian grouping 
+ 
+UnansweredQuestion 70
+0 / 1 pts
+p/ppp data-keepme="true" style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "The _____ attribute provides a way to uniquely identify a particular item in the source document./p/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"title/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"unique/span/p
+Correct Answer
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"ID/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"object/span/p
+ 
+UnansweredQuestion 71
+0 / 1 pts
+p/ppp data-keepme="true" style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "ID attributes must be valid XML names and, therefore, they cannot contain _____ or begin with numbers./p/p
+Correct Answer
+  p style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203;spaces/p
+  p style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203;underscores/p
+  p style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203;capital letters/p
+  p style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203;mixed case letters/p
+ 
+UnansweredQuestion 72
+0 / 1 pts
+p/ppp data-keepme="true" style="font-family: times new roman; font-size: 11pt; color: #000000; font-weight: normal; "span style="font-family:'times new roman';"When two templates can be applied to the same node set, you distinguish them bynbsp;adding the _____ attribute within the/span span style="font-family:'Courier New';"lt;xsl:templategt;/span span style="font-family:'times new roman';"tag./span/p/p
+Correct Answer
+  p style="font-family:'times new roman';font-size:11pt;color:#000000;font-weight:normal;"#8203;mode/p
+  p style="font-family:'times new roman';font-size:11pt;color:#000000;font-weight:normal;"#8203;node/p
+  p style="font-family:'times new roman';font-size:11pt;color:#000000;font-weight:normal;"#8203;distinct/p
+  p style="font-family:'times new roman';font-size:11pt;color:#000000;font-weight:normal;"#8203;name/p
+ 
+UnansweredQuestion 73
+0 / 1 pts
+p/ppp data-keepme="true" style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "The expression to select the first property element from the city of Longmont is _____./p/p
+Correct Answer
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;key("cityNames", "Longmont")[1]/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;key("cityNames", "Longmont")[0]/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;key("Longmont", "cityNames")[1]/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;key("Longmont", "cityNames")[0]/span/p
+ 
+UnansweredQuestion 74
+0 / 1 pts
+p/ppp data-keepme="true" style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "The _____ step to employ Muenchian grouping is to reference the group value using emexpressionnbsp;/emwhere emexpression/em is the element or attribute used to group the node set./p/p
+  p style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203;first/p
+  p style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203;second/p
+Correct Answer
+  p style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203;third/p
+  p style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203;fourth/p
+ 
+Question 75
+0 / 1 pts
+p/ppp style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "In addition to extension functions, you can also use extension elements and _____ in your style sheets.#8203;/p/p
+You Answered
+
+Correct Answers
+attributes 
+ 
+Question 76
+0 / 1 pts
+p/ppp style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "Ancestor nodes have the same relation to parent nodes that _____ nodes have to child nodes.#8203;/p/p
+You Answered
+
+Correct Answers
+descendant 
+ 
+UnansweredQuestion 77
+0 / 1 pts
+p/ppp data-keepme="true" style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "Many XSLT processors support extension _____ that extend the data types associated with XSLT attributes./p/p
+  p style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203;functions/p
+  p style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203;elements/p
+  p style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203;attributes/p
+Correct Answer
+  p style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203;attribute values/p
+ 
+Question 78
+0 / 1 pts
+p/ppp style="font-family: times new roman; font-size: 11pt; color: #000000; font-weight: normal; "span style="font-family: 'times new roman';"To reverse a node set, you use the XPath/span span style="text-decoration: underline;"span style="font-family: 'Courier New';"reverse()/span/span span style="font-family: 'times new roman';"function./span/p/p
+You Answered
+  True 
+  False 
+ 
+Question 79
+0 / 1 pts
+p/ppp style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "The step pattern axis value _____ selects all nodes that appear before the context node in the source document, excluding the context node's own ancestors.#8203;/p/p
+You Answered
+
+Correct Answers
+preceding 
+ 
+UnansweredQuestion 80
+0 / 1 pts
+pp style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203;img alt="" src="ppg/cognero/Tutorial_7_Building_an_XSLT_Application/media/3a2d94c7-739b-4d63-b4b3-bd5860cc5fc9.PNG" //p p style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "Craig is working to develop an XSLT application to display election results, using XML files with the structures shown in the accompanying figure. He has heard that you have experience developing applications, and comes to you for guidance./pbr //ppp data-keepme="true" style="font-family: times new roman; font-size: 11pt; color: #000000; font-weight: normal; "span style="font-family:'times new roman';"Craig used the code you suggested to create the/span span style="font-family:'Courier New';"cKey/span span style="font-family:'times new roman';"key. However, he says he encountering problems when he tries to use this key to actually display data from the candidates.xml external file using the key. You explain to him that he will have to explicitly change the context node to the/span span style="font-family:'Courier New';"root/span span style="font-family:'times new roman';"element of the candidates.xml file first using a _____ element./span/p/p
+
+ 
+
+3a2d94c7-739b-4d63-b4b3-bd5860cc5fc9.PNG
+
+  p style="font-family:'times new roman';font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"root/span/p
+Correct Answer
+  p style="font-family:'times new roman';font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;for-each/span/p
+  p style="font-family:'times new roman';font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"context/span/p
+  p style="font-family:'times new roman';font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"value-of/span/p
+ 
+UnansweredQuestion 81
+0 / 1 pts
+p/ppp data-keepme="true" style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "One useful tool for debugging a style sheet is the XSLT 1.0 _____ element./p/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"watch/span/p
+Correct Answer
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"message/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"token/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"breakpoint/span/p
+ 
+UnansweredQuestion 82
+0 / 1 pts
+pp style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203;img alt="" src="ppg/cognero/Tutorial_7_Building_an_XSLT_Application/media/6526c0c0-99eb-49e7-9a72-269f8c0ab69b.PNG" //p p style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "Sandra is working with an XML file containing product orders with the structure shown in the accompanying figure. She was just introduced to step patterns, and would like to incorporate them into the style sheet she is developing to display the orders data. She comes to you for help in developing expressions incorporating step patterns./pbr //ppp data-keepme="true" style="font-family: times new roman; font-size: 11pt; color: #000000; font-weight: normal; "span style="font-family:'times new roman';"#8203;Sandra would like to write an expression to show only those orders that have a preceding sibling containing the same/span span style="font-family:'Courier New';"orderDate/spanspan style="font-family:'times new roman';". Which of the following do you tell her is the correct expression?/span/p/p
+
+ 
+
+6526c0c0-99eb-49e7-9a72-269f8c0ab69b.PNG
+
+Correct Answer
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;orderDate=preceding::order/orderDate/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"not(orderDate=preceding::order/orderDate)/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;orderDate=ancestor::order/orderDate/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"not(orderDate=ancestor::order/orderDate)/span/p
+ 
+UnansweredQuestion 83
+0 / 1 pts
+p/ppp data-keepme="true" style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "To create a key, add the key element at the top level of the style sheet as a child of the _____ element./p/p
+  p style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203;xml/p
+Correct Answer
+  p style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203;stylesheet/p
+  p style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203;root/p
+  p style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203;output/p
+ 
+Question 84
+0 / 1 pts
+p/ppp style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "Keys are not limited to valid _____ names and thus can be based on commonly used IDs, such as Social Security numbers./p/p
+You Answered
+
+Correct Answers
+XML 
+ 
+Question 85
+0 / 1 pts
+p/ppp style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "span style="font-family: 'times new roman';"The first step in using extensions is to define an extension#8217;s namespace within the/span span style="text-decoration: underline;"span style="font-family: 'Courier New';"root/span/span span style="font-family: 'times new roman';"element.#8203;/span/p/p
+You Answered
+  True 
+  False 
+ 
+Question 86
+0 / 1 pts
+p/ppp style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "The step pattern axis value _____ selects all nodes that are descendants of the context node, starting with the context node and moving down the node tree./p/p
+You Answered
+
+Correct Answers
+descendant-or-self 
+ 
+UnansweredQuestion 87
+0 / 1 pts
+p/ppp data-keepme="true" style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "To generate an ID that identifies a specific node or node set within the source document, XPathnbsp;provides the _____ function./p/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"create-id()/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;set-id()/span/p
+Correct Answer
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;generate-id()/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;node-id()/span/p
+ 
+UnansweredQuestion 88
+0 / 1 pts
+p/ppp data-keepme="true" style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "Keys have _____ as well as values, allowing the style sheet author to create multiple distinct keys rather than rely on a single index./p/p
+Correct Answer
+  p style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203;names/p
+  p style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203;namespaces/p
+  p style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203;IDs/p
+  p style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203;attributes/p
+ 
+Question 89
+0 / 1 pts
+p/ppp style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "_____ are location paths that allow the processor to move freely around the node tree in any direction./p/p
+You Answered
+
+Correct Answers
+Step patterns 
+ 
+Question 90
+0 / 1 pts
+In a predicate, the expressions are resolved relative to the context node.​
+
+You Answered
+  True 
+  False 
+ 
+Question 91
+0 / 1 pts
+Generated IDs are useful when the link has to reference an external page or website, but not for hypertext links within a single page.​
+
+You Answered
+  True 
+  False 

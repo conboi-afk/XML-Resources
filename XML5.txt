@@ -1,0 +1,1036 @@
+Question 1
+0 / 1 pts
+Multiple nodes sets can be combined into a single location path using the union ( _____ ) operator.
+
+  ​&
+  ​+
+Correct Answer
+  ​|
+  ​^
+ 
+Question 2
+0 / 1 pts
+Rather than nesting the entire collection of attributes, those attributes can be grouped within a(n) _____, which allows you to add several attributes to the same element without having a long nested statement.
+
+You Answered
+
+Correct Answers
+attribute set 
+ 
+UnansweredQuestion 3
+0 / 1 pts
+Jeremy has been using XML to organize data for a company that manufactures medical devices. He knows you have experience writing XML data to an output file using XSLT and XPath, and asks for your help improving the display of his data.
+
+
+​Jeremy would like to begin by creating a template for the root node. Which of the following do you tell him shows the correct code to use to create the root node template?
+
+  
+​<xsl:template match="root">
+
+styles
+
+</xsl:template>
+Correct Answer
+  
+​<xsl:template match="/">
+
+styles
+
+</xsl:template>
+   
+​<xsl:template match="*">
+
+styles
+
+</xsl:template>
+   
+​<xsl:template match="|">
+
+styles
+
+</xsl:template>
+ 
+UnansweredQuestion 4
+0 / 1 pts
+A(n) _____ is part of a location path that restricts the node set to only those nodes that fulfill a specified condition.
+
+  ​absolute path 
+Correct Answer
+  ​predicate 
+  ​attribute 
+  ​template 
+ 
+UnansweredQuestion 5
+0 / 1 pts
+​In the root element for an XSLT document, the stylesheet element needs to be placed in the http://www.w3.org/1999/XSL/_____ namespace.
+
+Correct Answer
+  ​Transform
+  ​Stylesheet
+  ​Template
+  ​Translate
+ 
+UnansweredQuestion 6
+0 / 1 pts
+The _____ attribute of the output element specifies whether the output should be indented to better display its structure.
+
+  ​standalone
+Correct Answer
+  ​indent
+  ​encoding
+  ​version
+ 
+UnansweredQuestion 7
+0 / 1 pts
+ 0aa8aaf3-5eb6-4ec2-9471-535839813713.PNG​
+
+ 
+
+ 
+
+In the node tree shown in the accompanying figure, "portfolio" is a _____ node of "author."
+
+Correct Answer
+  ​parent 
+  ​child 
+  ​sibling 
+  ​descendant 
+ 
+Question 8
+0 / 1 pts
+You can reduce errors and speed up processing by using the indent="yes" attribute with the <xsl:output /> tag.​
+
+You Answered
+  True 
+  False 
+ 
+Question 9
+0 / 1 pts
+The xsl:choose element provides a condition from which to choose.​
+
+You Answered
+  True 
+  False 
+ 
+Question 10
+Not yet graded / 1 pts
+Describe at least four tips to keep in mind to promote the creation of clear, effective XSLT style sheets.
+
+Your Answer:
+ 
+UnansweredQuestion 11
+0 / 1 pts
+The _____ comparison operator combines two expressions, returning a value of true only if both expressions are true.
+
+  ​or
+  ​not
+  ​&=
+Correct Answer
+  ​and
+ 
+UnansweredQuestion 12
+0 / 1 pts
+Jeremy has been using XML to organize data for a company that manufactures medical devices. He knows you have experience writing XML data to an output file using XSLT and XPath, and asks for your help improving the display of his data.
+
+
+Jeremy has installed the .NET framework and the Saxon XSLT processor. He has developed a style sheet named devices.xsl, and would like to use it to transform his devices.xml file into a web page named devices.html he can display in a browser. However, he is unsure which command to enter to execute this process. Which command do you tell him to use to transform the file correctly?
+
+  ​java net.sf.saxon.Transform devices.xml devices.xsl –o:devices.html
+Correct Answer
+  ​Transform devices.xml devices.xsl –o:devices.html
+  ​java net.sf.saxon.Transform devices -s:.*xml -xsl:*.xsl –o:*.html
+  ​Transform devices -s:.*xml -xsl:*.xsl –o:*.html​
+ 
+Question 13
+0 / 1 pts
+If the root element in the result document is the XHTML element, then the result document will be created as an XHTML file.​
+
+You Answered
+  True 
+  False 
+ 
+UnansweredQuestion 14
+0 / 1 pts
+Jeremy has been using XML to organize data for a company that manufactures medical devices. He knows you have experience writing XML data to an output file using XSLT and XPath, and asks for your help improving the display of his data.
+
+
+Jeremy has been asked to create an output document written in HTML5, but is not sure how to insure the final file will meet this requirement. Which output element do you suggest he use to generate a file that will conform to valid HTML5 standards?
+
+  
+​<xsl:output language="html5"
+
+doctype-system="about:legacy-compat"
+
+encoding="UTF-8"
+
+indent="yes" />​
+   
+​<xsl:output language="html"
+
+doctype-system="about:legacy-compat"
+
+encoding="UTF-8"
+
+indent="yes" />​
+   
+​<xsl:output method="html"
+
+doctype-system="about:legacy-compat"
+
+encoding="HTML5"
+
+indent="yes" />​
+Correct Answer
+  
+​<xsl:output method="html"
+
+doctype-system="about:legacy-compat"
+
+encoding="UTF-8"
+
+indent="yes" />​
+ 
+UnansweredQuestion 15
+0 / 1 pts
+You can test for the presence or absence of an attribute or element by entering the attribute or element name without any _____ operator.
+
+Correct Answer
+  ​comparison 
+  ​conditional 
+  ​node 
+  ​choose 
+ 
+Question 16
+0 / 1 pts
+The _____ language, which was introduced by W3C, is used to access and navigate the contents of a data tree.
+
+You Answered
+
+Correct Answers
+XPath 
+ 
+UnansweredQuestion 17
+0 / 1 pts
+To apply a template, use the _____ instruction.
+
+  ​match
+  ​insert-template
+  ​select
+Correct Answer
+  ​apply-templates
+ 
+UnansweredQuestion 18
+0 / 1 pts
+The fundamental template in the XSLT style sheet is the _____ template, which defines styles for the source document’s root node.
+
+Correct Answer
+  ​root 
+  ​ancestor 
+  ​parent 
+  ​source 
+ 
+Question 19
+0 / 1 pts
+The simplest way to view a web page generated by an XSLT 1.0 style sheet is to open the source document in your web browser.​
+
+You Answered
+  True 
+  False 
+ 
+Question 20
+0 / 1 pts
+One of the functions of XPath is to translate this hierarchical structure into an expression called a(n) _____ that references a specific node or node set from the source document.
+
+You Answered
+
+Correct Answers
+location path 
+ 
+UnansweredQuestion 21
+0 / 1 pts
+ d822ae2d-3607-4aec-a310-1f242763b7db.PNG 
+
+​Hue is developing an XSLT style sheet to display data from a research survey. The structure of the surveys.xml file is shown in the accompanying figure. She comes to you for assistance in preparing the final file.
+
+ 
+
+ 
+
+Hue has created an XSLT style sheet named survey.xsl. She would like to link this style sheet to her XML source document. Which of the following do you tell her shows the correct form of the processing instruction she should use?
+
+  ​<?xml-stylesheet type="text/xsl" uri="survey.xsl" ?>
+  ​<?xsl-stylesheet type="text/xsl" href="survey.xsl" ?>
+Correct Answer
+  ​<?xml-stylesheet type="text/xsl" href="survey.xsl" ?>
+  ​<?xsl-stylesheet type="text/xsl" uri="survey.xsl" ?>
+ 
+Question 22
+0 / 1 pts
+The root document contains the data that will be transformed using a style sheet.
+
+You Answered
+  True 
+  False 
+ 
+UnansweredQuestion 23
+0 / 1 pts
+​The _____ element is applied when no conditions are satisfied.
+
+Correct Answer
+  ​xsl:otherwise
+  ​xsl:when
+  ​xsl:test
+  ​xsl:choose
+ 
+UnansweredQuestion 24
+0 / 1 pts
+ d822ae2d-3607-4aec-a310-1f242763b7db.PNG 
+
+​Hue is developing an XSLT style sheet to display data from a research survey. The structure of the surveys.xml file is shown in the accompanying figure. She comes to you for assistance in preparing the final file.
+
+ 
+
+ 
+
+Hue would like to display the value of the date element in her result document. Which of the following do you tell her shows the correct code to use to display this information?
+
+Correct Answer
+  ​<xsl:value-of select="surveys/survey/date" />
+  ​<xsl:select value-of="surveys/survey/date" />
+  ​<xsl:value-of select="date" />
+  ​<xsl:select value-of="date" />​
+ 
+Question 25
+0 / 1 pts
+The xsl:value-of element applies a template for the selected nodes.​
+
+You Answered
+  True 
+  False 
+ 
+UnansweredQuestion 26
+0 / 1 pts
+Jeremy has been using XML to organize data for a company that manufactures medical devices. He knows you have experience writing XML data to an output file using XSLT and XPath, and asks for your help improving the display of his data.
+
+
+Jeremy has installed Java and the Saxon XSLT processor. He has developed a style sheet named devices.xsl, and would like to use it to transform his devices.xml file into a web page named devices.html he can display in a browser. However, he is unsure which command to enter to execute this process. Which command do you tell him to use to transform the file correctly?
+
+Correct Answer
+  ​java net.sf.saxon.Transform devices.xml devices.xsl –o:devices.html
+  ​Transform devices.xml devices.xsl –o:devices.html
+  ​java net.sf.saxon.Transform devices -s:.*xml -xsl:*.xsl –o:*.html
+  ​Transform devices -s:.*xml -xsl:*.xsl –o:*.html​
+ 
+Question 27
+0 / 1 pts
+​Identify the letter of the choice that best matches the phrase or definition.
+
+You Answered
+​Used to transform the contents of the source document into a new format 
+  
+Correct Answer ​XSLT processor
+You Answered
+​Default file output format of an XSLT processor 
+  
+Correct Answer ​XML
+You Answered
+Any elements that are sent directly to the result document as raw text​ 
+  
+Correct Answer Literal result elements
+You Answered
+Node at the top of the node tree​ 
+  
+Correct Answer ​Root node
+You Answered
+Contains only part of a full XML document​ 
+  
+Correct Answer ​XML fragment
+You Answered
+Node at the top of a branch​ 
+  
+Correct Answer ​Ancestor node
+You Answered
+First part of an XSLT document​ 
+  
+Correct Answer ​XML declaration
+You Answered
+Language used to access and navigate the contents of an XML data tree​ 
+  
+Correct Answer ​XPath
+You Answered
+Tells an application what type of content a file contains​ 
+  
+Correct Answer meta element
+You Answered
+An open source standalone processor supporting XSLT 2.0​ 
+  
+Correct Answer ​Saxon
+ 
+UnansweredQuestion 28
+0 / 1 pts
+ d822ae2d-3607-4aec-a310-1f242763b7db.PNG 
+
+​Hue is developing an XSLT style sheet to display data from a research survey. The structure of the surveys.xml file is shown in the accompanying figure. She comes to you for assistance in preparing the final file.
+
+ 
+
+ 
+
+​Hue would like to access the response attribute of the question element. Which of the following do you tell her represents the absolute reference to this attribute?
+
+  ​/surveys/survey/question/response
+Correct Answer
+  ​/surveys/survey/question/@response
+  ​question/@response
+  ​response
+ 
+Question 29
+0 / 1 pts
+Simply creating a template forces the XSLT processor to use it with the result document.​
+
+You Answered
+  True 
+  False 
+ 
+UnansweredQuestion 30
+0 / 1 pts
+The _____ document contains the data that will be transformed using a style sheet.
+
+Correct Answer
+  ​source 
+  ​template 
+  ​output 
+  ​predicate 
+ 
+UnansweredQuestion 31
+0 / 1 pts
+Which of the following XPath expressions for relative paths refers to the parent of the parent of the context node?
+
+  ​../parent
+  ​..
+  ​.
+Correct Answer
+  ​../..
+ 
+UnansweredQuestion 32
+0 / 1 pts
+A(n) _____ path is a path that always starts from the root node and descends down through the node tree to a particular node or node set.
+
+Correct Answer
+  ​absolute 
+  ​relative 
+  ​root 
+  ​source 
+ 
+Question 33
+0 / 1 pts
+A(n) _____ is a collection of styles that are applied to a specific node set within the source document.
+
+You Answered
+
+Correct Answers
+template 
+ 
+UnansweredQuestion 34
+0 / 1 pts
+When writing a value to an XML attribute, you must enclose the XPath expression within _____.
+
+Correct Answer
+  ​curly braces 
+  ​angle brackets 
+  ​parentheses 
+  ​double quotes 
+ 
+Question 35
+Not yet graded / 1 pts
+One of the functions of XPath is to translate the hierarchical structure of an XML document into an expression called a location path that references a specific node or node set from the source document. The location path can be written in either absolute or relative terms.
+
+​
+
+Provide a description of both absolute and relative paths, and provide an example of the general form of each.
+
+Your Answer:
+ 
+Question 36
+0 / 1 pts
+A collection of nodes is called a(n) _____.
+
+You Answered
+
+Correct Answers
+node set 
+ 
+UnansweredQuestion 37
+0 / 1 pts
+The _____ attribute of the output element defines the output format.
+
+  ​encoding
+  ​version
+  ​doctype-system
+Correct Answer
+  ​method
+ 
+Question 38
+0 / 1 pts
+The relative path .. refers to the parent of the context node.​
+
+You Answered
+  True 
+  False 
+ 
+UnansweredQuestion 39
+0 / 1 pts
+Which of the following XPath expressions for relative paths refers to the context node itself?
+
+Correct Answer
+  ​.
+  ​..
+  ​.//
+  ​../..
+ 
+UnansweredQuestion 40
+0 / 1 pts
+ 
+
+0aa8aaf3-5eb6-4ec2-9471-535839813713.PNG​
+
+ 
+
+ 
+
+In the node tree shown in the accompanying figure, "sName" is a(n) _____ node of "portfolio."
+
+  ​parent 
+  ​sibling 
+  ​ancestor 
+Correct Answer
+  ​descendant 
+ 
+UnansweredQuestion 41
+0 / 1 pts
+The _____ element chooses among different possible styles to apply to the result  document.
+
+  ​xsl:otherwise
+  ​xsl:when
+  ​xsl:test
+Correct Answer
+  ​xsl:choose
+ 
+Question 42
+0 / 1 pts
+If there are multiple nodes that match the location path, you can create a style for each matching node using the for-each instruction.​
+
+You Answered
+  True 
+  False 
+ 
+UnansweredQuestion 43
+0 / 1 pts
+Which of the following parts of a source document is NOT considered a node?
+
+  A comment statement​ 
+  The text contained within an element​ 
+  A defined namespace​ 
+Correct Answer
+  ​An entity reference 
+ 
+UnansweredQuestion 44
+0 / 1 pts
+When using the sort instruction, if no attribute values are specified then the nodes are sorted in ascending order with _____ characters sorted first and the language determined by the operating system.
+
+Correct Answer
+  ​uppercase 
+  ​lowercase 
+  ​numeric 
+  ​symbol 
+ 
+UnansweredQuestion 45
+0 / 1 pts
+The _____ element provides a condition to choose from.
+
+  ​xsl:otherwise
+Correct Answer
+  ​xsl:when
+  ​xsl:test
+  ​xsl:choose​
+ 
+UnansweredQuestion 46
+0 / 1 pts
+ d822ae2d-3607-4aec-a310-1f242763b7db.PNG 
+
+​Hue is developing an XSLT style sheet to display data from a research survey. The structure of the surveys.xml file is shown in the accompanying figure. She comes to you for assistance in preparing the final file.
+
+ 
+
+ 
+
+Hue would like to access the response attribute of the question element. Assume the question element is the context node. Which of the following do you tell her represents the relative path to this attribute?
+
+  ​/surveys/survey/question/response
+  ​/surveys/survey/question/@response
+Correct Answer
+  ​question/@response
+  ​/@response​
+ 
+Question 47
+0 / 1 pts
+A(n) predicate result element is any element that is not part of the XSLT vocabulary but is sent directly into the result document as raw text.​
+
+You Answered
+  True 
+  False 
+ 
+Question 48
+0 / 1 pts
+​Any node found at a level below another node is referred to as a(n) sibling of that node.
+
+You Answered
+  True 
+  False 
+ 
+UnansweredQuestion 49
+0 / 1 pts
+_____ is used to transform the contents of an XML document into another document format.
+
+  ​XSL-FO 
+  ​XHTML 
+  ​MSXML 
+Correct Answer
+  ​XSLT 
+ 
+UnansweredQuestion 50
+0 / 1 pts
+_____ was released in 1999 and enjoys universal support with XML processors and web browsers.
+
+Correct Answer
+  ​XPath 1.0 
+  ​XPath 2.0 
+  ​XPath 3.0 
+  ​XPath 4.0 
+ 
+Question 51
+0 / 1 pts
+XSL-FO (Extensible Stylesheet Language – Formatting Objects) is used to transform the contents of an XML document into another document format.​
+
+You Answered
+  True 
+  False 
+ 
+UnansweredQuestion 52
+0 / 1 pts
+The _____ element is used to define the format of the result document.
+
+  ​source 
+  ​template 
+Correct Answer
+  ​output 
+  ​predicate 
+ 
+Question 53
+0 / 1 pts
+_____ processing is a programming technique that applies different styles based on the values from the source document.
+
+You Answered
+
+Correct Answers
+Conditional 
+ 
+Question 54
+0 / 1 pts
+In a(n) _____ transformation, a server receives a request from a client to generate the result document.
+
+You Answered
+
+Correct Answers
+server-side 
+ 
+Question 55
+0 / 1 pts
+The xsl:otherwise element is applied when no conditions are satisfied.​
+
+You Answered
+  True 
+  False 
+ 
+Question 56
+0 / 1 pts
+You can test for the presence or absence of an attribute or element by entering the attribute or element name without any comparison operator.​
+
+You Answered
+  True 
+  False 
+ 
+UnansweredQuestion 57
+0 / 1 pts
+ d822ae2d-3607-4aec-a310-1f242763b7db.PNG 
+
+​Hue is developing an XSLT style sheet to display data from a research survey. The structure of the surveys.xml file is shown in the accompanying figure. She comes to you for assistance in preparing the final file.
+
+ 
+
+ 
+
+Hue would like to define a location path that matches both the surveyID and staffID elements nested within the survey element. Which of the following templates do you tell her properly matches both elements?
+
+Correct Answer
+  
+​<xsl:template match="@surveyID|@staffID">
+
+  <td><xsl:value-of select="." /></td>
+
+</xsl:template>​
+   
+​<xsl:template match=".">
+
+  <td><xsl:value-of select="@surveyID|@staffID" /></td>
+
+</xsl:template>​
+   
+​<xsl:template match=@"surveyID|staffID">
+
+  <td><xsl:value-of select="." /></td>
+
+</xsl:template>​
+   
+​<xsl:template match="@surveyID"&"@staffID">
+
+  <td><xsl:value-of select="." /></td>
+
+</xsl:template>​
+ 
+UnansweredQuestion 58
+0 / 1 pts
+The _____ attribute tests whether the XPath expression returns a value of true or false; if it is true the enclosed style is applied.
+
+  ​when 
+Correct Answer
+  ​test 
+  ​choose 
+  ​if 
+ 
+UnansweredQuestion 59
+0 / 1 pts
+To display a data value from a node in the source document, XSLT employs the _____ element.
+
+  ​data-value
+Correct Answer
+  ​value-of
+  ​select
+  ​apply-value
+ 
+UnansweredQuestion 60
+0 / 1 pts
+ 5c26c1bc-521a-46a6-828c-f24764fe4460.PNG​
+
+ 
+
+ 
+
+​In the sort instruction shown in the accompanying figure, _____ is an XPath expression that returns a set of nodes.
+
+  ​data-type
+  ​case-order
+Correct Answer
+  ​node set
+  ​lang
+ 
+UnansweredQuestion 61
+0 / 1 pts
+In a _____ transformation, a client requests retrieval of both a source document and a style sheet from the server.
+
+  ​server-side 
+Correct Answer
+  ​client-side 
+  ​local scope 
+  ​conditional 
+ 
+Question 62
+0 / 1 pts
+Set the indent attribute to yes to make the code in your result document easier to read.​
+
+You Answered
+  True 
+  False 
+ 
+UnansweredQuestion 63
+0 / 1 pts
+Which of the following XPath expressions for relative paths refers to the parent of the context node?
+
+  ​.
+Correct Answer
+  ​..
+  ​//
+  ​../..
+ 
+UnansweredQuestion 64
+0 / 1 pts
+If there are multiple nodes that match the location path, you can create a style for each matching node using the _____ instruction.
+
+  ​value-of
+  ​select
+Correct Answer
+  ​for-each
+  ​if-else
+ 
+Question 65
+0 / 1 pts
+The _____ document contains the data that will be transformed using a style sheet.
+
+You Answered
+
+Correct Answers
+source 
+ 
+UnansweredQuestion 66
+0 / 1 pts
+XPath supports the wildcard character ( _____ ) to reference nodes of any type or name.
+
+  ​% 
+Correct Answer
+  ​* 
+  ​# 
+  ​$ 
+ 
+Question 67
+0 / 1 pts
+In the process of creating the HTML file, the XSLT processor uses HTML tags to create a(n) _____, which is composed of the element, attribute, text, and other nodes.
+
+You Answered
+
+Correct Answers
+result tree 
+ 
+Question 68
+0 / 1 pts
+The various nodes from the source document are organized into a(n) _____.
+
+You Answered
+
+Correct Answers
+node tree 
+ 
+UnansweredQuestion 69
+0 / 1 pts
+_____ result elements are any elements that are not part of the XSLT vocabulary but instead are sent directly to the result document as raw text.
+
+  ​Rendered 
+Correct Answer
+  ​Literal 
+  ​Output 
+  ​Conditional 
+ 
+UnansweredQuestion 70
+0 / 1 pts
+Attributes can also be included in a location path using the XPath expression: _____@attribute.
+
+Correct Answer
+  ​node
+  ​match
+  ​path
+  ​uri
+ 
+UnansweredQuestion 71
+0 / 1 pts
+ 5c26c1bc-521a-46a6-828c-f24764fe4460.PNG​
+
+ 
+
+ 
+
+In the sort instruction shown in the accompanying figure, the _____ attribute defines the language used to determine sort order.
+
+Correct Answer
+  ​lang
+  ​data-type
+  ​case-order
+  ​select
+ 
+UnansweredQuestion 72
+0 / 1 pts
+The _____ template defines styles for the source document’s root node.
+
+  ​source 
+Correct Answer
+  ​root 
+  ​output 
+  ​predicate 
+ 
+Question 73
+0 / 1 pts
+A(n) predicate can also indicate the position of a node in the node tree.​
+
+You Answered
+  True 
+  False 
+ 
+UnansweredQuestion 74
+0 / 1 pts
+The sort instruction can only be used within the _____ tag.
+
+  ​<xsl:for-each>
+  ​<xsl:apply-templates>
+Correct Answer
+  ​Either a. or b. 
+  ​Neither a. nor b. 
+ 
+Question 75
+0 / 1 pts
+A(n) _____ is the text contained within an element.
+
+You Answered
+
+Correct Answers
+text node 
+ 
+Question 76
+0 / 1 pts
+Like many other programming languages, XSLT supports an else-if construction.​
+
+You Answered
+  True 
+  False 
+ 
+UnansweredQuestion 77
+0 / 1 pts
+ 0aa8aaf3-5eb6-4ec2-9471-535839813713.PNG​
+
+ 
+
+ 
+
+​In the node tree shown in the accompanying figure, "date" is a(n) _____ node of "stock."
+
+  ​parent 
+  ​child 
+Correct Answer
+  ​sibling 
+  ​ancestor 
+ 
+Question 78
+0 / 1 pts
+Most locations are written using relative paths in which the location path starts from a particular node (not necessarily the root node) called the _____ node.
+
+You Answered
+
+Correct Answers
+context 
+ 
+Question 79
+0 / 1 pts
+Curly braces cannot be nested within the attribute value.​
+
+You Answered
+  True 
+  False 
+ 
+UnansweredQuestion 80
+0 / 1 pts
+Jeremy has been using XML to organize data for a company that manufactures medical devices. He knows you have experience writing XML data to an output file using XSLT and XPath, and asks for your help improving the display of his data.
+
+
+Jeremy would like to reference all the nodes in the node tree, and asks if it will be necessary to type them all out individually. You reassure him that he can select all the nodes in the node tree using the short path expression _____.
+
+  ​.*
+Correct Answer
+  ​//*
+  ​./*
+  ​*//
+ 
+UnansweredQuestion 81
+0 / 1 pts
+The _____ attribute of the output element sets the URI for the public identifier in the <!DOCTYPE> declaration
+
+Correct Answer
+  ​doctype-public
+  ​encoding
+  ​version
+  ​doctype-system
+ 
+UnansweredQuestion 82
+0 / 1 pts
+The _____ attribute of the output element sets the system identifier in the <!DOCTYPE> declaration.
+
+  ​doctype-public
+  ​encoding
+  ​version
+Correct Answer
+  ​doctype-system
+ 
+Question 83
+0 / 1 pts
+XSLT style sheets are XML documents.​
+
+You Answered
+  True 
+  False 
+ 
+Question 84
+0 / 1 pts
+The match attribute of the xsl:template element is used to design the output format for the specified node set.​
+
+You Answered
+  True 
+  False 
+ 
+Question 85
+0 / 1 pts
+A(n) _____ is any element that is part of the XSLT vocabulary.
+
+You Answered
+
+Correct Answers
+XSLT element 
+ 
+Question 86
+0 / 1 pts
+An XSLT _____ is an XML document used to transform the contents of the source document into a new format, which appears in the result document.
+
+You Answered
+
+Correct Answers
+style sheet 
+ 
+UnansweredQuestion 87
+0 / 1 pts
+When the _____ attribute is omitted the apply-templates instruction automatically processes all of the children of the context node, including any text nodes.
+
+  ​match
+  ​insert
+  ​uri
+Correct Answer
+  ​select
+ 
+Question 88
+0 / 1 pts
+The result of the transformation of the source document appears in a(n) _____ document.
+
+You Answered
+
+Correct Answers
+result 
+ 
+UnansweredQuestion 89
+0 / 1 pts
+New elements can be combined with predicates, conditional statements, and the _____ instruction to create a subset of the original source document in a new structure.
+
+  ​else-if
+  ​value-of
+Correct Answer
+  ​for-each
+  ​output
+ 
+UnansweredQuestion 90
+0 / 1 pts
+A _____ node is the text contained within an element.
+
+Correct Answer
+  ​text 
+  ​comment 
+  ​content 
+  ​string 
+ 
+Question 91
+Not yet graded / 1 pts
+XPath operates by expressing the contents of the source document in terms of nodes. List at least four objects from an XML document that are considered nodes of that document, and two objects that are NOT considered nodes.
+
+Your Answer:

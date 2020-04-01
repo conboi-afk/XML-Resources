@@ -1,0 +1,306 @@
+1: The standard vocabulary _____ has a namespace URI: http://www.w3.org/2001/vxml.
+VoiceML
+
+2: To _____ multiple style sheets to a compound document, you add a separate processing instruction for each style sheet.
+link
+
+3: One benefit of XML vocabularies is the ability to use simple element names to describe data.
+False
+
+4: Case-based Critical Thinking Questions
+Betty Trooper owns and operates a realty company. She has provided you with properties.xml, which is a file that contains a list of properties enrolled in the multiple listing database. She has created three different versions of a schema for the properties vocabulary and needs help in choosing the most appropriate schema design for her needs. Betty wants to review the Russian Doll design. She understands that there is only one global element with everything else nested inside of it. She also knows that a Russian Doll design is much more compact than a Flat Catalog, but _____.
+multiple levels of nested elements can be confusing
+
+5: If a namespace is attached to the schema, only the root element needs to be _____ in the instance document.
+qualified
+
+6: Declarations with _____ scope are available only to a given complex type.
+local
+
+7: Many _____ developers consider it a best practice to qualify all elements in the instance document to avoid confusion about which elements belong to which namespaces.
+XML
+
+8: A(n) _____ design has only one global element with everything else nested inside of it.
+Russian Doll
+
+9: Compare the three schema designs in four categories: global and local declarations; nesting of elements; reusability; and interaction with namespaces.
+[Not graded]
+
+10: The number of namespace attributes that can be declared within an element is _____.
+unlimited
+
+11: A Venetian Blind design represents a(n) _____ between Flat Catalogs and Russian Dolls.
+compromise
+
+12: The general form for applying a qualified name to a two-sided tag is <prefix:element> ... </prefix:element> where prefix is the namespace prefix and element is the _____ part.
+local
+
+13: If the namespace prefix is omitted, the URI in the _____ rule is considered to be the default namespace for the selectors in the style sheet.
+@namespace
+
+14: A _____ document is a document that combines from multiple vocabularies.
+compound
+
+15: In the accompanying figure, item _____ represents the students element and contents copied from the student.xml document
+3
+
+16: Creating _____ element names to avoid name collisions eliminates the ability to use simple element names to describe data.
+complex
+
+17: If you are interested in a compact schema that mirrors the structure of the instance document, you should use a _____ design.
+Russian Doll
+
+18: Applying a namespace to an XML document involves identifying the elements and attributes within the document that belongs to that namespace and _____.
+declaring the namespace
+
+19: Urma has begun to apply the basic information that you have given her about schemas, and she wants to understand a schema with and without qualified XML Schema object names. Urma needs to identify the code for references to objects from XML Schema namespace that require a prefix. What line of code represents this?
+<xsi:complexType name =”sType”>
+
+20: Describe how name collision occurs.
+[Not graded]
+
+21: Any customized data types, named types, elements, element groups, or attributes created in the schema are considered part of the target namespace.
+False
+
+22: In XML Schema, any element or attribute with global scope must be entered as a(n) _______ name.
+qualified
+
+23: Because an attribute is automatically associated with the namespace of its element, you rarely need to unqualify an attribute name.
+False
+
+24: In the accompanying figure, an example of an element from the students vocabulary is _____
+firstName
+
+25: A(n) standard document is a document that combines elements from multiple vocabularies.
+False
+
+26: If you choose to use a vocabulary’s namespace as the default namespace for a schema, you do not have to qualify any references to customized objects in the _____ namespace.
+target
+
+27: To require all elements to be qualified but not all attributes, you enter the following code into the schema element:
+unqualified
+
+28: In the accompanying figure, the prefix _____ is added to the opening and closing tags for all elements in the course namespace.
+crs
+
+29: The _____ of a namespace declaration declaring a prefix extends from the beginning of the opening tag to the end of the corresponding closing tag.
+scope
+
+30: In the accompanying figure, item _____ represents duplicate attributes deleted from the opening students tag.
+2
+
+31: If an element has a qualified name such as stu:student, you do not include the prefix in the _____ name.
+selector
+
+32: A(n) namespace is a defined collection of element and attribute names.
+False
+
+33: Urma has begun to apply the basic information that you have given her about schemas, and she wants to understand a schema with and without qualified XML Schema object names. In the example code, <xsi:attributeGroup ref =”studentAtt”/>, a reference to objects from the students namespace that do not require prefixes is _____.
+studentAtt
+
+34: To _____ an object from an imported schema, you must declare the namespace of the imported schema in the schema element.
+reference
+
+35: Default namespaces apply to elements, but not to attributes.
+False
+
+36: In a(n) _____ design, all declarations are made globally.
+Flat Catalog
+
+37: When referencing elements in an imported schema file, the prefix _____ have to match the prefix used in the imported schema file.
+doesn't
+
+38: The association between the namespace and the _____ declared in an element does not apply to the siblings of that element.
+prefix
+
+39: An unqualified name is an element name consisting of the namespace prefix and the local part.
+False
+
+40: After a schema is imported into another schema file, any objects it contains with global scope can be referenced in that file.
+False
+
+41: In a Flat Catalog design—sometimes referred to as a(n) _____ design—all element and attribute definitions have global scope.
+Salami Slice
+
+42: If a namespace prefix is declared more than once, only the last instance is used in the style sheet.
+False
+
+43: Objects with _____ scope can be referenced only within the object in which they are defined.
+local
+
+44: The _____ schema design element declarations are not nested.
+Flat Catalog
+
+45: To associate the _____ of a schema with a namespace, you declare the namespace of the instance document in the schema element and then make that namespace the target of the schema using the targetNamespace attribute.
+rules
+
+46: The following code declares a namespace with the URI _____ within the course element and applies the schema file course.xsd to the document:
+http://example.com/higheredtestprep/course/ns
+
+47: Case-based Critical Thinking Questions
+Betty Trooper owns and operates a realty company. She has provided you with properties.xml, which is a file that contains a list of properties enrolled in the multiple listing database. She has created three different versions of a schema for the properties vocabulary and needs help in choosing the most appropriate schema design for her needs. In Flat Catalog design, every element and attribute definition is a direct _____ of the root element and thus has been defined globally.
+child
+
+48: Each include and import element in a schema must be globally declared as a direct child of the _____ schema element.
+root
+
+49: Urma has begun to apply the basic information that you have given her about schemas, and she wants to understand a schema with and without qualified XML Schema object names. The line of code <xsi:schema xmnls:xsi=”http”://www.w3.org/2001/XMLSchema identifies to Urma that the XMLSchema namespace is qualified by the _____.
+xsi
+
+50: In the Venetian Blind schema design if a namespace is attached to the schema, only the root element needs to be qualified in the instance document.
+False
+
+51: The _____ schema design contains one single global element; all others declarations are local.
+Venetian Blind
+
+52: A Venetian Blind design represents a compromise between Flat Catalogs and Russian Dolls.
+False
+
+53: Declarations with _____ scope can be referenced throughout the schema file.
+global
+
+54: The scope of a namespace declaration declaring a(n) suffix extends from the beginning of the opening tag to the end of the corresponding closing tag.
+False
+
+55: When the specifications for XML 1.0 were first posted, support existed for namespaces.
+False
+
+56: Objects with global scope are direct children of the root schema element and can be referenced throughout the schema document.
+False
+
+57: Identify the letter of the choice that best matches the phrase or definition.
+
+Represents a compromise between Flat Catalogs and Russian Dolls   
+Venetian Blind Design
+
+To declare a namespace in a style sheet 
+@namespace
+
+Has only one global element with everything else nested inside of it 
+Russian Doll Design
+
+Used when the schemas come from different namespaces 
+import
+
+Referred to as a Salami Slice design 
+Flat Catalog Design
+
+A defined collection of element and attribute names 
+namespace
+
+A direct child of the root schema element and can be referenced throughout the schema document 
+global scope
+
+A document that combines elements from multiple vocabularies 
+compound element
+
+To combine schema files from the same namespace 
+include
+
+Referenced within the object in which it is defined 
+local scope
+
+
+58: A compound document is a document that combines elements from _____ vocabularies.
+multiple
+
+59: In the accompanying figure, the prefix _____ is added to opening and closing tags for all elements in the students namespace.
+stu
+
+60: In the accompanying figure, name is an element from the _____ vocabulary.
+course
+
+61: The duplication of element names is an example of name _____, which occurs when the same element name from different XML vocabularies is used within a compound document.
+collision
+
+62: Discuss whether to namespace or not to namespace?
+[Not graded]
+
+63: The _____ schema design element declarations can only be used once.
+Russian Doll
+
+64: A(n) Russian Doll design has only one global element with everything else nested inside of it.
+False
+
+65: In the Venetian Blind schema design, named complex types, element groups, and attribute groups can be _____ throughout the schema.
+reused
+
+66: Some XML authors add all namespace declarations to the document’s _____ element so that the namespace is available to all elements within the document.
+root
+
+67: Betty Trooper owns and operates a realty company. She has provided you with properties.xml, which is a file that contains a list of properties enrolled in the multiple listing database. She has created three different versions of a schema for the properties vocabulary and needs help in choosing the most appropriate schema design for her needs. Following is an example of a schema code: What is the name of the Russian Doll schema document?
+studentsrd.xsd
+
+68: The XML Schema group element is used to assign a name to a list of references to elements or attributes, and then the named group is referenced elsewhere using the _____ attribute.
+ref
+
+69: In an environment in which large and complex XML vocabularies are developed, different teams might work on different parts of the schema, using the _____ element to combine the different parts into a finished product.
+include
+
+70: The schema design that requires more code than either of the designs combined is _____.
+Garden of Eden
+
+71: Not all browsers support the use of the @namespace rule.
+False
+
+72: Browsers are looking for qualified element names in your instance document, but your schema is configured to expect unqualified names.
+False
+
+73: A(n) _____ design does not declare elements and attributes globally, but instead creates named types and references those types within a single global element.
+Venetian Blind
+
+74: A Russian Doll design represents a compromise between Flat Catalogs and Venetian Blinds.
+False
+
+75: Like an element name, an attribute can be qualified by adding a namespace _____.
+prefix
+
+76: In a(n) _____ document containing elements from more than one namespace, after you declare the namespaces, you must indicate which elements in the document belong to each namespace.
+instance
+
+77: If a(n) _____ contains several lines of code that need to be repeated, you probably should use a Flat Catalog or Venetian Blind design.
+schema
+
+78: A Russian Doll design is much more compact than a(n) _____, but the multiple levels of nested elements can be confusing and can make it more difficult to debug.
+Flat Catalog
+
+79: The root element of the instance document becomes the top element declaration in the schema.
+False
+
+80: Case-based Critical Thinking Questions
+Betty Trooper owns and operates a realty company. She has provided you with properties.xml, which is a file that contains a list of properties enrolled in the multiple listing database. She has created three different versions of a schema for the properties vocabulary and needs help in choosing the most appropriate schema design for her needs. If Betty uses Flat Catalog design, which of the following is true?
+All element and attribute definitions have global scope.
+
+81: One way to combine schemas is through _____; this is used when the schemas come from different namespaces.
+importing
+
+82: A schema can contain any number of include and import elements.
+False
+
+83: In the accompanying figure, the element added as a child element of the course element, occurring after the instructor element, is _____.
+students
+
+84: Betty Trooper owns and operates a realty company. She has provided you with properties.xml, which is a file that contains a list of properties enrolled in the multiple listing database. She has created three different versions of a schema for the properties vocabulary and needs help in choosing the most appropriate schema design for her needs. Following is an example of a schema code: What is the name of the Flat Catalog schema document?
+studentsfc.xsd
+
+85: Urma has begun to apply the basic information that you have given her about schemas, and she wants to understand a schema with and without qualified XML Schema object names. Urma needs to identify the code for references to objects from the XMLSchema namespace that do not require prefix. What line of code represents this?
+<complexType name =”sType”>
+
+86: The standard vocabulary _____ has namespace URI: http://www.itunes.com/dtds/podcast-1.0.dtd.
+ITunes Podcast
+
+87: In the accompanying figure, item _____ represents the XML schema namespace attribute.
+1
+
+88: Urma has begun to apply the basic information that you have given her about schemas, and she wants to understand a schema with and without qualified XML Schema object names. In the example code, <attributeGroup ref =”stu:studentAtt”/>, a reference to objects from the students namespace that require prefixes is _____.
+stu
+
+89: The root element of the _____ document becomes the top element declaration in the schema.
+instance
+
+90: The building blocks of any schema are the XML elements that define the structure; these are known collectively as _____.
+objects
+
+91: After a schema is imported into another schema file, any _____ it contains with global scope can be referenced in that file.
+objects
+

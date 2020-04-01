@@ -1,0 +1,300 @@
+1: p/ppp style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "A(n) _____ is a user-defined name that stores a value or an object./p/p
+variable
+
+2: XSLT and XPath 1.0 support three data types for numbers.
+False
+
+3: Many editors, including the Firefox browser, do not support the _____ attribute and will instead display the text of the file, including the HTML markup tags.
+​disable-output-escaping
+
+4: Variables are accessed using the reference @name where name is the variable name.
+False
+
+5: p/ppp style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "XSLT is considered a functional programming language. Define functional programming, and describe at least three of the key design principles of functional programming languages./p/p
+[Not graded]
+
+6: Which of the following shows the correct result of the substring-before function: substring-before("2017-10-05", "-")?
+​"2017"
+
+7: If you are concerned about name conflicts and want the active style sheet to always have precedence over the external sheet, always use the _____ element.
+​import
+
+8: If the expression is a number or Boolean value, the _____ element converts the expression to a text string and the text is output to the result document.
+​copy-of
+
+9: The normalize-space() function can also be used to remove extraneous white space characters from the beginning or end of any text string.
+False
+
+10: Many of the XPath functions work with sections of text strings called _____.
+​substrings
+
+11: Many of the XPath functions work with sections of text strings called _____.
+substrings
+
+12: George is developing an XSLT style sheet to display data from research surveys. The structure of the surveys.xml file is shown in the accompanying figure. He comes to you for assistance in preparing the final file.​ George was able to successfully access the functions in the surveyfunctions.xsl file from his new style sheet. However, he is having difficulty getting the functions to work. In looking over his code, you remind him that a function in a named template has to be _____ to be used.
+​called
+
+13: The _____ attribute of the decimal-format element represents the character used to separate the integer and fractional parts of the number.
+​decimal-separator
+
+14: The _____ function is an XSLT 1.0 function used to access the contents of an external XML file.
+document()
+
+15: If you place the include element at the beginning of your style sheet it will have precedence over the active style sheet.
+False
+
+16: p/ppp style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "The _____ element creates a variable as a user-defined name that stores a value or an object./p/p
+xsl:variable
+
+17: Some XSLT processors strip _____ nodes, which are nodes that contain only white space characters such as blanks, line returns, or tabs.
+white space
+
+18: George is developing an XSLT style sheet to display data from research surveys. The structure of the surveys.xml file is shown in the accompanying figure. He comes to you for assistance in preparing the final file.​ ​The source document contains data for thousands of surveys. George would like to display information for only the first six surveys. Which of the following shows the correct syntax for the predicate George should use to insure only the first six surveys are displayed?
+​[position() &lt;= 5]
+
+19: p/ppp style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "If you place the _____ element at the end of your style sheet it will have precedence over the active style sheet./p/p
+include
+
+20: ​One way to create a lookup table is to use the _____ function, which returns the active node being processed in the style sheet.
+​current()
+
+21: The number format symbol _____ is a placeholder that displays required digits in the formatted number.
+​0
+
+22: The _____ element includes the contents of an external style sheet file in the current style sheet.
+xsl:include
+
+23: XSLT and XPath 1.0 support only one data type for numbers—double precision floating point.
+False
+
+24: ​To set the value of a template parameter, use the _____ element.
+​with-param
+
+25: p/ppp style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "The _____ function calculates the sum of the numeric values in a node set./p/p
+sum()
+
+26: The XPath 1.0 numeric function _____ rounds number up to the next integer.
+​ceiling(number)
+
+27: The copy element under XSLT 2.0 also supports the inherit-namespace attribute.
+False
+
+28: p/ppp style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "List the three possible ways of accessing data from multiple source documents within an XSLT style sheet./p/p
+[Not graded]
+
+29: The number format symbol _____ separates the pattern for positive numbers from the pattern for negative numbers.
+​;
+
+30: If you only want to copy the descendent elements and attributes of the summary element but not the summary element itself, use the wildcard character (_____) in the copy-of element structure.
+​*
+
+31: _____ programming relies on the evaluation of functions and expressions, rather than on the sequential execution of commands.
+​Functional
+
+32: Parameters created in XSLT 2.0 also support the _____ attribute to define the data type of the parameter value.
+​as
+
+33: _____ is the process by which a function calls itself.
+​Recursion
+
+34: p/ppp style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "The locations in the style sheet where a variable can be referenced are known as the variable#8217;s _____./p/p
+scope
+
+35: p/ppp style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "One approach to including markup tags as part of an element#8217;s value is to place the HTML code within a(n) _____ section./p/p
+CDATA
+
+36: One way of accessing data from multiple source documents within an XSLT style sheet is by using the _____ unparsed-text() function.
+​XSLT 2.0
+
+37: A(n) recursive template is a template that is not matched to a node set but instead acts like a function to display a calculated value or perform an operation.
+False
+
+38: Do not use the &nbsp; entity to generate white space, even if you are generating HTML code, because that entity will not be recognized by the XSLT processor.
+False
+
+39: The copy element creates a(n) deep copy of the active node.
+False
+
+40: In XSLT, a variable can store a section of code.
+False
+
+41: The _____ attribute of the decimal-format element represents text used to represent entries that are not numbers.
+​NaN
+
+42: The expression format-number(-238.2, '#,##0.0;(#,##0.0)') displays the value –238.2 as _____.
+​(238.2)
+
+43: The number format symbol _____ separates the integer digits from the fractional digits.
+​.
+
+44: The XPath 1.0 numeric function _____ counts the number of items in values.
+​count(values)
+
+45: Which of the following shows the correct result of the nested substring functions: substring-before(substring-after("2017-10-05", "-"), "-")?
+​"10"
+
+46: Helena is studying functional programming, using the drawImages template shown in the accompanying figure as an example. She comes to you for help in learning the key features of functional programming. Helena would like to insert a blank space in the result document after the drawImages template runs. You tell her she can do this using the code _____.
+​<xsl:text> </xsl:text>
+
+47: Helena is studying functional programming, using the drawImages template shown in the accompanying figure as an example. She comes to you for help in learning the key features of functional programming. Helena has heard that every recursive function contains a base case that represents a stopping condition. In the drawImages template, you explain to her that the function would reach the base case when _____.
+​$imgCount = 0
+
+48: The _____ element includes the contents of an external style sheet file in the current style sheet.
+​xsl:include
+
+49: Which of the following shows the correct result of the substring function: substring("Harpe Gaming Store", 7, 6)?
+​"Gaming"
+
+50: The number format symbol _____ is a placeholder that displays an optional number of digits in the formatted number and is usually used as the far left symbol in the number format.
+​#
+
+51: The only element that the call-template element can contain is the with-param element.
+False
+
+52: To operate recursively, a function must call itself employing the base case.
+False
+
+53: Which of the following shows the correct syntax of the element used to import an external style sheet in the active style sheet?
+​<xsl:import href="uri" />
+
+54: Helena is studying functional programming, using the drawImages template shown in the accompanying figure as an example. She comes to you for help in learning the key features of functional programming. Helena has heard that every recursive function contains a change of state that occurs when the base case has not been reached. In the drawImages template, you explain to her that the change of state is represented by the code _____.
+​<xsl:with-param name="imgCount" select="$imgCount - 1" />
+
+55: Which of the following shows the correct syntax of the function supported by XSLT 2.0 to retrieve non-XML data?
+​unparsed-text(uri [,encoding])
+
+56: George is developing an XSLT style sheet to display data from research surveys. The structure of the surveys.xml file is shown in the accompanying figure. He comes to you for assistance in preparing the final file.​ George knows that the position() function returns the position of the node as it is displayed within the result document, not necessarily the position of the node in the source document. Which element do you suggest George use to retrieve the position values of the nodes as they appeared in the source document?
+​number
+
+57: p/ppp style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "The _____ function returns the current node being processed./p/p
+current()
+
+58: The XPath 1.0 numeric function ceiling(number) rounds number up to the next integer.
+False
+
+59: When using the document() function, you must enter the URI for a path on the local machine prefaced with _____, and any spaces or special characters must be replaced with escape codes.
+​file:///
+
+60: The copy-of element is similar to the copy element, as both create a deep copy of a node set.
+False
+
+61: If you want to insure that white space nodes are not deleted, you can apply the _____ element as a direct child of the stylesheet element.
+​preserve-space
+
+62: p/ppp style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "The _____ keyword is used to divide one numeric value by another./p/p
+div
+
+63: The number format symbol _____ separates groups of digits in the number.
+​,
+
+64: Which of the following expressions can be used to display the value of the active node?
+​<xsl:value-of select="." />
+
+65: Which of the following shows the correct result of the substring-after function: substring-after("2017-10-05", "-")?
+​"10-05"
+
+66: Variables that contain text strings should enclose those text strings within a separate set of _____.
+​quotation marks
+
+67: A(n) _____ template is a template that is not matched to a node set but instead acts like a function to display a calculated value or perform an operation.
+​named
+
+68: XSLT variables act more like constants because the value of an XSLT variable can only be defined once and it cannot be further updated.
+False
+
+69: A(n) _____ is a collection of data values that can be searched in order to return data that matches a supplied key value.
+lookup table
+
+70: Which of the following shows the correct syntax of the function used to test for the existence of an XML document?
+​doc-available(uri)
+
+71: Which of the following shows the correct syntax of the element used to include an external style sheet in the active style sheet?
+​<xsl:include href="uri" />
+
+72: Which of the following shows the correct result of the concat function: concat("October ", "10, ", "2017")?
+​"October 10, 2017"
+
+73: Helena is studying functional programming, using the drawImages template shown in the accompanying figure as an example. She comes to you for help in learning the key features of functional programming. Helena has heard that every recursive function function must call itself employing the change of state. In the drawImages template, you explain to her that this call is represented by the code _____.
+​<xsl:call-template name="drawImages">​
+
+74: If XPath is unable to calculate a value because of an error in the style sheet, it will return the text string "NaN" (Not a Number).
+False
+
+75: p/ppp style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "The _____ function specifies the text format of numeric values./p/p
+format-number()
+
+76: In general, you should use the number() function for numbering the nodes in the result document.
+False
+
+77: The _____ function will return a value of true if the document exists and is well-formed.
+​doc-available()
+
+78: In XSLT, a variable name can start with a number.
+False
+
+79: Which of the following if elements tests whether the context node is in the third position in the result document?
+​<xsl:if test="position()=3" />
+
+80: One way of accessing data from multiple source documents within an XSLT style sheet is by using the _____ doc() function.
+​XPath 2.0
+
+81: In XSLT, a variable can store a _____.
+​All of these are correct.
+
+82: The identity template matches any kind of node in the source document and copies them to the result document.
+False
+
+83: George is developing an XSLT style sheet to display data from research surveys. The structure of the surveys.xml file is shown in the accompanying figure. He comes to you for assistance in preparing the final file.​ The response attribute of the question element in George's surveys.xml file can contain paragraphs of text. Which of the following shows the code George could use to insure any white space in the response does not get stripped out when the final file is displayed?
+​<xsl:preserve-space elements="*" />
+
+84: p/ppp data-keepme="true" style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; #8203;Identify the letter of the choice that best matches the phrase or definition./p/p
+
+Can be referenced from anywhere within a style sheet/p 
+global variable
+
+Provides the remainder after performing a division of one number by another/p   
+operator
+
+Similar to variables except that their values can be passed to them from outside their scope/p 
+paramters
+
+Often used in projects in which the same code samples need to be repeatedly written to the result document/p 
+result tree fragment
+
+Element that sets the value of the template parameters defined within a named template/p 
+xsl:with-param
+
+Matches any kind of node in the source document and copies them to the result document/p 
+identity template
+
+Character used to represent numbers in parts per 1000/p 
+per-mille
+
+Creates a shallow copy of a node set/p 
+copy
+
+Creates a deep copy of a node set/p 
+copy-of
+
+Function used to remove extraneous white space characters from the beginning or end of any text string/p 
+normalize-space()
+
+
+85: Helena is studying functional programming, using the drawImages template shown in the accompanying figure as an example. She comes to you for help in learning the key features of functional programming. Helena has heard that it is possible to use a named template to store a variable value. You tell her she can do this having the last action of the template use the _____ element to set the variable value.
+​value-of
+
+86: p/ppp style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "Define the term scope, and describe the role of scope in the creation of XSLT style sheets, including an explanation the implication of a variable's possible scope./p/p
+[Not graded]
+
+87: White space nodes are nodes that contain only white space characters such as _____.
+​All of these are correct.
+
+88: The _____ attribute of the decimal-format element represents the character used to represent negative values.
+​minus-sign
+
+89: Named templates can be used to store variable values by having the last action of the template use the value-of element to set the variable value.
+False
+
+90: p/ppp style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "An important task is to combine, or _____, two or more text strings into a single text string./p/p
+concatenate
+

@@ -1,0 +1,2768 @@
+1: A(n) _____ provides information about the rules used in the XML document’s vocabulary.​
+DTD (Document type declaration)
+
+2: A CDATA section is a block of text that XML treats as word data only.​
+False
+
+3: Assume that the home page of Helen’s company, Hair Unlimited Salon, has the web address _____. This address provides customers with a unique location to access all of Hair Unlimited Salon’s online products.
+​http://example.com/hus
+
+4: Element names may not contain _____.
+​blank spaces
+
+5: ​Case 1-2
+Clarisa is tracing through her XML code to find syntax errors. Clarisa then reviews all of the elements with nesting, and she discovers a number of problems. Which of the following is a CORRECT use of nesting?
+​<assignment>Homework 1<points>50</points></assignment>
+
+6: When white space appears in places other than element content, XML treats it in the following manner: _____.
+​ignored within a document’s prolog and epilog, and within any element tags
+
+7: _____ space refers to nonprintable characters such as spaces (created by pressing the spacebar), new line characters (created by pressing the Enter key), or tab characters (created by pressing the Tab key).
+​White
+
+8: ​Case 1-1
+Ryan is new to the use of XML, so he has a lot of basic questions about the fundamentals, including some philosophical questions about the language. Ryan asks you about the roots of XML. Which of the following is NOT a characteristic of SGML?
+​It is an easy language to learn and to apply because of its power, scope, and flexibility.
+
+9: A CDATA section may contain most markup characters, such as _____, >, and &.
+​<
+
+10: Parsed character data includes _____.
+​All of the above.
+
+11: The UTF-8 character set includes only the characters used in the English language.​
+False
+
+12: The only sequence of symbols that may not occur within a CDATA section is _____ because this is the marker ending a CDATA section.
+​]]
+
+13:  In the accompanying figure’s tree diagram, all of the elements in the body are children of a single element called the _____ element.
+​root
+
+14: ​Case 1-1
+Ryan is new to the use of XML, so he has a lot of basic questions about the fundamentals, including some philosophical questions about the language. You tell Ryan that XML can be used to create XML vocabularies, which are markup languages tailored to contain specific pieces of information. Which of the following is NOT an example of a standard XML vocabulary?
+​CDF
+
+15:  19fe9005-0ff3-4f63-b791-cdde1573498a.PNG​
+​XML
+
+16: _____ refers to any space, new line character, or tab character in a document.​
+White space
+
+17: ​Case 1-1
+Ryan is new to the use of XML, so he has a lot of basic questions about the fundamentals, including some philosophical questions about the language. Ryan has heard that an XML document must be well-formed. Which of the following is NOT a characteristic of a well-formed document?
+​It satisfies the rules of its DTD or schema.
+
+18: XML is a markup language that can be extended and modified to match the needs of the author and the data content.​
+False
+
+19: Declaring a(n) Android layout in XML makes it easier to visualize the structure of a user interface.​
+False
+
+20: The document body in an XML document is made up of elements that contain data to be stored in the document. Elements are the basic building blocks of XML files. List three important points to remember about XML elements.​
+[Not graded]
+
+21: ​Case 1-2
+Clarisa is tracing through her XML code to find syntax errors. Clarisa next checks all of the attribute names. Which of the following is an invalid attribute name?
+​xml_type
+
+22: ​Case 1-2
+Clarisa is tracing through her XML code to find syntax errors. Finally, Clarisa double-checks all of the entity references used in the document. Which of the following is NOT one of the entity references that XML supports?
+​&attr;
+
+23:  In the tree diagram in the accompanying figure, the root element is the _____ element.
+​products
+
+24: You can place any large block of text within a _____ section to avoid inadvertently inserting a character that would be misinterpreted by an XML processor (such as the ampersand symbol).
+​CDATA
+
+25: XML has its roots in Standard Generalized Markup Language (SGML), a language introduced in the 1980s that describes the structure and content of any machine-dependent information.​
+False
+
+26:  Shown in the accompanying figure, _____ was developed to code molecular information.
+​CML
+
+27: For different users to share a vocabulary effectively, _____ must be developed that specifically control what code and content a document from that vocabulary might contain.
+​rules
+
+28: The default encoding scheme for an XML declaration is _____.
+​UTF-8
+
+29: SGML has been the chosen vehicle for creating structured documents in business and government organizations of all sizes.​
+False
+
+30: Character data is not processed—it is treated as pure data content.​
+False
+
+31: The standards for XML are developed and maintained by _____.
+​the W3C
+
+32: To create a DTD or a schema, you need access to a _____.
+​text editor
+
+33: XML and relational databases are tightly woven together in most web applications. Describe the two distinctly different models XML and relational databases use to structure data.​
+[Not graded]
+
+34: Any element in an XML document can contain no more than one attribute.​
+False
+
+35: _____ is an XML vocabulary used for displaying and organizing musical notation and lyrics.
+​MML
+
+36: The document body consists of the _____ that contain data to be stored in the document.
+​elements
+
+37: A DTD defines the structure of the data and, very broadly, the types of data allowable.​
+False
+
+38: ​Identify the letter of the choice that best matches the phrase or definition.
+​Describes the content and structure of data 
+markup language​
+
+​Signals to a program that a document is written in XML 
+​XML declaration
+
+​A markup language tailored to contain specific pieces of information   
+vocabulary​
+
+​Develops and maintains the standards for XML 
+​W3C
+
+​The basic building block of an XML file   
+element​
+
+​A command that provides an instruction to XML parsers   
+​processing instruction
+
+​Occurs after the document body in an XML document   
+epilog​
+
+​Attached to an XML document to control what code and content a document may have   
+​schema
+
+​Another name for a feed reader   
+​aggregator
+
+​One of the more important XML vocabularies on the Internet   
+RSS
+
+
+39: The default version value for an XML declaration is _____.
+​1.0
+
+40: Attribute values must be enclosed within _____.
+​single or double quotes
+
+41: ​Make sure to end every entity reference with a(n) _____.
+​semicolon
+
+42: _____ is the style sheet standard developed for use with HTML on the web.
+​CSS
+
+43: Documents written in SGML must be used on devices running the Unix operating system.​
+False
+
+44: XML is a(n) _____ language that is extensible, so it can be modified to match the needs of the document author and the data being recorded.​
+​markup
+
+45: A(n) _____ section is a large block of text that XML treats as character data only.​
+CDATA
+
+46: An open element is also known as a(n) _____ element.
+​empty
+
+47: After declaring a default namespace, any _____ element or attribute is then considered part of this namespace unless a different namespace is declared within one of the child elements.​
+descendant
+
+48: Multiple processing instructions can exist within the same XML document for different media types.​
+False
+
+49: The string &apos; is a(n) character reference for the apostrophe.​
+False
+
+50: Element names cannot begin with the letters “_____.”
+​xml
+
+51: To declare a namespace for an element within an XML document, you add an attribute within the opening tag for the element using the syntax _____.
+​<element xmlns:prefix=”uri”> ... </element>
+
+52: An element contained within another element is said to be _____.​
+nested
+
+53: ​Case 1-2
+Clarisa is tracing through her XML code to find syntax errors. Clarisa begins by looking for incorrect element names. Which of the following is a problematic element name?
+​street address
+
+54: If you want to have control over the document’s appearance, you have to physically _____ the document to a style sheet.
+​link
+
+55: _____ can be thought of as a lightweight version of SGML.
+XML
+
+56: Most _____ feeds contain just links, headlines, or brief synopses of new information.​
+RSS
+
+57: Subscribers to a(n) CSS feed can receive periodic updates using a software program called a feed reader or an aggregator.​
+False
+
+58: _____ are the basic building blocks of XML files, containing the data to be stored in the document.​
+Elements
+
+59: An attribute value always must be enclosed within either single or double _____.
+​quotes
+
+60: One version of a(n) _____ is the Uniform Resource Locator (URL), which is used to identify the location of a resource on the web.​
+URI
+
+61: A common mistake in XML documents is to forget that the apostrophe symbol is interpreted by the XML processor as a character reference and not as a character.​
+False
+
+62: As XML has grown in popularity, standard _____ have been developed across a wide range of disciplines.
+​vocabularies
+
+63: What are the parts of a prolog?​
+[Not graded]
+
+64: ​Case 1-2
+Clarisa is tracing through her XML code to find syntax errors. Clarisa next looks at the elements that do not use nesting, and she finds one that is formatted incorrectly. Which of the following could it be?
+​<name>Perry</NAME>
+
+65: Empty element tags are entered using a(n) _____ tag.​
+one-sided
+
+66: The name in an element’s closing tag must match the name in the opening tag.​
+False
+
+67: An XML document consists of the _____, the document body, and the epilog.
+​prolog
+
+68: An RSS file is written in _____.
+​XML
+
+69: A(n) DTD more precisely defines the structure of the data and specific data restrictions.​
+False
+
+70: The first part of the prolog is the XML _____.
+​declaration
+
+71: A namespace that has been declared within an element can be applied to any _____ of the element.
+​descendant
+
+72: The orange text in the accompanying figure is an XML _____.​
+comment
+
+73: One of the more important XML vocabularies is _____, which is a reformulation of HTML as an XML application.
+​XHTML
+
+74: XML has its roots in _____.
+​SGML
+
+75: The ISO/IEC character set is an international numbering system for referencing characters from virtually any language.​
+False
+
+76: A(n) compound document is an XML document composed of elements from other vocabularies or schemas.​
+False
+
+77: _____ is a language introduced in the 1980s that describes the content and structure of any machine-readable information.
+​SGML
+
+78: Elements that are side-by-side in a document’s hierarchy are _____ elements.
+​sibling
+
+79: Cascading Style Sheets (CSS), the style sheet language developed for use with HTML on the web, also can be used with the elements in any XML document.​
+False
+
+80: ​Case 1-1
+Ryan is new to the use of XML, so he has a lot of basic questions about the fundamentals, including some philosophical questions about the language. You tell Ryan about an important XML vocabulary called RSS. What is this vocabulary used for?
+​distributing news articles or other changing content to subscribers
+
+81: A _____ document contains no syntax errors and satisfies the general specifications for XML code.
+​well-formed
+
+82: When an XML document is created, it needs to be evaluated by a program known as a(n) _____.​
+XML parser
+
+83: ​Case 1-1
+Ryan is new to the use of XML, so he has a lot of basic questions about the fundamentals, including some philosophical questions about the language. Ryan asks how the rules for a given XML vocabulary are specified, and you explain that it is done using either a document type definition (DTD) or schema. Which of the following is NOT a true statement about DTDs and schemas?
+​DTDs and schemas are required, but they are seldom helpful in ensuring that your XML documents follow a specific vocabulary.
+
+84: A well-formed XML document that satisfies the rules of a DTD or schema is said to be a(n) _____ document.
+​valid
+
+85: The XML _____ signals to the program reading the file that the document is written in XML.
+​declaration
+
+86: An XML document that satisfies the rules of a DTD or schema is said to be a(n) _____ document.
+​valid
+
+87: Since it can be difficult to remember the character numbers for different symbols, some symbols can be identified using a character _____ reference.​
+entity
+
+88: _____ characters fall into three categories—parsed character data, character data, and white space.​
+Text
+
+89: A _____ instruction is a command that tells an XML parser how to process the document.
+​processing
+
+90: If an XML document is part of a vocabulary which has a defined DTD or schema, it also needs to be tested to ensure that it satisfies the _____ of that vocabulary.​
+rules
+
+91: A(n) namespace is a defined collection of element and attribute names.​
+False
+
+1: Identify the letter of the choice that best matches the phrase or definition.
+
+References content that is either nontextual or that cannot be interpreted by an XML parser
+nparsed entity
+
+Used when you want to insert content into a DTD itself 
+parameter entity
+
+The smaller chunks into which a DTD can be broken 
+module
+
+Most standard vocabularies make these available online for inspection 
+DTDs
+
+Draws its content from an external file 
+external entity
+
+Interpreted by XML parsers as a reference to another entity 
+symbol
+
+This supplies a name for a data type and provides clues about how an application should handle the data 
+notation
+
+References content to be used within an XML document 
+general entity
+
+Includes its content in the DTD 
+internal entity
+
+Enables you to divide a DTD into two parts: one interpreted by parsers, and one containing declarations that parsers ignore 
+conditional section
+
+
+2: A(n) _____ content model is a list of child elements that follow a defined order.
+sequence
+
+3: Which of the following is accomplished by an attribute-list declaration?
+All of these are correct.
+
+4: An XML element is not limited to either parsed character data or child elements.
+False
+
+5: An element declaration can specify which of the following?
+All of the these are correct.
+
+6: An attribute declared using the NAME token must have a value equal to the value of an ID attribute located somewhere in the same document.
+False
+
+7: It is best not to work with mixed content if you want a tightly structured document.
+False
+
+8: _____ is ignored within a comment, so you can spread comment text over several lines without affecting DTD code.
+White space
+
+9: Case-based Critical Thinking Questions
+<!ATTLIST course credits CDATA “4”>
+
+10:  As shown in the accompanying figure, the external subset would define some basic rules for all of the documents, and the internal subset would define rules that are specific to each document.
+True
+
+11:  The DOCTYPE declaration has to be added to a document epilog as shown in the accompanying figure.
+True
+
+12: The chunks into which a DTD can be broken with parameter entities are known as _____.
+modules
+
+13: The NMTOKEN data types cannot contain _____.
+white space
+
+14: External DTDs work the same way as _____ style sheets.
+external
+
+15: You can divide a DTD into _____ parts.
+two
+
+16: Element names can contain which of the following?
+numbers
+
+17: An entity whose content is found within the DTD is known as a(n) external entity.
+False
+
+18: A DTD can be used to enforce a specific data structure on document content.
+False
+
+19:  The DOCTYPE declaration has to be added to the document _____, after the XML declaration and before the document’s root element, as shown in the accompanying figure.
+prolog
+
+20: The _____ value for the content model in an element declaration means an element cannot store any content.
+EMPTY
+
+21: Case-based Critical Thinking Questions
+Casey is using XML to store information about the students in the science classes that he teaches. He wants to design a DTD that he can use to validate the XML documents that he uses for this purpose, and he comes to you for help. Casey wants to include a declaration for an element named “note” that can contain any type of content. Which of the following is an appropriate element declaration for this element?
+<!ELEMENT note ANY>
+
+22: The _____ attribute default means that the attribute must appear with every occurrence of the element.
+#REQUIRED
+
+23: DTDs use more general numbering with a(n) _____ symbol, which specifies the number of occurrences of each element.
+modifying
+
+24: A(n) _____ is a collection of rules that define the content and structure of an XML document.
+DTD
+
+25: Case-based Critical Thinking Questions
+Rosalind wants to add attribute declarations to her DTD, and she turns to you for information about the possible attribute types. You tell Rosalind about the CDATA attribute type. Which of the following attribute values would NOT be allowed for an attribute of this type?
+Bob & Jenny
+
+26: To test for validity, an XML parser must be able to compare your XML document with the _____ rules you set up in the DTD.
+validity
+
+27: An entity that references content that cannot be interpreted by the XML parser is a(n) _____ entity.
+unparsed
+
+28: An element _____ declaration specifies an element’s name and indicates what kind of content the element can contain.
+type
+
+29: _____ types are character strings that follow certain rules for format and content.
+Tokenized
+
+30: The _____ symbol indicates that an element occurs at least once.
++
+
+31: A DOCTYPE declaration like the one in the accompanying figure is also known as a(n) _____.
+DTD
+
+32: What are the limitations of mixed content elements? Under what circumstances should you not use them?
+[Not graded]
+
+33: Once an ID value has been declared in a document, other attribute values can refer to it using the _____ token.
+IDREF
+
+34: A DTD is entered into the document in a statement called a document _____ declaration.
+type
+
+35: In a valid document, at least two elements must be declared in the DTD.
+False
+
+36: The _____ content model allows an element to store any type of content.
+ANY
+
+37: _____ content allows an element to contain both parsed character data and child elements.
+Mixed
+
+38: Case-based Critical Thinking Questions
+Rosalind wants to add attribute declarations to her DTD, and she turns to you for information about the possible attribute types. Rosalind wants to define a required attribute called “semester” of an element named “course.” She wants to ensure that this attribute takes on one of three values: fall, spring, or summer. Which type of attribute should she use?
+an enumerated type
+
+39: Case-based Critical Thinking Questions
+Rosalind wants to add attribute declarations to her DTD, and she turns to you for information about the possible attribute types. You help Rosalind write the declaration of the “semester” attribute described in the previous problem. Which of the following is an appropriate declaration for this attribute?
+<!ATTLIST course semester (fall | spring | summer) #REQUIRED>
+
+40: A(n) _____ associates the value of an attribute with a <!NOTATION> declaration that is inserted elsewhere in the DTD.
+notation
+
+41:  The locations of external subsets like that shown in the accompanying figure can be defined using _____ types of identifiers.
+two
+
+42: An attribute that contains a list of XML names, each separated by a blank space, can be defined using the _____ data type.
+NMTOKENS
+
+43: A modifying symbol is placed directly before the element it modifies.
+False
+
+44: Case-based Critical Thinking Questions
+Casey is using XML to store information about the students in the science classes that he teaches. He wants to design a DTD that he can use to validate the XML documents that he uses for this purpose, and he comes to you for help. Casey needs to declare an “address” element that can be used to store a student’s address. If he intends to store the address as parsed character data, which of the following is an appropriate declaration for this element?
+<!ELEMENT address (#PCDATA)>
+
+45: In a DTD, a _____ symbol specifies the number of occurrences of each element.
+modifying
+
+46: To create a parsed entity that references content from an external file using a system _____, you use the declaration <!ENTITY entity SYSTEM ? “uri?”>.
+identifier
+
+47: If a processor encounters more than one declaration for the same attribute, it ignores the first statement.
+False
+
+48: The attributes of the attribute value type _____ contain a list of entities separated by white space.
+ENTITIES
+
+49: A(n) notation must supply a name for the data type and provide clues about how applications should handle the data.
+False
+
+50: The attributes of the attribute value type _____ contain an accepted XML name.
+NMTOKEN
+
+51: Content referenced by an entity can be either _____.
+parsed or unparsed
+
+52: Case-based Critical Thinking Questions
+Casey is using XML to store information about the students in the science classes that he teaches. He wants to design a DTD that he can use to validate the XML documents that he uses for this purpose, and he comes to you for help. Casey next wants to write a declaration for an element named “advanced” that he will use to record the fact that a student is advanced. This element will not contain any content. Which of the following is an appropriate element declaration for this element?
+<!ELEMENT advanced EMPTY>
+
+53: The _____ symbol is used for inserting parameter entities.
+%
+
+54: How many DOCTYPE declarations can there be in an XML document?
+1
+
+55: If an entity's content is found within the DTD, the entity is known as a(n) _____ entity.
+internal
+
+56: A(n) _____ is added to the DOCTYPE declaration to provide information about the DTD to the XML parser.
+public identifier
+
+57: Which of the following is a type of identifier for the location of an external subset like the one in the accompanying figure?
+system
+
+58: Case-based Critical Thinking Questions
+Casey is using XML to store information about the students in the science classes that he teaches. He wants to design a DTD that he can use to validate the XML documents that he uses for this purpose, and he comes to you for help. After you teach Casey about declarations for elements with child elements, he constructs the element declaration <!ELEMENT class ((seminar | lesson | workshop), time?)>. Given this declaration, which of the following is NOT a valid “class” element?
+<class><seminar>Oil Painting</seminar><lesson>brushstrokes</lesson></class>
+
+59: Any attribute that has been declared by the data type ID is a candidate for an ID _____.
+reference
+
+60: When the _____ symbol is used with a choice list, the element can contain any number of occurrences of child elements or PCDATA, or it can contain no content at all.
+*
+
+61: The syntax for creating a conditional section is _____.
+<![keyword[
+declarations
+]]>
+
+62: The content-model value can be one of _____ specific keywords or one of two content descriptions.
+three
+
+63: One way to create a valid document is to design a(n) _____ for the document.
+DTD
+
+64: Case-based Critical Thinking Questions
+Casey is using XML to store information about the students in the science classes that he teaches. He wants to design a DTD that he can use to validate the XML documents that he uses for this purpose, and he comes to you for help. You tell Casey that he must declare the DTD using a DOCTYPE statement. Where should the DOCTYPE go?
+after the XML declaration and before the document’s root element
+
+65: Case-based Critical Thinking Questions
+ID
+
+66: Attribute-list declarations can be located anywhere within the document type declaration.
+False
+
+67: Which of the following is a part into which a DTD like the one in the accompanying figure can be divided?
+internal subset
+
+68: XML parsers interpret the _____ symbol as a reference to another entity and attempt to resolve the reference.
+&
+
+69: DTDs do not support _____, and thus are of limited value in compound documents.
+namespaces
+
+70: Used in conjunction with an XML parser that supports data validation, a DTD can be used to accomplish what?
+[Not graded]
+
+71: An element declaration employing the #PCDATA content model shown in the accompanying figure does not allow for child elements.
+True
+
+72: Attributes that are limited to a set of possible values are known as _____ types.
+enumerated
+
+73: Most standard XML vocabularies have _____ identifiers.
+public
+
+74: The declaration _____ would permit this element in an XML document: <name>Lea Ziegler</name>.
+<!ELEMENT name (#PCDATA)>
+
+75: While very flexible, elements with _____ content do not add much defined structure to a document.
+mixed
+
+76: Because a DTD is not written in the XML language, XML _____ must support the syntax and language requirements needed to interpret DTD code.
+parsers
+
+77: For a DTD to validate either binary data, such as images or video clips, or character data that is not well formed, you need to work with parsed entities.
+False
+
+78: A(n) _____ specifies an element’s name and indicates what kind of content it can contain.
+element declaration
+
+79: The _____ content model is reserved for elements that store no content.
+EMPTY
+
+80: In a(n) _____ subset, the declarations are placed in an external file that is accessed from the XML document.
+external
+
+81: Generally, elements contain parsed character data or child elements.
+False
+
+82: The _____ value for the content model in an element declaration means the element can contain only parsed character data.
+#PCDATA
+
+83: One way to create a valid document is to design a document type definition, or DTD, for the document.
+False
+
+84: Attribute values do not allow you to control the format of the character data.
+False
+
+85: An attribute declared as a(n) _____ token must have a value equal to the value of an ID attribute located somewhere in the same document.
+IDREF
+
+86: Which of the following is a part into which a DTD like the one in the accompanying figure can be divided?
+external subset
+
+87: To test for validity, an XML parser must be able to compare the XML document with the rules established in the DTD.
+False
+
+88: The _____ value for the content model in an element declaration means the element can contain both parsed character data and child elements.
+#PCDATA with sequence
+
+89: What are the five possible values for content-model in the element declaration?
+[Not graded]
+
+90: The #FIXED attribute default is used to indicate that the use of an attribute is optional.
+False
+
+91: Entities can reference content found either in an external file or within the DTD itself.
+False
+
+1: Case-based Critical Thinking Questions
+Judy has begun to apply the basic information that you have given her about schemas, and she would now like your help in mastering the details of how schemas work. 
+
+Judy has included the following element definition in her schema:
+
+     <xs:element name=“ingredient”>
+            <xs:complexType>
+                  <xs:sequence>
+                        <xs:element name=“name” type=“xs:string” />
+                        <xs:element name=“amount” type=“xs:string” />
+                  </xs:sequence>
+            </xs:complexType>
+     </xs:element>
+
+In this schema, what type of element is ingredient?
+an element with nested children
+
+2: A base type is one of _____ fundamental data types not defined in terms of other types.
+19
+
+3: The choice compositor requires that child elements must appear either only once or not at all.
+False
+
+4: Schemas do not allow numeric data types.
+False
+
+5: Case-based Critical Thinking Questions
+Judy wants to be able to validate the XML documents that she uses for recipes. These documents include numeric elements that specify ingredient amounts and cooking times, so you recommend that she use a schema instead of a DTD, and you teach her some of the key facts about schemas. You teach Judy about the differences between simple and complex data types. Which of the following would NOT require a complex type?
+an element containing only text
+
+6: To specify that an element contains both text and child elements, add the _____ attribute to the <complexType> of an element.
+mixed
+
+7: According to the data types defined in the accompanying figure, what is the form that the unique IDs must take?
+SI###-###-##
+
+8: DTDs employ a syntax called _____, which is different from the syntax used for XML.
+EBNF
+
+9: Attributes use the same collection of data types that simple type elements do.
+False
+
+10: If an element contains attributes, you have to extend the simple content model to include attributes through the use of the <_____> tag.
+extension
+
+11: The _____ data type allows an element to contain any text string.
+string
+
+12: Case-based Critical Thinking Questions
+Judy wants to be able to validate the XML documents that she uses for recipes. These documents include numeric elements that specify ingredient amounts and cooking times, so you recommend that she use a schema instead of a DTD, and you teach her some of the key facts about schemas. Judy has an element called “recipeName” that she uses to record the name of a recipe. This element only contains text. Which of the following would be a valid XML Schema definition for this element?
+<xs:element name=“recipeName” type=“xs:string” />
+
+13: The values belonging to the data type indicated in the accompanying figure must be _____ IDs.
+unique
+
+14: What are the limitations of mixed content elements? Under what circumstances should you not use them?
+[Not graded]
+
+15: Discuss the limits of DTDs, using examples.
+[Not graded]
+
+16: The string data type is a(n)  _____ data type, which is part of the XML Schema language.
+built-in
+
+17: A _____ expression is a text string that defines a character pattern.
+regular
+
+18: A _____ can be appended to a character type or set to specify the number of occurrences for a particular character or group of characters.
+quantifier
+
+19: The item indicated with the arrow in the accompanying figure is the XML Schema namespace _____.
+URI
+
+20: A(n) _____ data type is a list of values separated by white space.
+list
+
+21: Case-based Critical Thinking Questions
+Judy has begun to apply the basic information that you have given her about schemas, and she would now like your help in mastering the details of how schemas work. 
+
+Judy has included the following element definition in her schema:
+
+     <xs:element name=“ingredient”>
+            <xs:complexType>
+                  <xs:sequence>
+                        <xs:element name=“name” type=“xs:string” />
+                        <xs:element name=“amount” type=“xs:string” />
+                  </xs:sequence>
+            </xs:complexType>
+     </xs:element>
+
+Judy would like to indicate that the "substitution" attribute is a required attribute. Which of the following attribute definitions shows how to accomplish this?
+<xs:attribute name=“substitution” type=“xs:string” use=“required” />
+
+22: If both the maxOccurs and minOccurs attributes are missing, the element is assumed to occur _____.
+once
+
+23: XML Schema allows for ample flexibility in the date and time format.
+False
+
+24: Identify the letter of the choice that best matches the phrase or definition.
+
+String data type for a text string in which blank spaces are replaced with a single blank space and opening and closing spaces are removed 
+xs:token
+
+String data type for a text string containing valid XML names with no white space 
+xs:NMTOKEN
+
+String data type derived from the Name data type, but restricting the use of colons anywhere in the name 
+xs:NCName
+
+Properties that distinguish one data type from another 
+facet
+
+Content that contains two or more values placed within a defined structure 
+complex type
+
+Examples in XML Schema include sequence, choice, and all 
+compositor
+
+An XML document that contains validation rules for an XML vocabulary 
+schema
+
+String data type for a value matching an unparsed entity defined in a DTD 
+xs:ENTITY
+
+Data type, another name for which is the “base type” 
+primitive
+
+An XML document to be validated by a schema 
+instance document
+
+
+25: Date values must be entered in the format _____.
+yyyy-mm-dd
+
+26: The XML document to be validated is called the _____ document.
+instance
+
+27: Unlike DTDs, schemas do not use a single standard.
+False
+
+28: Case-based Critical Thinking Questions
+Judy wants to be able to validate the XML documents that she uses for recipes. These documents include numeric elements that specify ingredient amounts and cooking times, so you recommend that she use a schema instead of a DTD, and you teach her some of the key facts about schemas. Judy has an attribute called “recipeType” that she uses to record whether the recipe is for an appetizer, entree, dessert, or other type of dish. This attribute only contains text. Which of the following would be a valid XML Schema definition for this attribute?
+<xs:attribute name=“recipeType” type=“xs:string” />
+
+29: As shown in the accompanying figure, XML Schema supports _____ types of content.
+two
+
+30: The _____ facet has three values: preserve, replace, and collapse.
+whiteSpace
+
+31: Given the accompanying figure, because the ID data type is built into the XML Schema, all elements and attributes from the XML Schema vocabulary must be identified using the xs namespace prefix.
+True
+
+32: Instead of a pattern involving specific characters, you usually want a more general pattern involving _____ types that represent different kinds of characters.
+character
+
+33: To specify the number of occurrences for a particular character or group of characters, a(n) quantifier can be appended to a character type or set.
+False
+
+34: The _____ character type is a word character.
+\w
+
+35: When the mixed attribute is set to the value “true,” XML Schema assumes that the element contains both text and child elements.
+False
+
+36: The _____ data type is a text string similar to the NMTOKEN data type, except that names must begin with a letter or the character “:” or “-“.
+xs:Name
+
+37: The _____ facet specifies the maximum number of decimals in the data type’s value.
+totalDigits
+
+38: As shown in the accompanying figure, examples of a(n) _____ type of content are elements that contain attributes or elements that contain child elements.
+complex
+
+39: Case-based Critical Thinking Questions
+Judy wants to be able to validate the XML documents that she uses for recipes. These documents include numeric elements that specify ingredient amounts and cooking times, so you recommend that she use a schema instead of a DTD, and you teach her some of the key facts about schemas. You tell Judy that there are multiple vocabularies available for schema. Which of them is the most widely adopted?
+XML Schema
+
+40: A(n) _____ data type is a collection of data types that the XML Schema developers created based on the base types.
+derived
+
+41: User-derived data types fall into three categories: list, union, and restricted.
+False
+
+42: A list data type uses _____ as the delimiter.
+white space
+
+43: A(n) _____ type contains two or more values placed within a defined structure in XML Schema.
+complex
+
+44: A primitive data type is also known as a(n) _____ type.
+base
+
+45: XML Schema supports a collection of built-in data types, but does not allow users to define their own.
+False
+
+46: The _____ compositor defines a specific order for the child elements.
+sequence
+
+47: The maxOccurs attribute can have a value of _____ for unlimited occurrences of the child element.
+unbounded
+
+48: Which of the following is a valid ID according to the accompanying figure?
+SI333-567-88
+
+49: Perhaps the most commonly used data type in XML Schema is _____.
+string
+
+50: Case-based Critical Thinking Questions
+Judy has begun to apply the basic information that you have given her about schemas, and she would now like your help in mastering the details of how schemas work. 
+
+Judy has included the following element definition in her schema:
+
+     <xs:element name=“ingredient”>
+            <xs:complexType>
+                  <xs:sequence>
+                        <xs:element name=“name” type=“xs:string” />
+                        <xs:element name=“amount” type=“xs:string” />
+                  </xs:sequence>
+            </xs:complexType>
+     </xs:element>
+
+Judy would like to add a definition for an attribute called “substitution” to the element definition. It will indicate a possible substitution for the ingredient specified by the element. Where should the definition of this attribute appear in the element definition?
+between the lines for </xs:sequence> and </xs:complexType>
+
+51: A regular expression is a text string that defines a character pattern.
+False
+
+52: The xs:float data type is a double precision floating point number.
+False
+
+53: A(n) _____ data type is composed of the value and/or lexical spaces from any number of base types.
+union
+
+54: A schema is an XML document that contains validation rules for an XML vocabulary.
+False
+
+55: The namespace prefix in the accompanying figure is xs.
+True
+
+56: Case-based Critical Thinking Questions
+Judy has begun to apply the basic information that you have given her about schemas, and she would now like your help in mastering the details of how schemas work. 
+
+Judy has included the following element definition in her schema:
+
+     <xs:element name=“ingredient”>
+            <xs:complexType>
+                  <xs:sequence>
+                        <xs:element name=“name” type=“xs:string” />
+                        <xs:element name=“amount” type=“xs:string” />
+                  </xs:sequence>
+            </xs:complexType>
+     </xs:element>
+
+In her definition of the recipe element, Judy would like to reference the existing definition of the ingredient element. Which of the following element declarations accomplishes this?
+<xs:element ref=“ingredient” />
+
+57: A(n) _____ data type, or base type, is one of the fundamental data types that are not defined in terms of other types.
+primitive
+
+58: The _____ and extension elements are important tools used by XML Schema to derive new data types and design complex content models.
+simpleContent
+
+59: The _____ facet specifies the maximum number of decimal places to the right of the decimal point in the data type’s value.
+fractionDigits
+
+60: The accompanying figure shows the xs:ID data type applied to the stuID attribute.
+True
+
+61: Describe the three components involved in deriving any new data type.
+[Not graded]
+
+62: The root element in any XML Schema document is the main element.
+False
+
+63: By convention, the namespace prefix _____ is assigned to the XML Schema namespace in order to identify elements and attributes that belong to the XML Schema vocabulary.
+xsd
+
+64: DTDs employ a syntax called _____.
+Extended Backus Naur Form
+
+65: The _____ facet constrains the data type to a specified list of values.
+enumeration
+
+66: The _____ value of the use attribute means that the use of the attribute is optional with the element.
+optional
+
+67: As shown in the accompanying figure, examples of a(n) _____ type of content are the value of an attribute or the textual content of an element.
+simple
+
+68: XML Schema was created to replicate all DTD functionality in a schema; it does not support any data types beyond what can be found in DTDs.
+False
+
+69: When data values belong to a range rather than a set of values, you can create a list of possible values using the enumeration element.
+False
+
+70: The _____ value of the use attribute means that the attribute cannot be used with the element.
+prohibited
+
+71: The code to specify the location of the schema file depends on whether the instance document has been placed in a namespace.
+False
+
+72: A(n) _____ complex type has no name attribute used in the opening <complexType> tag.
+anonymous
+
+73: To indicate whether an attribute is required, you add the _____ attribute to the element declaration or reference.
+use
+
+74: The _____ data type is a text string containing valid XML names with no white space.
+xs:NMTOKEN
+
+75: Case-based Critical Thinking Questions
+Judy has begun to apply the basic information that you have given her about schemas, and she would now like your help in mastering the details of how schemas work. 
+
+Judy has included the following element definition in her schema:
+
+     <xs:element name=“ingredient”>
+            <xs:complexType>
+                  <xs:sequence>
+                        <xs:element name=“name” type=“xs:string” />
+                        <xs:element name=“amount” type=“xs:string” />
+                  </xs:sequence>
+            </xs:complexType>
+     </xs:element>
+
+Judy would like to indicate that the ingredient element must appear at least once in a recipe, and that it cannot appear more than 20 times. Which of the following should she add to the element declaration to indicate these restrictions?
+minOccurs=“1” maxOccurs=“20”
+
+76: An attribute is an example of a(n) _____ type.
+simple
+
+77: Which of the following is a category of data type in XML Schema?
+built-in
+
+78: Case-based Critical Thinking Questions
+Judy wants to be able to validate the XML documents that she uses for recipes. These documents include numeric elements that specify ingredient amounts and cooking times, so you recommend that she use a schema instead of a DTD, and you teach her some of the key facts about schemas. Which of the following is NOT an advantage of schemas over DTDs?
+They are simpler to create and maintain.
+
+79: According to the accompanying figure, the stuID values must follow the rules of what data type?
+siType
+
+80: _____ is the most widely adopted schema standard.
+XML Schema
+
+81: The _____ compositor allows any of the child elements to appear in any order in the instance document.
+all
+
+82: With the xs:float data type, non-numeric values can be represented by _____.
+NaN
+
+83: A(n) _____ data type is created by a schema author for specific data values in an instance document.
+user-derived
+
+84: A _____ is a text string of word characters around a word.
+boundary
+
+85: XML Schema divides its user-derived data types into two classes: primitive and derived.
+False
+
+86: A(n) _____ type contains a single value in XML Schema.
+simple
+
+87: In a new data type, the _____ is the set of values that correspond to the data type.
+value space
+
+88: Derived data types share many of the same characteristics as the _____ data types they are derived from, but with one or two additional restrictions or modifications.
+primitive
+
+89: A file written in XML Schema typically ends with the _____ file extension.
+.xsd
+
+90: The arrow in the accompanying figure points to the XML Schema _____.
+namespace URI
+
+91: The _____ value of the use attribute means that the attribute must always appear with the element.
+required
+
+1: The standard vocabulary _____ has a namespace URI: http://www.w3.org/2001/vxml.
+VoiceML
+
+2: To _____ multiple style sheets to a compound document, you add a separate processing instruction for each style sheet.
+link
+
+3: One benefit of XML vocabularies is the ability to use simple element names to describe data.
+False
+
+4: Case-based Critical Thinking Questions
+Betty Trooper owns and operates a realty company. She has provided you with properties.xml, which is a file that contains a list of properties enrolled in the multiple listing database. She has created three different versions of a schema for the properties vocabulary and needs help in choosing the most appropriate schema design for her needs. Betty wants to review the Russian Doll design. She understands that there is only one global element with everything else nested inside of it. She also knows that a Russian Doll design is much more compact than a Flat Catalog, but _____.
+multiple levels of nested elements can be confusing
+
+5: If a namespace is attached to the schema, only the root element needs to be _____ in the instance document.
+qualified
+
+6: Declarations with _____ scope are available only to a given complex type.
+local
+
+7: Many _____ developers consider it a best practice to qualify all elements in the instance document to avoid confusion about which elements belong to which namespaces.
+XML
+
+8: A(n) _____ design has only one global element with everything else nested inside of it.
+Russian Doll
+
+9: Compare the three schema designs in four categories: global and local declarations; nesting of elements; reusability; and interaction with namespaces.
+[Not graded]
+
+10: The number of namespace attributes that can be declared within an element is _____.
+unlimited
+
+11: A Venetian Blind design represents a(n) _____ between Flat Catalogs and Russian Dolls.
+compromise
+
+12: The general form for applying a qualified name to a two-sided tag is <prefix:element> ... </prefix:element> where prefix is the namespace prefix and element is the _____ part.
+local
+
+13: If the namespace prefix is omitted, the URI in the _____ rule is considered to be the default namespace for the selectors in the style sheet.
+@namespace
+
+14: A _____ document is a document that combines from multiple vocabularies.
+compound
+
+15: In the accompanying figure, item _____ represents the students element and contents copied from the student.xml document
+3
+
+16: Creating _____ element names to avoid name collisions eliminates the ability to use simple element names to describe data.
+complex
+
+17: If you are interested in a compact schema that mirrors the structure of the instance document, you should use a _____ design.
+Russian Doll
+
+18: Applying a namespace to an XML document involves identifying the elements and attributes within the document that belongs to that namespace and _____.
+declaring the namespace
+
+19: Urma has begun to apply the basic information that you have given her about schemas, and she wants to understand a schema with and without qualified XML Schema object names. Urma needs to identify the code for references to objects from XML Schema namespace that require a prefix. What line of code represents this?
+<xsi:complexType name =”sType”>
+
+20: Describe how name collision occurs.
+[Not graded]
+
+21: Any customized data types, named types, elements, element groups, or attributes created in the schema are considered part of the target namespace.
+False
+
+22: In XML Schema, any element or attribute with global scope must be entered as a(n) _______ name.
+qualified
+
+23: Because an attribute is automatically associated with the namespace of its element, you rarely need to unqualify an attribute name.
+False
+
+24: In the accompanying figure, an example of an element from the students vocabulary is _____
+firstName
+
+25: A(n) standard document is a document that combines elements from multiple vocabularies.
+False
+
+26: If you choose to use a vocabulary’s namespace as the default namespace for a schema, you do not have to qualify any references to customized objects in the _____ namespace.
+target
+
+27: To require all elements to be qualified but not all attributes, you enter the following code into the schema element:
+unqualified
+
+28: In the accompanying figure, the prefix _____ is added to the opening and closing tags for all elements in the course namespace.
+crs
+
+29: The _____ of a namespace declaration declaring a prefix extends from the beginning of the opening tag to the end of the corresponding closing tag.
+scope
+
+30: In the accompanying figure, item _____ represents duplicate attributes deleted from the opening students tag.
+2
+
+31: If an element has a qualified name such as stu:student, you do not include the prefix in the _____ name.
+selector
+
+32: A(n) namespace is a defined collection of element and attribute names.
+False
+
+33: Urma has begun to apply the basic information that you have given her about schemas, and she wants to understand a schema with and without qualified XML Schema object names. In the example code, <xsi:attributeGroup ref =”studentAtt”/>, a reference to objects from the students namespace that do not require prefixes is _____.
+studentAtt
+
+34: To _____ an object from an imported schema, you must declare the namespace of the imported schema in the schema element.
+reference
+
+35: Default namespaces apply to elements, but not to attributes.
+False
+
+36: In a(n) _____ design, all declarations are made globally.
+Flat Catalog
+
+37: When referencing elements in an imported schema file, the prefix _____ have to match the prefix used in the imported schema file.
+doesn't
+
+38: The association between the namespace and the _____ declared in an element does not apply to the siblings of that element.
+prefix
+
+39: An unqualified name is an element name consisting of the namespace prefix and the local part.
+False
+
+40: After a schema is imported into another schema file, any objects it contains with global scope can be referenced in that file.
+False
+
+41: In a Flat Catalog design—sometimes referred to as a(n) _____ design—all element and attribute definitions have global scope.
+Salami Slice
+
+42: If a namespace prefix is declared more than once, only the last instance is used in the style sheet.
+False
+
+43: Objects with _____ scope can be referenced only within the object in which they are defined.
+local
+
+44: The _____ schema design element declarations are not nested.
+Flat Catalog
+
+45: To associate the _____ of a schema with a namespace, you declare the namespace of the instance document in the schema element and then make that namespace the target of the schema using the targetNamespace attribute.
+rules
+
+46: The following code declares a namespace with the URI _____ within the course element and applies the schema file course.xsd to the document:
+http://example.com/higheredtestprep/course/ns
+
+47: Case-based Critical Thinking Questions
+Betty Trooper owns and operates a realty company. She has provided you with properties.xml, which is a file that contains a list of properties enrolled in the multiple listing database. She has created three different versions of a schema for the properties vocabulary and needs help in choosing the most appropriate schema design for her needs. In Flat Catalog design, every element and attribute definition is a direct _____ of the root element and thus has been defined globally.
+child
+
+48: Each include and import element in a schema must be globally declared as a direct child of the _____ schema element.
+root
+
+49: Urma has begun to apply the basic information that you have given her about schemas, and she wants to understand a schema with and without qualified XML Schema object names. The line of code <xsi:schema xmnls:xsi=”http”://www.w3.org/2001/XMLSchema identifies to Urma that the XMLSchema namespace is qualified by the _____.
+xsi
+
+50: In the Venetian Blind schema design if a namespace is attached to the schema, only the root element needs to be qualified in the instance document.
+False
+
+51: The _____ schema design contains one single global element; all others declarations are local.
+Venetian Blind
+
+52: A Venetian Blind design represents a compromise between Flat Catalogs and Russian Dolls.
+False
+
+53: Declarations with _____ scope can be referenced throughout the schema file.
+global
+
+54: The scope of a namespace declaration declaring a(n) suffix extends from the beginning of the opening tag to the end of the corresponding closing tag.
+False
+
+55: When the specifications for XML 1.0 were first posted, support existed for namespaces.
+False
+
+56: Objects with global scope are direct children of the root schema element and can be referenced throughout the schema document.
+False
+
+57: Identify the letter of the choice that best matches the phrase or definition.
+
+Represents a compromise between Flat Catalogs and Russian Dolls   
+Venetian Blind Design
+
+To declare a namespace in a style sheet 
+@namespace
+
+Has only one global element with everything else nested inside of it 
+Russian Doll Design
+
+Used when the schemas come from different namespaces 
+import
+
+Referred to as a Salami Slice design 
+Flat Catalog Design
+
+A defined collection of element and attribute names 
+namespace
+
+A direct child of the root schema element and can be referenced throughout the schema document 
+global scope
+
+A document that combines elements from multiple vocabularies 
+compound element
+
+To combine schema files from the same namespace 
+include
+
+Referenced within the object in which it is defined 
+local scope
+
+
+58: A compound document is a document that combines elements from _____ vocabularies.
+multiple
+
+59: In the accompanying figure, the prefix _____ is added to opening and closing tags for all elements in the students namespace.
+stu
+
+60: In the accompanying figure, name is an element from the _____ vocabulary.
+course
+
+61: The duplication of element names is an example of name _____, which occurs when the same element name from different XML vocabularies is used within a compound document.
+collision
+
+62: Discuss whether to namespace or not to namespace?
+[Not graded]
+
+63: The _____ schema design element declarations can only be used once.
+Russian Doll
+
+64: A(n) Russian Doll design has only one global element with everything else nested inside of it.
+False
+
+65: In the Venetian Blind schema design, named complex types, element groups, and attribute groups can be _____ throughout the schema.
+reused
+
+66: Some XML authors add all namespace declarations to the document’s _____ element so that the namespace is available to all elements within the document.
+root
+
+67: Betty Trooper owns and operates a realty company. She has provided you with properties.xml, which is a file that contains a list of properties enrolled in the multiple listing database. She has created three different versions of a schema for the properties vocabulary and needs help in choosing the most appropriate schema design for her needs. Following is an example of a schema code: What is the name of the Russian Doll schema document?
+studentsrd.xsd
+
+68: The XML Schema group element is used to assign a name to a list of references to elements or attributes, and then the named group is referenced elsewhere using the _____ attribute.
+ref
+
+69: In an environment in which large and complex XML vocabularies are developed, different teams might work on different parts of the schema, using the _____ element to combine the different parts into a finished product.
+include
+
+70: The schema design that requires more code than either of the designs combined is _____.
+Garden of Eden
+
+71: Not all browsers support the use of the @namespace rule.
+False
+
+72: Browsers are looking for qualified element names in your instance document, but your schema is configured to expect unqualified names.
+False
+
+73: A(n) _____ design does not declare elements and attributes globally, but instead creates named types and references those types within a single global element.
+Venetian Blind
+
+74: A Russian Doll design represents a compromise between Flat Catalogs and Venetian Blinds.
+False
+
+75: Like an element name, an attribute can be qualified by adding a namespace _____.
+prefix
+
+76: In a(n) _____ document containing elements from more than one namespace, after you declare the namespaces, you must indicate which elements in the document belong to each namespace.
+instance
+
+77: If a(n) _____ contains several lines of code that need to be repeated, you probably should use a Flat Catalog or Venetian Blind design.
+schema
+
+78: A Russian Doll design is much more compact than a(n) _____, but the multiple levels of nested elements can be confusing and can make it more difficult to debug.
+Flat Catalog
+
+79: The root element of the instance document becomes the top element declaration in the schema.
+False
+
+80: Case-based Critical Thinking Questions
+Betty Trooper owns and operates a realty company. She has provided you with properties.xml, which is a file that contains a list of properties enrolled in the multiple listing database. She has created three different versions of a schema for the properties vocabulary and needs help in choosing the most appropriate schema design for her needs. If Betty uses Flat Catalog design, which of the following is true?
+All element and attribute definitions have global scope.
+
+81: One way to combine schemas is through _____; this is used when the schemas come from different namespaces.
+importing
+
+82: A schema can contain any number of include and import elements.
+False
+
+83: In the accompanying figure, the element added as a child element of the course element, occurring after the instructor element, is _____.
+students
+
+84: Betty Trooper owns and operates a realty company. She has provided you with properties.xml, which is a file that contains a list of properties enrolled in the multiple listing database. She has created three different versions of a schema for the properties vocabulary and needs help in choosing the most appropriate schema design for her needs. Following is an example of a schema code: What is the name of the Flat Catalog schema document?
+studentsfc.xsd
+
+85: Urma has begun to apply the basic information that you have given her about schemas, and she wants to understand a schema with and without qualified XML Schema object names. Urma needs to identify the code for references to objects from the XMLSchema namespace that do not require prefix. What line of code represents this?
+<complexType name =”sType”>
+
+86: The standard vocabulary _____ has namespace URI: http://www.itunes.com/dtds/podcast-1.0.dtd.
+ITunes Podcast
+
+87: In the accompanying figure, item _____ represents the XML schema namespace attribute.
+1
+
+88: Urma has begun to apply the basic information that you have given her about schemas, and she wants to understand a schema with and without qualified XML Schema object names. In the example code, <attributeGroup ref =”stu:studentAtt”/>, a reference to objects from the students namespace that require prefixes is _____.
+stu
+
+89: The root element of the _____ document becomes the top element declaration in the schema.
+instance
+
+90: The building blocks of any schema are the XML elements that define the structure; these are known collectively as _____.
+objects
+
+91: After a schema is imported into another schema file, any _____ it contains with global scope can be referenced in that file.
+objects
+
+1: Multiple nodes sets can be combined into a single location path using the union ( _____ ) operator.
+​|
+
+2: Rather than nesting the entire collection of attributes, those attributes can be grouped within a(n) _____, which allows you to add several attributes to the same element without having a long nested statement.
+attribute set
+
+3: Jeremy has been using XML to organize data for a company that manufactures medical devices. He knows you have experience writing XML data to an output file using XSLT and XPath, and asks for your help improving the display of his data.
+<xsl:template match="/">
+styles
+</xsl:template>
+
+4: A(n) _____ is part of a location path that restricts the node set to only those nodes that fulfill a specified condition.
+​predicate
+
+5: ​In the root element for an XSLT document, the stylesheet element needs to be placed in the http://www.w3.org/1999/XSL/_____ namespace.
+​Transform
+
+6: The _____ attribute of the output element specifies whether the output should be indented to better display its structure.
+​indent
+
+7: In the node tree shown in the accompanying figure, "portfolio" is a _____ node of "author."
+​parent
+
+8: You can reduce errors and speed up processing by using the indent="yes" attribute with the <xsl:output /> tag.​
+False
+
+9: The xsl:choose element provides a condition from which to choose.​
+False
+
+10: Describe at least four tips to keep in mind to promote the creation of clear, effective XSLT style sheets.
+[Not graded]
+
+11: The _____ comparison operator combines two expressions, returning a value of true only if both expressions are true.
+​and
+
+12: Jeremy has been using XML to organize data for a company that manufactures medical devices. He knows you have experience writing XML data to an output file using XSLT and XPath, and asks for your help improving the display of his data.
+​Transform devices.xml devices.xsl –o:devices.html
+
+13: If the root element in the result document is the XHTML element, then the result document will be created as an XHTML file.​
+False
+
+14: Jeremy has been using XML to organize data for a company that manufactures medical devices. He knows you have experience writing XML data to an output file using XSLT and XPath, and asks for your help improving the display of his data.
+​<xsl:output method="html"
+doctype-system="about:legacy-compat"
+encoding="UTF-8"
+indent="yes" />​
+
+15: You can test for the presence or absence of an attribute or element by entering the attribute or element name without any _____ operator.
+​comparison
+
+16: The _____ language, which was introduced by W3C, is used to access and navigate the contents of a data tree.
+XPath
+
+17: To apply a template, use the _____ instruction.
+​apply-templates
+
+18: The fundamental template in the XSLT style sheet is the _____ template, which defines styles for the source document’s root node.
+​root
+
+19: The simplest way to view a web page generated by an XSLT 1.0 style sheet is to open the source document in your web browser.​
+False
+
+20: One of the functions of XPath is to translate this hierarchical structure into an expression called a(n) _____ that references a specific node or node set from the source document.
+location path
+
+21: Hue is developing an XSLT style sheet to display data from a research survey. The structure of the surveys.xml file is shown in the accompanying figure. She comes to you for assistance in preparing the final file. Hue has created an XSLT style sheet named survey.xsl. She would like to link this style sheet to her XML source document. Which of the following do you tell her shows the correct form of the processing instruction she should use?
+​<?xml-stylesheet type="text/xsl" href="survey.xsl" ?>
+
+22: The root document contains the data that will be transformed using a style sheet.
+False
+
+23: ​The _____ element is applied when no conditions are satisfied.
+​xsl:otherwise
+
+24: Hue is developing an XSLT style sheet to display data from a research survey. The structure of the surveys.xml file is shown in the accompanying figure. She comes to you for assistance in preparing the final file. Hue would like to display the value of the date element in her result document. Which of the following do you tell her shows the correct code to use to display this information?
+​<xsl:value-of select="surveys/survey/date" />
+
+25: The xsl:value-of element applies a template for the selected nodes.​
+False
+
+26: Jeremy has been using XML to organize data for a company that manufactures medical devices. He knows you have experience writing XML data to an output file using XSLT and XPath, and asks for your help improving the display of his data.
+​java net.sf.saxon.Transform devices.xml devices.xsl –o:devices.html
+
+27: ​Identify the letter of the choice that best matches the phrase or definition.
+
+Used to transform the contents of the source document into a new format 
+​XSLT processor
+
+​Default file output format of an XSLT processor 
+​XML
+
+Any elements that are sent directly to the result document as raw text​ 
+Literal result elements
+
+Node at the top of the node tree​ 
+​Root node
+
+Contains only part of a full XML document​ 
+​XML fragment
+
+Node at the top of a branch​ 
+​Ancestor node
+
+First part of an XSLT document​ 
+​XML declaration
+
+Language used to access and navigate the contents of an XML data tree​ 
+​XPath
+
+Tells an application what type of content a file contains​ 
+meta element
+
+An open source standalone processor supporting XSLT 2.0​ 
+​Saxon
+
+
+28: Hue is developing an XSLT style sheet to display data from a research survey. The structure of the surveys.xml file is shown in the accompanying figure. She comes to you for assistance in preparing the final file. ​Hue would like to access the response attribute of the question element. Which of the following do you tell her represents the absolute reference to this attribute?
+​/surveys/survey/question/@response
+
+29: Simply creating a template forces the XSLT processor to use it with the result document.​
+False
+
+30: The _____ document contains the data that will be transformed using a style sheet.
+​source
+
+31: Which of the following XPath expressions for relative paths refers to the parent of the parent of the context node?
+​../..
+
+32: A(n) _____ path is a path that always starts from the root node and descends down through the node tree to a particular node or node set.
+​absolute
+
+33: A(n) _____ is a collection of styles that are applied to a specific node set within the source document.
+template
+
+34: When writing a value to an XML attribute, you must enclose the XPath expression within _____.
+​curly braces
+
+35: One of the functions of XPath is to translate the hierarchical structure of an XML document into an expression called a location path that references a specific node or node set from the source document. The location path can be written in either absolute or relative terms.
+[Not graded]
+
+36: A collection of nodes is called a(n) _____.
+node set
+
+37: The _____ attribute of the output element defines the output format.
+​method
+
+38: The relative path .. refers to the parent of the context node.​
+False
+
+39: Which of the following XPath expressions for relative paths refers to the context node itself?
+​.
+
+40: In the node tree shown in the accompanying figure, "sName" is a(n) _____ node of "portfolio."
+​descendant
+
+41: The _____ element chooses among different possible styles to apply to the result  document.
+​xsl:choose
+
+42: If there are multiple nodes that match the location path, you can create a style for each matching node using the for-each instruction.​
+False
+
+43: Which of the following parts of a source document is NOT considered a node?
+​An entity reference
+
+44: When using the sort instruction, if no attribute values are specified then the nodes are sorted in ascending order with _____ characters sorted first and the language determined by the operating system.
+​uppercase
+
+45: The _____ element provides a condition to choose from.
+​xsl:when
+
+46: Hue is developing an XSLT style sheet to display data from a research survey. The structure of the surveys.xml file is shown in the accompanying figure. She comes to you for assistance in preparing the final file. Hue would like to access the response attribute of the question element. Assume the question element is the context node. Which of the following do you tell her represents the relative path to this attribute?
+​question/@response
+
+47: A(n) predicate result element is any element that is not part of the XSLT vocabulary but is sent directly into the result document as raw text.​
+False
+
+48: ​Any node found at a level below another node is referred to as a(n) sibling of that node.
+False
+
+49: _____ is used to transform the contents of an XML document into another document format.
+​XSLT
+
+50: _____ was released in 1999 and enjoys universal support with XML processors and web browsers.
+​XPath 1.0
+
+51: XSL-FO (Extensible Stylesheet Language – Formatting Objects) is used to transform the contents of an XML document into another document format.​
+False
+
+52: The _____ element is used to define the format of the result document.
+​output
+
+53: _____ processing is a programming technique that applies different styles based on the values from the source document.
+Conditional
+
+54: In a(n) _____ transformation, a server receives a request from a client to generate the result document.
+server-side
+
+55: The xsl:otherwise element is applied when no conditions are satisfied.​
+False
+
+56: You can test for the presence or absence of an attribute or element by entering the attribute or element name without any comparison operator.​
+False
+
+57: Hue is developing an XSLT style sheet to display data from a research survey. The structure of the surveys.xml file is shown in the accompanying figure. She comes to you for assistance in preparing the final file. Hue would like to define a location path that matches both the surveyID and staffID elements nested within the survey element. Which of the following templates do you tell her properly matches both elements?
+<xsl:template match="@surveyID|@staffID">
+  <td><xsl:value-of select="." /></td>
+</xsl:template>​
+
+58: The _____ attribute tests whether the XPath expression returns a value of true or false; if it is true the enclosed style is applied.
+​test
+
+59: To display a data value from a node in the source document, XSLT employs the _____ element.
+​value-of
+
+60: In the sort instruction shown in the accompanying figure, _____ is an XPath expression that returns a set of nodes.
+​node set
+
+61: In a _____ transformation, a client requests retrieval of both a source document and a style sheet from the server.
+​client-side
+
+62: Set the indent attribute to yes to make the code in your result document easier to read.​
+False
+
+63: Which of the following XPath expressions for relative paths refers to the parent of the context node?
+​..
+
+64: If there are multiple nodes that match the location path, you can create a style for each matching node using the _____ instruction.
+​for-each
+
+65: The _____ document contains the data that will be transformed using a style sheet.
+source
+
+66: XPath supports the wildcard character ( _____ ) to reference nodes of any type or name.
+​*
+
+67: In the process of creating the HTML file, the XSLT processor uses HTML tags to create a(n) _____, which is composed of the element, attribute, text, and other nodes.
+result tree
+
+68: The various nodes from the source document are organized into a(n) _____.
+node tree
+
+69: _____ result elements are any elements that are not part of the XSLT vocabulary but instead are sent directly to the result document as raw text.
+​Literal
+
+70: Attributes can also be included in a location path using the XPath expression: _____@attribute.
+​node
+
+71: In the sort instruction shown in the accompanying figure, the _____ attribute defines the language used to determine sort order.
+​lang
+
+72: The _____ template defines styles for the source document’s root node.
+​root
+
+73: A(n) predicate can also indicate the position of a node in the node tree.​
+False
+
+74: The sort instruction can only be used within the _____ tag.
+​Either a. or b.
+
+75: A(n) _____ is the text contained within an element.
+text node
+
+76: Like many other programming languages, XSLT supports an else-if construction.​
+False
+
+77: ​In the node tree shown in the accompanying figure, "date" is a(n) _____ node of "stock."
+​sibling
+
+78: Most locations are written using relative paths in which the location path starts from a particular node (not necessarily the root node) called the _____ node.
+context
+
+79: Curly braces cannot be nested within the attribute value.​
+False
+
+80: Jeremy has been using XML to organize data for a company that manufactures medical devices. He knows you have experience writing XML data to an output file using XSLT and XPath, and asks for your help improving the display of his data.
+​//*
+
+81: The _____ attribute of the output element sets the URI for the public identifier in the <!DOCTYPE> declaration
+​doctype-public
+
+82: The _____ attribute of the output element sets the system identifier in the <!DOCTYPE> declaration.
+​doctype-system
+
+83: XSLT style sheets are XML documents.​
+False
+
+84: The match attribute of the xsl:template element is used to design the output format for the specified node set.​
+False
+
+85: A(n) _____ is any element that is part of the XSLT vocabulary.
+XSLT element
+
+86: An XSLT _____ is an XML document used to transform the contents of the source document into a new format, which appears in the result document.
+style sheet
+
+87: When the _____ attribute is omitted the apply-templates instruction automatically processes all of the children of the context node, including any text nodes.
+​select
+
+88: The result of the transformation of the source document appears in a(n) _____ document.
+result
+
+89: New elements can be combined with predicates, conditional statements, and the _____ instruction to create a subset of the original source document in a new structure.
+​for-each
+
+90: A _____ node is the text contained within an element.
+​text
+
+91: XPath operates by expressing the contents of the source document in terms of nodes. List at least four objects from an XML document that are considered nodes of that document, and two objects that are NOT considered nodes.
+[Not graded]
+
+1: p/ppp style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "A(n) _____ is a user-defined name that stores a value or an object./p/p
+variable
+
+2: XSLT and XPath 1.0 support three data types for numbers.
+False
+
+3: Many editors, including the Firefox browser, do not support the _____ attribute and will instead display the text of the file, including the HTML markup tags.
+​disable-output-escaping
+
+4: Variables are accessed using the reference @name where name is the variable name.
+False
+
+5: p/ppp style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "XSLT is considered a functional programming language. Define functional programming, and describe at least three of the key design principles of functional programming languages./p/p
+[Not graded]
+
+6: Which of the following shows the correct result of the substring-before function: substring-before("2017-10-05", "-")?
+​"2017"
+
+7: If you are concerned about name conflicts and want the active style sheet to always have precedence over the external sheet, always use the _____ element.
+​import
+
+8: If the expression is a number or Boolean value, the _____ element converts the expression to a text string and the text is output to the result document.
+​copy-of
+
+9: The normalize-space() function can also be used to remove extraneous white space characters from the beginning or end of any text string.
+False
+
+10: Many of the XPath functions work with sections of text strings called _____.
+​substrings
+
+11: Many of the XPath functions work with sections of text strings called _____.
+substrings
+
+12: George is developing an XSLT style sheet to display data from research surveys. The structure of the surveys.xml file is shown in the accompanying figure. He comes to you for assistance in preparing the final file.​ George was able to successfully access the functions in the surveyfunctions.xsl file from his new style sheet. However, he is having difficulty getting the functions to work. In looking over his code, you remind him that a function in a named template has to be _____ to be used.
+​called
+
+13: The _____ attribute of the decimal-format element represents the character used to separate the integer and fractional parts of the number.
+​decimal-separator
+
+14: The _____ function is an XSLT 1.0 function used to access the contents of an external XML file.
+document()
+
+15: If you place the include element at the beginning of your style sheet it will have precedence over the active style sheet.
+False
+
+16: p/ppp style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "The _____ element creates a variable as a user-defined name that stores a value or an object./p/p
+xsl:variable
+
+17: Some XSLT processors strip _____ nodes, which are nodes that contain only white space characters such as blanks, line returns, or tabs.
+white space
+
+18: George is developing an XSLT style sheet to display data from research surveys. The structure of the surveys.xml file is shown in the accompanying figure. He comes to you for assistance in preparing the final file.​ ​The source document contains data for thousands of surveys. George would like to display information for only the first six surveys. Which of the following shows the correct syntax for the predicate George should use to insure only the first six surveys are displayed?
+​[position() &lt;= 5]
+
+19: p/ppp style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "If you place the _____ element at the end of your style sheet it will have precedence over the active style sheet./p/p
+include
+
+20: ​One way to create a lookup table is to use the _____ function, which returns the active node being processed in the style sheet.
+​current()
+
+21: The number format symbol _____ is a placeholder that displays required digits in the formatted number.
+​0
+
+22: The _____ element includes the contents of an external style sheet file in the current style sheet.
+xsl:include
+
+23: XSLT and XPath 1.0 support only one data type for numbers—double precision floating point.
+False
+
+24: ​To set the value of a template parameter, use the _____ element.
+​with-param
+
+25: p/ppp style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "The _____ function calculates the sum of the numeric values in a node set./p/p
+sum()
+
+26: The XPath 1.0 numeric function _____ rounds number up to the next integer.
+​ceiling(number)
+
+27: The copy element under XSLT 2.0 also supports the inherit-namespace attribute.
+False
+
+28: p/ppp style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "List the three possible ways of accessing data from multiple source documents within an XSLT style sheet./p/p
+[Not graded]
+
+29: The number format symbol _____ separates the pattern for positive numbers from the pattern for negative numbers.
+​;
+
+30: If you only want to copy the descendent elements and attributes of the summary element but not the summary element itself, use the wildcard character (_____) in the copy-of element structure.
+​*
+
+31: _____ programming relies on the evaluation of functions and expressions, rather than on the sequential execution of commands.
+​Functional
+
+32: Parameters created in XSLT 2.0 also support the _____ attribute to define the data type of the parameter value.
+​as
+
+33: _____ is the process by which a function calls itself.
+​Recursion
+
+34: p/ppp style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "The locations in the style sheet where a variable can be referenced are known as the variable#8217;s _____./p/p
+scope
+
+35: p/ppp style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "One approach to including markup tags as part of an element#8217;s value is to place the HTML code within a(n) _____ section./p/p
+CDATA
+
+36: One way of accessing data from multiple source documents within an XSLT style sheet is by using the _____ unparsed-text() function.
+​XSLT 2.0
+
+37: A(n) recursive template is a template that is not matched to a node set but instead acts like a function to display a calculated value or perform an operation.
+False
+
+38: Do not use the &nbsp; entity to generate white space, even if you are generating HTML code, because that entity will not be recognized by the XSLT processor.
+False
+
+39: The copy element creates a(n) deep copy of the active node.
+False
+
+40: In XSLT, a variable can store a section of code.
+False
+
+41: The _____ attribute of the decimal-format element represents text used to represent entries that are not numbers.
+​NaN
+
+42: The expression format-number(-238.2, '#,##0.0;(#,##0.0)') displays the value –238.2 as _____.
+​(238.2)
+
+43: The number format symbol _____ separates the integer digits from the fractional digits.
+​.
+
+44: The XPath 1.0 numeric function _____ counts the number of items in values.
+​count(values)
+
+45: Which of the following shows the correct result of the nested substring functions: substring-before(substring-after("2017-10-05", "-"), "-")?
+​"10"
+
+46: Helena is studying functional programming, using the drawImages template shown in the accompanying figure as an example. She comes to you for help in learning the key features of functional programming. Helena would like to insert a blank space in the result document after the drawImages template runs. You tell her she can do this using the code _____.
+​<xsl:text> </xsl:text>
+
+47: Helena is studying functional programming, using the drawImages template shown in the accompanying figure as an example. She comes to you for help in learning the key features of functional programming. Helena has heard that every recursive function contains a base case that represents a stopping condition. In the drawImages template, you explain to her that the function would reach the base case when _____.
+​$imgCount = 0
+
+48: The _____ element includes the contents of an external style sheet file in the current style sheet.
+​xsl:include
+
+49: Which of the following shows the correct result of the substring function: substring("Harpe Gaming Store", 7, 6)?
+​"Gaming"
+
+50: The number format symbol _____ is a placeholder that displays an optional number of digits in the formatted number and is usually used as the far left symbol in the number format.
+​#
+
+51: The only element that the call-template element can contain is the with-param element.
+False
+
+52: To operate recursively, a function must call itself employing the base case.
+False
+
+53: Which of the following shows the correct syntax of the element used to import an external style sheet in the active style sheet?
+​<xsl:import href="uri" />
+
+54: Helena is studying functional programming, using the drawImages template shown in the accompanying figure as an example. She comes to you for help in learning the key features of functional programming. Helena has heard that every recursive function contains a change of state that occurs when the base case has not been reached. In the drawImages template, you explain to her that the change of state is represented by the code _____.
+​<xsl:with-param name="imgCount" select="$imgCount - 1" />
+
+55: Which of the following shows the correct syntax of the function supported by XSLT 2.0 to retrieve non-XML data?
+​unparsed-text(uri [,encoding])
+
+56: George is developing an XSLT style sheet to display data from research surveys. The structure of the surveys.xml file is shown in the accompanying figure. He comes to you for assistance in preparing the final file.​ George knows that the position() function returns the position of the node as it is displayed within the result document, not necessarily the position of the node in the source document. Which element do you suggest George use to retrieve the position values of the nodes as they appeared in the source document?
+​number
+
+57: p/ppp style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "The _____ function returns the current node being processed./p/p
+current()
+
+58: The XPath 1.0 numeric function ceiling(number) rounds number up to the next integer.
+False
+
+59: When using the document() function, you must enter the URI for a path on the local machine prefaced with _____, and any spaces or special characters must be replaced with escape codes.
+​file:///
+
+60: The copy-of element is similar to the copy element, as both create a deep copy of a node set.
+False
+
+61: If you want to insure that white space nodes are not deleted, you can apply the _____ element as a direct child of the stylesheet element.
+​preserve-space
+
+62: p/ppp style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "The _____ keyword is used to divide one numeric value by another./p/p
+div
+
+63: The number format symbol _____ separates groups of digits in the number.
+​,
+
+64: Which of the following expressions can be used to display the value of the active node?
+​<xsl:value-of select="." />
+
+65: Which of the following shows the correct result of the substring-after function: substring-after("2017-10-05", "-")?
+​"10-05"
+
+66: Variables that contain text strings should enclose those text strings within a separate set of _____.
+​quotation marks
+
+67: A(n) _____ template is a template that is not matched to a node set but instead acts like a function to display a calculated value or perform an operation.
+​named
+
+68: XSLT variables act more like constants because the value of an XSLT variable can only be defined once and it cannot be further updated.
+False
+
+69: A(n) _____ is a collection of data values that can be searched in order to return data that matches a supplied key value.
+lookup table
+
+70: Which of the following shows the correct syntax of the function used to test for the existence of an XML document?
+​doc-available(uri)
+
+71: Which of the following shows the correct syntax of the element used to include an external style sheet in the active style sheet?
+​<xsl:include href="uri" />
+
+72: Which of the following shows the correct result of the concat function: concat("October ", "10, ", "2017")?
+​"October 10, 2017"
+
+73: Helena is studying functional programming, using the drawImages template shown in the accompanying figure as an example. She comes to you for help in learning the key features of functional programming. Helena has heard that every recursive function function must call itself employing the change of state. In the drawImages template, you explain to her that this call is represented by the code _____.
+​<xsl:call-template name="drawImages">​
+
+74: If XPath is unable to calculate a value because of an error in the style sheet, it will return the text string "NaN" (Not a Number).
+False
+
+75: p/ppp style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "The _____ function specifies the text format of numeric values./p/p
+format-number()
+
+76: In general, you should use the number() function for numbering the nodes in the result document.
+False
+
+77: The _____ function will return a value of true if the document exists and is well-formed.
+​doc-available()
+
+78: In XSLT, a variable name can start with a number.
+False
+
+79: Which of the following if elements tests whether the context node is in the third position in the result document?
+​<xsl:if test="position()=3" />
+
+80: One way of accessing data from multiple source documents within an XSLT style sheet is by using the _____ doc() function.
+​XPath 2.0
+
+81: In XSLT, a variable can store a _____.
+​All of these are correct.
+
+82: The identity template matches any kind of node in the source document and copies them to the result document.
+False
+
+83: George is developing an XSLT style sheet to display data from research surveys. The structure of the surveys.xml file is shown in the accompanying figure. He comes to you for assistance in preparing the final file.​ The response attribute of the question element in George's surveys.xml file can contain paragraphs of text. Which of the following shows the code George could use to insure any white space in the response does not get stripped out when the final file is displayed?
+​<xsl:preserve-space elements="*" />
+
+84: p/ppp data-keepme="true" style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; #8203;Identify the letter of the choice that best matches the phrase or definition./p/p
+
+Can be referenced from anywhere within a style sheet/p 
+global variable
+
+Provides the remainder after performing a division of one number by another/p   
+operator
+
+Similar to variables except that their values can be passed to them from outside their scope/p 
+paramters
+
+Often used in projects in which the same code samples need to be repeatedly written to the result document/p 
+result tree fragment
+
+Element that sets the value of the template parameters defined within a named template/p 
+xsl:with-param
+
+Matches any kind of node in the source document and copies them to the result document/p 
+identity template
+
+Character used to represent numbers in parts per 1000/p 
+per-mille
+
+Creates a shallow copy of a node set/p 
+copy
+
+Creates a deep copy of a node set/p 
+copy-of
+
+Function used to remove extraneous white space characters from the beginning or end of any text string/p 
+normalize-space()
+
+
+85: Helena is studying functional programming, using the drawImages template shown in the accompanying figure as an example. She comes to you for help in learning the key features of functional programming. Helena has heard that it is possible to use a named template to store a variable value. You tell her she can do this having the last action of the template use the _____ element to set the variable value.
+​value-of
+
+86: p/ppp style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "Define the term scope, and describe the role of scope in the creation of XSLT style sheets, including an explanation the implication of a variable's possible scope./p/p
+[Not graded]
+
+87: White space nodes are nodes that contain only white space characters such as _____.
+​All of these are correct.
+
+88: The _____ attribute of the decimal-format element represents the character used to represent negative values.
+​minus-sign
+
+89: Named templates can be used to store variable values by having the last action of the template use the value-of element to set the variable value.
+False
+
+90: p/ppp style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "An important task is to combine, or _____, two or more text strings into a single text string./p/p
+concatenate
+
+1: "If you find it difficult to work with recursive templates, you can instead create loops in Saxon using the _____ extension.
+while
+
+2: The accompanying figure shows a sample node set, with the context node shaded blue. In each image, the objects in the node set that are selected by a specific step pattern axis value are numbered and shaded in red. Which axis value is represented by image G?
+following-sibling
+
+3: "You can test whether a processor supports a particular extension element or attribute using the _____ function
+element-available()
+
+4: _____ is the processor used by Internet Explorer.
+MSXML
+
+5: ​In a step pattern, to go in a different direction from the context node you change the node-test value.
+False
+
+6: Identify the letter of the choice that best matches the phrase or definition.
+[MC]
+
+7: "The first step in using extensions is to define an extension#8217;s namespace within the _____ element.
+stylesheet
+
+8: key() function can also be used with a(n) _____ to select a specific node from a node set.
+predicate
+
+9: The following expression uses a _____ key() function to return the count of all property elements from the city of Longmont:"count(key("cityNames", "Longmont")).
+nested
+
+10: Sandra is working with an XML file containing product orders with the structure shown in the accompanying figure. She was just introduced to step patterns, and would like to incorporate them into the style sheet she is developing to display the orders data. She comes to you for help in developing expressions incorporating step patterns./pbr //ppp data-keepme="true" style="font-family: ' font-size: 11pt; color: #000000; font-weight: normal; "Sandra would like to write an expression to select the third order element that follows the context node as a sibling. Which of the following do you tell her is the correct expression?
+following-sibling::order[3]
+
+11: The key() function cannot be used with data from external documents.​
+False
+
+12: If you designate one node set as"$n1and the other as"$n2, the expression:"generate-id($n1) = generate-id($n2)returns a value of _____ if the node set referenced by"$n1is the same as the node set referenced by"$n2.
+true
+
+13: You can use the _____ function to create global variables that reference the root nodes of external documents.
+document()
+
+14: "The _____ step to employ Muenchian grouping is to create a key for the element or attribute that you want to group using the key element.
+first
+
+15: In XPath 1.0, you cannot use document()function or variables in a key element's _____ attribute.
+match
+
+16: One item you can declare in a DTD is the "ID" attribute, which provides a way to uniquely identify a particular item in the source document. Review the syntax for declaring the ID attribute, and explain two benefits of declaring an ID.
+[Not graded]
+
+17: "The _____ math extension functions in EXSLT calculates the nodes with the lowest value in emnode-set/em.
+math.lowest(emnode-set/em)
+
+18: The accompanying figure shows a sample node set, with the context node shaded blue. In each image, the objects in the node set that are selected by a specific step pattern axis value are numbered and shaded in red. Which axis value is represented by image F?
+following
+
+19: Sandra is working with an XML file containing product orders with the structure shown in the accompanying figure. She was just introduced to step patterns, and would like to incorporate them into the style sheet she is developing to display the orders data. She comes to you for help in developing expressions incorporating step patterns./pbr //ppp data-keepme="true" style="font-family: ' font-size: 11pt; color: #000000; font-weight: normal; "Sandra would like to write an expression that moves up the node tree from the context node, selecting all of the elements that are order elements for the customer with the ID jbrown2738. Which of the following do you tell her is the correct expression?
+ancestor::order[custID="jbrown2738"]
+
+20:  "IDs can be associated only with elements.
+False
+
+21: The accompanying figure shows a sample node set, with the context node shaded blue. In each image, the objects in the node set that are selected by a specific step pattern axis value are numbered and shaded in red. Which axis value is represented by image J?
+preceding-sibling
+
+22: "Once you generate the list of unique values, you can use the _____ element to write code to the result document for each unique value.
+apply-templates
+
+23:  "The _____ function generates a unique ID for a specified node set.
+generate-id()
+
+24: To create a template for a particular node, include the mode attribute in the opening xsl:template tag.
+False
+
+25: Craig is working to develop an XSLT application to display election results, using XML files with the structures shown in the accompanying figure. He has heard that you have experience developing applications, and comes to you for guidance. Craig would like to be able to use data from both documents in his application. You suggest he create variables that will allow him to pull the node sets from both files. Which of the following shows the correct syntax to create a variable named"candidatesDocto reference the root node of the candidates.xml file?
+xsl:variable name="candidatesDoc" select="document('candidates.xml')"
+
+26: Craig is working to develop an XSLT application to display election results, using XML files with the structures shown in the accompanying figure. He has heard that you have experience developing applications, and comes to you for guidance. Craig would like to add a key named"precinctNamesbased on each votes element's precinct name. Which of the following elements do you recommend he add to the style sheet to create the key with the correct syntax?
+xsl:key name="precinctNames" match="//votes" use="@precinct"
+
+27: When a processor encounters an extension element it does not recognize, it searches inside of that element for the _____ element.
+fallback
+
+28: Provide an overview of the three key steps involved in employing Muenchian grouping.
+[Not graded]
+
+29: A DTD provides a way to uniquely identify a particular item in the source document.​
+False
+
+30: Keys are declared in the style sheet, not in the DTD of the source document.​
+False
+
+31: Keys are declared in the _____.
+style sheet
+
+32: The XML processor creates a(n) _____ that matches each element to a specific ID.
+index
+
+33: You can use the _____ function to create links for specific locations within a web page.
+generate-id()
+
+34: In a step pattern, the _____ defines properties of the node to be matched.
+predicate
+
+35: The node-test part of the step pattern specifies the direction the XSLT processor should move.
+False
+
+36: The accompanying figure shows a sample node set, with the context node shaded blue. In each image, the objects in the node set that are selected by a specific step pattern axis value are numbered and shaded in red. Which axis value is represented by image A?
+ancestor
+
+37: The _____ provides an expression that the node value should match.
+predicate
+
+38: The _____ attribute tells the XSLT processor which prefixes to regard as prefixes for extensions.
+extension-element-prefixes
+
+39: Craig is working to develop an XSLT application to display election results, using XML files with the structures shown in the accompanying figure. He has heard that you have experience developing applications, and comes to you for guidance. Now that candidatesDocvariable has been created, Craig would like to define a key named"cKeybased on the values of candidateIDattribute for the candidate. Which of the following do you tell him shows the correct syntax to use to define this key?
+xsl:key name="cKey" match="candidate" use="@candidateID"
+
+40: The _____ function returns a node-set that matches a specified value from a key index.
+key()
+
+41: The general syntax of a step pattern is _____.
+axis::node-test[predicate]
+
+42: To declare an"IDattribute as optional in the source document's DTD, use the expression _____.
+!ATTLIST element attribute ID #IMPLIEDgt;
+
+43: ​Traditional IDs, such as Social Security numbers or ISBNs, are commonly declared as ID attributes in DTDs.
+False
+
+44: The abbreviated form of the step pattern"self::node()is _____.
+.
+
+45: A community of XSLT developers created a standard collection of extension elements and extension functions called EXSLT.
+False
+
+46: The _____ step to employ Muenchian grouping is to add the following expression to the select attribute of a"for-eachor an"apply-templateselement:"node set[generate-id()=generate-id(key(name,expression)[1])].
+second
+
+47: Craig is working to develop an XSLT application to display election results, using XML files with the structures shown in the accompanying figure. He has heard that you have experience developing applications, and comes to you for guidance. Now that precinctNameskey has been declared, Craig would like to use it to return a count of all votes from the precinct of Ceylon. Which of the following functions do you suggest he use to do this?
+count(key("precinctNames", "Ceylon"))
+
+48: The key value itself does not have to be entered explicitly; it can also be inserted as a(n) _____ to a node in the source document.
+reference
+
+49:  Because only one template can be processed with any node, the processor must choose between competing templates for the same node. Using the"mode '"attribute is one way of explicitly assigning a template to a specific node. Explain the default priority number rules used by an XSLT processor to determine template priority.
+[Not graded]
+
+50:  The default value for the axis portion of the step pattern is self/spanspan style="font-family: '".
+False
+
+51: Templates with no mode attribute are applied to the specified node set.​
+False
+
+52: You can have your processor test whether it supports a particular extension function using the _____ function.
+function-available()
+
+53: In generate-id()function, if you omit the node set argument, the function _____.
+is applied to the current context node
+
+54: If you want to use keys with an external document, you have to first change the _____ node so that it points to a location path within that document.
+context
+
+55: The _____ function returns a node-set that matches a specified value from a key index.
+key()
+
+56: Sandra is working with an XML file containing product orders with the structure shown in the accompanying figure. She was just introduced to step patterns, and would like to incorporate them into the style sheet she is developing to display the orders data. She comes to you for help in developing expressions incorporating step patterns./pbr //ppp data-keepme="true" style="font-family: ' font-size: 11pt; color: #000000; font-weight: normal; "Sandra would like to write an abbreviated expression to select the parent of the current context node. Which of the following do you tell her is the correct abbreviated expression?
+..
+
+57: Keys can be thought of as generalized IDs, without their limitations.
+False
+
+58: In a step pattern, the _____ specifies the direction in which the processor should move through the node tree.
+axis
+
+59: You can support processors that do not recognize an extension element or attribute by using the fallback '"element.
+False
+
+60: The _____ function returns a node set based on IDs defined in the document#8217;s DTD.
+id()
+
+61: ​All IDs belong to the same index, even if they are associated with different attributes.
+False
+
+62: The _____ is an index based on a node specified in the"match '"attribute using the values from a node specified in the"use '"attribute.
+key
+
+63: When an XSLT processor encounters two templates with the same name, it uses the last one defined in the style sheet.
+False
+
+64: You can use the generate-id() function to create links for specific locations within a web page.​
+False
+
+65: Sandra is working with an XML file containing product orders with the structure shown in the accompanying figure. She was just introduced to step patterns, and would like to incorporate them into the style sheet she is developing to display the orders data. She comes to you for help in developing expressions incorporating step patterns./pbr //ppp data-keepme="true" style="font-family: ' font-size: 11pt; color: #000000; font-weight: normal; "Sandra would like to write an expression to create a node set of all the items elements. Which of the following do you tell her is the correct expression?
+orders/order[items]
+
+66: The accompanying figure shows a sample node set, with the context node shaded blue. In each image, the objects in the node set that are selected by a specific step pattern axis value are numbered and shaded in red. Which axis value is represented by image D?
+descendant
+
+67: The syntax for declaring a required"IDattribute is _____.
+!ATTLIST element attribute ID #REQUIREDgt;
+
+68: Many XSLT processors support _____ functions that extend the list of functions available to XPath and XSLT expressions.
+extension
+
+69: _____ is a programming technique in which nodes are grouped based on unique values taken from a key index matched to unique IDs created by the"generate-id() '"function.
+Muenchian grouping
+
+70: The _____ attribute provides a way to uniquely identify a particular item in the source document.
+ID
+
+71: ID attributes must be valid XML names and, therefore, they cannot contain _____ or begin with numbers.
+spaces
+
+72: When two templates can be applied to the same node set, you distinguish them by adding the _____ attribute within xsl:templategt;tag.
+mode
+
+73: The expression to select the first property element from the city of Longmont is _____.
+key("cityNames", "Longmont")[1]
+
+74: The _____ step to employ Muenchian grouping is to reference the group value using emexpression /emwhere emexpression/em is the element or attribute used to group the node set.
+third
+
+75: In addition to extension functions, you can also use extension elements and _____ in your style sheets.
+attributes
+
+76: Ancestor nodes have the same relation to parent nodes that _____ nodes have to child nodes.
+descendant
+
+77: Many XSLT processors support extension _____ that extend the data types associated with XSLT attributes.
+attribute values
+
+78: To reverse a node set, you use the XPath reverse() '"function.
+False
+
+79: The step pattern axis value _____ selects all nodes that appear before the context node in the source document, excluding the context node's own ancestors.
+preceding
+
+80: Craig is working to develop an XSLT application to display election results, using XML files with the structures shown in the accompanying figure. He has heard that you have experience developing applications, and comes to you for guidance. Craig used the code you suggested to create cKeykey. However, he says he encountering problems when he tries to use this key to actually display data from the candidates.xml external file using the key. You explain to him that he will have to explicitly change the context node to rootelement of the candidates.xml file first using a _____ element.
+for-each
+
+81: One useful tool for debugging a style sheet is the XSLT 1.0 _____ element.
+message
+
+82: Sandra is working with an XML file containing product orders with the structure shown in the accompanying figure. She was just introduced to step patterns, and would like to incorporate them into the style sheet she is developing to display the orders data. She comes to you for help in developing expressions incorporating step patterns. Sandra would like to write an expression to show only those orders that have a preceding sibling containing the same"orderDate. Which of the following do you tell her is the correct expression?
+orderDate=preceding::order/orderDate
+
+83: To create a key, add the key element at the top level of the style sheet as a child of the _____ element.
+stylesheet
+
+84: Keys are not limited to valid _____ names and thus can be based on commonly used IDs, such as Social Security numbers.
+XML
+
+85: The first step in using extensions is to define an extension#8217;s namespace within the root '"element.
+False
+
+86: The step pattern axis value _____ selects all nodes that are descendants of the context node, starting with the context node and moving down the node tree.
+descendant-or-self
+
+87: To generate an ID that identifies a specific node or node set within the source document, XPath provides the _____ function.
+generate-id()
+
+88: Keys have _____ as well as values, allowing the style sheet author to create multiple distinct keys rather than rely on a single index.
+names
+
+89: _____ are location paths that allow the processor to move freely around the node tree in any direction.
+Step patterns
+
+90: In a predicate, the expressions are resolved relative to the context node.​
+False
+
+91: Generated IDs are useful when the link has to reference an external page or website, but not for hypertext links within a single page.​
+False
+
+1: "Sydney is building an application with XSLT 2.0 that relies on many date formats and calculations. He comes to you for some assistance in developing these formats and calculations correctly.br /pp data-keepme="true" style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "Sydney would like the value of the birthDate element output in the format "9/2/2017". Which of the following functions do you recommend he use to achieve this formatting correctly?
+format-date(birthDate,'[M]/[D]/[Y]')
+
+2: "In the XPath 1.0 data model, nodes are processed in _____ order.
+document
+
+3: "Sydney is building an application with XSLT 2.0 that relies on many date formats and calculations. He comes to you for some assistance in developing these formats and calculations correctly.br /pp data-keepme="true" style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "Sydney has been adding several more date calculations to the application, but has encountered an error. He has been trying to store values for changes in dates and times, but the values displaying in the result document are not at all what he expected them to be. In looking over his code, you remind him that he must use the _____ data type to store changes in dates and times.
+xs:duration
+
+4: May has experience developing applications using XSLT 1.0, and would like to take advantage of some of the added features of XSLT 2.0 in developing a new application. She comes to you for help implementing some of these new features.br /pp data-keepme="true" style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "May has heard that XPath 2.0 allows an application to retrieve data from multiple document sources. She would like to be able to retrieve data from all XML files in the same folder as the current style sheet. You suggest she use the function _____ to enable this situation.
+collection('.?select=*.xml')
+
+5: "If you are working in command line mode, you can keep the Command window open and press the _____ key on your keyboard to recall the previous command rather than retyping it.
+up arrow
+
+6: XPath 2.0 functions do not allow the programmer to create structured content in which resulting text strings are placed with element or attribute nodes.
+False
+
+7: The _____ function is an XPath 2.0 function used to retrieve XML data from external files.
+doc()
+
+8: In XSLT 1.0, there are several numeric data types including xs:integer, xs:decimal, xs:float, and xs:double.
+False
+
+9: XPath 2.0 is fundamentally based on tokenized values, which are values that cannot be broken into smaller parts.
+False
+
+10: The accompanying figure illustrates the code used to implement grouping in XSLT 2.0. In the figure, item _____ marks the attribute used to specify the values used to distinguish between groups.
+D
+
+11: The current date is displayed using the default XPath date format mm-dd-yyyy-tz.
+False
+
+12: You can create atomic values based on XML Schema data types using the _____ function.
+constructor
+
+13: The data type of an atomic value is specified using the _____ attribute.
+as
+
+14: "Sydney is building an application with XSLT 2.0 that relies on many date formats and calculations. He comes to you for some assistance in developing these formats and calculations correctly.br /pp data-keepme="true" style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "One section of the new application requires Sydney to add 2 years and 6 months to the current date. Which of the following expressions do you tell him will provide the correct result?
+current-date() + xs:yearMonthDuration('P2Y6M')
+
+15: The _____ function is an XPath 2.0 function that splits a text string into a sequence of substrings at every occurrence of a regular expression pattern.
+tokenize()
+
+16: The _____ attribute assumes that the population is sorted in a specific order and that order will be retained when the population is grouped.
+group-adjacent
+
+17: The code in the accompanying figure illustrates the use of the collection() function. The area labeled _____ creates a collection of XML files starting with "shipdoc" in the current folder.
+F
+
+18: An XPath 2.0 sequence cannot contain duplicate nodes.
+False
+
+19: "Sequences can be entered directly as a _____ list of values enclosed within a set of parentheses.
+comma-separated
+
+20: Empty sequences are entered as ().
+False
+
+21: The format-dateTime() function cannot be used with international dates and times.
+False
+
+22: The first step in converting an existing XSLT 1.0 style sheet into an XSLT 2.0 style sheet is to set the version number in the _____ element to 2.0.
+stylesheet
+
+23: XPath 2.0 introduced the doc() function to retrieve data from external XML files. The doc() function is a simplified version of the document() function introduced in XSLT 1.0. Describe at least three important differences between the doc() and document() functions.
+[Not graded]
+
+24: The accompanying figure illustrates the code used to implement grouping in XSLT 2.0. In the figure, item _____ marks the code used to display the customer whose custID attribute equals the current grouping key.
+F
+
+25: To apply a transformation that involves a named template using Saxon in Java command line mode, enter the command _____ within a command prompt window.
+java net.sf.saxon.Transform #8211;it:template style #8211;o:output
+
+26: When groups are based on a value using either the group-by or group-adjacent attribute, the key value associated with the current group is returned using the XPath 2.0 function _____.
+current-grouping-key()
+
+27: To display the current date and time, use the XPath 2.0 function _____.
+current-date()
+
+28: In XSLT 2.0, time differences are entered as _____, using the xs:dayTimeDuration data type.
+durations
+
+29: XPath 1.0 is limited to essentially three data types: text, numbers, and _____.
+Boolean values
+
+30: XPath 2.0 data formats use picture markers to specify how dates and times should be rendered.
+False
+
+31: XPath 2.0 is fundamentally based on _____ values, which are values that cannot be broken into smaller parts.
+atomic
+
+32: May has experience developing applications using XSLT 1.0, and would like to take advantage of some of the added features of XSLT 2.0 in developing a new application. She comes to you for help implementing some of these new features.br /pp data-keepme="true" style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "May would like to apply a style to each file in a collection. Which of the following do you tell her shows the correct syntax to achieve this result?
+lt;xsl:for-each select="collection(emuri/em)"gt; p style="font-size:11pt;color:#000000;font-weight:normal;"emspan style="font-family:'Courier New';"styles/em p style="font-size:11pt;color:#000000;font-weight:normal;lt;/xsl:for-eachgt;
+
+33: Applying a(n) _____ to a sequence returns a new sequence containing only those items that satisfy the specified conditions.
+predicate
+
+34: XPath 2.0 provides the _____ function to read non-XML data.
+unparsed-text()
+
+35: XML nodes with the _____ data type can be associated with any type of XML node.
+node()
+
+36: Grouping data is made much easier in XSLT 2.0 with the for-each-group element.
+False
+
+37: The group-by attribute specifies the node set containing the grouped values.
+False
+
+38: The second step in importing data from a CSV file is to read the content of the file into the style sheet as a text string.
+False
+
+39: ​Under XSLT 2.0, the value-of element returns all of the node values in a node set and not just the first node value.
+False
+
+40: The Xpath 2.0 function _____ returns an xs:dateTime data value based on an xs:date and xs:time value.
+dateTime(date, time)
+
+41: To return a sequence item by its position, use the predicate _____.
+sequence[position]
+
+42: Provide the basic structure used to create a user-defined function in XSLT 2.0, and describe each part of the syntax.
+[Not graded]
+
+43: User-defined functions are treated like built-in functions and thus can be run from within an XPath 2.0 expression.
+False
+
+44: When used to format a date value, the marker _____ displays the Day of week component.
+F
+
+45: XPath 2.0 allows the programmer to retrieve data from multiple document sources using the _____ function.
+collection()
+
+46: When used to format a date value, the marker _____ displays the A.M. or P.M. component.
+P
+
+47: "XPath 2.0 replaces the XPath 1.0 concept of the _____ with sequences, where a sequence is any ordered list of items.
+node set
+
+48: The collection() function collection('.?select=*.xml') uses the "_____" character to reference the folder of the current style sheet.
+.
+
+49: XPath 2.0 introduced the _____ function to retrieve data from external XML files.
+doc()
+
+50: May has experience developing applications using XSLT 1.0, and would like to take advantage of some of the added features of XSLT 2.0 in developing a new application. She comes to you for help implementing some of these new features.br /pp data-keepme="true" style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "May is familiar with working with a wide variety of node types in XPath 1.0, but is confused when changing to the atomic values used in XPath 2.0. You explain to her that each atomic value has a data type that describes the kind of data it contains, and this data type is specified using the _____ attribute.
+as
+
+51: One of the uses of the duration functions is to increase a date or time value by a specified amount.
+False
+
+52: The names of all user-defined functions need to be placed within a(n) namespace to ensure that the function name does not conflict with names reserved in the standard function library.
+False
+
+53: The accompanying figure illustrates the code used to implement grouping in XSLT 2.0. In the figure, item _____ marks the attribute used to specify the node set containing the grouped values.
+C
+
+54: The regular expression flag _____ specifies that white space characters within the regular expression should be ignored.
+x
+
+55: Each atomic value has a(n) _____ that describes the kind of data it contains.
+data type
+
+56: The retrieve() function is an XPath 2.0 function used to retrieve XML data from external files.
+False
+
+57: When used to format a date value, the marker _____ displays the Era component.
+E
+
+58: A(n) _____ XSLT processor supports data types defined in user-created schemas in addition to the core functionality of XSLT 2.0.
+schema-aware
+
+59: The regular expression flag _____ specifies that matches should be carried out without respect to upper- or lowercase.
+i
+
+60: Use the _____ occurrence indicator for a sequence to indicate zero-to-one values.
+?
+
+61: Identify the letter of the choice that best matches the phrase or definition.
+[MC]
+
+62: To apply a style to each file in a collection, you can use the collection() function within the _____ element.
+for-each
+
+63: May has experience developing applications using XSLT 1.0, and would like to take advantage of some of the added features of XSLT 2.0 in developing a new application. She comes to you for help implementing some of these new features.br /pp data-keepme="true" style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "May is working with regular expressions, and would like to write a function that splits the contents of the employees element into a sequence of strings at every occurrence of a white space character such as a blank space, tab, or newline character. You recommend she use the function _____.
+tokenize(employees, '\s+')
+
+64: The code in the accompanying figure illustrates the use of the collection() function. The area labeled _____ loops through each XML file in the collection.
+A
+
+65: "In XSLT 2.0, the values returned by user-defined functions are _____.
+sequences
+
+66: The regular expression flag _____ specifies that matches should be carried out in multiline mode so that the ^ character marks the beginning of a line and the $ character marks the ending of a line.
+m
+
+67: May has experience developing applications using XSLT 1.0, and would like to take advantage of some of the added features of XSLT 2.0 in developing a new application. She comes to you for help implementing some of these new features.br /pp data-keepme="true" style="font-family: times new roman; font-size: 11pt; color: #000000; font-weight: normal; "span style="font-family:'times new roman';"May is trying to create a variable named productData that contains a sequence of zero to many element nodes, referenced by the XPath expression /roducts. You suggest she use the syntax _____ to create this variable.
+lt;xs:variable name="productData" select="/roducts" as="element()*" /gt;
+
+68: To specify multiple output file destinations for the transformation result use the _____ element.
+result-document
+
+69: Make sure you use the format-dateTime() function only with values of the data type _____.
+xs:dateTime
+
+70: Sydney is building an application with XSLT 2.0 that relies on many date formats and calculations. He comes to you for some assistance in developing these formats and calculations correctly.br /pp data-keepme="true" style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "span style="font-family:'times new roman';"Once complete, Sydney will be localizing the application to international markets. Which of the following optional arguments of the format-date() function will be useful for this purpose?
+calendar
+
+71: Sydney is building an application with XSLT 2.0 that relies on many date formats and calculations. He comes to you for some assistance in developing these formats and calculations correctly.br /pp data-keepme="true" style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "Sydney would like to add the current date to the top of the output in the format "September 7, 2017". Which of the following functions do you recommend he use to achieve this formatting correctly?
+format-date(current-date(),'[MNn] [D] [Y]')
+
+72: The code in the accompanying figure illustrates the use of the collection() function. The area labeled _____ copies the shipType, items, and custID elements.
+C
+
+73: A(n) _____ is any ordered list of items and replaces the concept of node sets used in XSLT 1.0.
+sequence
+
+74: The [FNn] marker displays the weekday name in title case.
+False
+
+75: Regular expression symbols have opposite meanings when expressed in uppercase letters.
+False
+
+76: The doc() function is more flexible than the document() function.
+False
+
+77: To create structured content, you can use the XSLT 2.0 _____ element.
+analyze-string
+
+78: When used to format a date value, the marker _____ displays the Fractional seconds component.
+f
+
+79: The _____ function returns the value of the key used with the current group being displayed.
+current-grouping-key()
+
+80: In XPath 2.0, the _____ symbol acts as a concatenation operator by combining two sequences while maintaining the sequence order.
+period 
+
+81: With grouping in sequence, all items from the population that share the same grouping key value are grouped together.
+False
+
+82: You can learn information about your processor and what it supports by running the _____ function within your style sheet.
+system-property()
+
+83: The regular expression flag _____ specifies that matches should be applied so that the "." character will match any character in the text string.
+s
+
+84: Describe the five key steps to follow to convert a CSV file to XML format using XSLT 2.0.
+[Not graded]
+
+85: You can create atomic values based on XML Schema data types using the constructor function, which has the syntax _____.
+xs:dataType(value)
+
+86: The format-dateTime() function can be used only with values of the data type _____.
+xs:dateTime
+
+87: The _____ function can be used to provide an easy-to-read date format.
+format-date()
+
+88: The _____ function returns the location of an item in a sequence.
+index-of()
+
+89: A common practice is to place XPath 2.0 functions within the http://www.w3.org/2005/xpathfunctions namespace using the _____ namespace prefix.
+fn
+
+90: You can apply the _____ element under XSLT 2.0 to loop through the items within a sequence.
+for-each
+
+91: In XPath 2.0, date and time values can be stored using the _____ data type.
+xs:dateTime
+
+1: When a query is based on elements in which there is no predefined set of unique values, you can construct a list of unique values using the XPath 2.0 _____ function.
+​distinct-values()
+
+2: The prolog of an XQuery document contains a series of declarations with each declaration terminated with a _____.​
+​semi-colon
+
+3: In a FLWOR query you can include the _____ keyword within the for clause to track the number of iterations.
+​at
+
+4: When you import a library module, the module _____ in the import statement must match the one in the library module file.
+​URI
+
+5: In the FLWOR query shown in the accompanying figure, the box labeled _____ indicates the clause that sorts the query.
+​F
+
+6: The _____ module is the XQuery file that contains the query to be executed and any variables or functions declared in the query prolog.
+main
+
+7: You can use multiple _____ clauses in a FLWOR query structure to create nested sequences.
+​for
+
+8: XQuery 3.0 adds the _____ clause to the already established FLWOR structure.
+group by
+
+9: In a FLWOR query structure, the _____ clause declares a variable and gives it an initial value.
+​let
+
+10: ​With XQuery, the user can summarize data with aggregate functions.
+False
+
+11: Agnes has been using XQuery to design queries using path expressions. Her next project will involve multiple source documents and require more complicated criteria. She has heard that a FLWOR structure could be effective for such cases, and comes to you for assistance in developing a FLWOR structure query.
+​let
+
+12: A(n) _____ module is an external XQuery file that contains only the declarations for namespaces, variables, and user-defined functions.
+​library
+
+13: XQuery files are usually saved with the file extension _____.
+All of these are correct.
+
+14: The _____ keyword allows the variable value to be set by the processor when the query is run.
+external
+
+15: XQuery 3.0 provides a robust debugging technique using the try… _____ structure.
+catch
+
+16: You cannot use XQuery in place of XSLT to transform a source document.
+False
+
+17: Alfonso has been working with XQuery, and would like to create a library module to centralize the global variables and functions he's created. He has encountered some problems in implementing the library module, and comes to you for help.​
+​declare
+
+18: You can add an element to a query through a(n) _____, which uses XML-like syntax to insert the element markup tags directly into the query expression.
+​direct element constructor
+
+19: ​Identify the letter of the choice that best matches the phrase or definition.​
+
+Keyword used to create a parameter whose value is assigned by the XQuery processor 
+​external
+
+​Used to start a variable name 
+​$
+
+​Used to terminate declarations in an XQuery prolog 
+​;
+
+​Standard method for creating structured documentation 
+​xqdoc
+
+​Saxon parameter used to create easily readable result text 
+​!indent=yes
+
+​Used to set up fundamental properties of a query 
+​prolog
+
+​Declaration used to create a variable in an XQuery prolog 
+​declare variable
+
+​Last clause in a FLWOR structure 
+​return
+
+​Contains the query to be executed 
+​main module
+
+​First clause in a FLWOR structure 
+​for
+
+
+20: You cannot sort the results of a query created using a path expression.
+False
+
+21: The last statement in the FLWOR structure is always the _____ clause.
+​return
+
+22: XQuery comments can be nested within one another to provide more information to the user.
+False
+
+23: A(n) query function contains a collection of statements that can be referenced throughout the query document.
+False
+
+24: Agnes has been using XQuery to design queries using path expressions. Her next project will involve multiple source documents and require more complicated criteria. She has heard that a FLWOR structure could be effective for such cases, and comes to you for assistance in developing a FLWOR structure query.
+​where
+
+25: In the FLWOR query shown in the accompanying figure, the box labeled _____ indicates the root element.
+​E
+
+26: For larger documents and more complicated search criteria, it is generally easier and more efficient to use _____ to transform a source document.
+​XQuery
+
+27: Alfonso has been working with XQuery, and would like to create a library module to centralize the global variables and functions he's created. He has encountered some problems in implementing the library module, and comes to you for help.​
+​namespace prefix
+
+28: In the user-defined functions shown in the accompanying figure, the box labeled _____ indicates a function parameter.
+​B
+
+29: As with XSLT, many calculations and operations in XQuery can be performed using recursion, in which the XQuery function calls itself repeatedly until a stopping condition is met. Provide the general structure of a recursive function in XQuery, and explain the role of each part of the structure.​
+[Not graded]
+
+30: In a FLWOR query, only one where clause is allowed per query, and it must be placed before all of the for and let clauses.
+False
+
+31: In an XQuery file, the _____ is an optional section that is placed at the beginning of the query and is used to set up fundamental properties of the query.
+prolog
+
+32: A query can be written using a(n) _____, which is simply an XPath expression that retrieves element and attribute nodes from a source document based on specified criteria.
+path expression
+
+33: The path expression _____ uses a predicate to select only those store elements from the gjc_stores.xml file that operate in the state of Colorado.
+​doc('gjc_stores.xml')//store[state='CO']
+
+34: Element values are enclosed within a set of square brackets.
+False
+
+35: Module library files are often saved with the file extension _____.
+​.xqm
+
+36: Variables defined within the _____ have global scope and can be referenced throughout the query document.​
+​prolog
+
+37: In a FLWOR query structure, variables defined in the for clause update their value at each step in the iteration, but a variable defined in the _____ clause has a single unchanged value.
+​let
+
+38: A query _____ contains a collection of statements that can be referenced throughout the query document.
+​function
+
+39: You can add comments to any part of the XQuery file using the statement _____.
+​(: comment :)
+
+40: In an XQuery file, namespaces need to be declared in the query body.
+False
+
+41: The _____ clause was added to the FLWOR structure in XQuery 3.0 to provide a way of counting each iteration in the query result.
+count
+
+42: When you import a library module, the module URI in the import statement must match the URI in the library module file.
+False
+
+43: In a FLWOR query structure, the _____ clause specifies a condition by which the items in the iterated sequence are filtered.
+​where
+
+44: In general, a processor can run a where clause faster than it can run a predicate expression.
+False
+
+45: A(n) _____ is a database operation used to combine two or more database tables based on fields or columns that are common to the tables.
+join
+
+46: In XQuery, variables are assigned using the _____ symbol.​
+​:=
+
+47: Essentially any text in the query that is not part of an expression is treated as _____ and displayed as part of the query result without modification.
+literal text
+
+48: In the FLWOR query shown in the accompanying figure, the box labeled _____ indicates the clause that displays the results of the query.
+​D
+
+49: If you do not specify an output file, Saxon will display the query result in _____.
+​the command window
+
+50: The XSLT doc() function is not supported in XQuery.
+False
+
+51: One option to format query results is to add the declaration _____ to the XQuery prolog, which preserves all of the white space characters from the XQuery file and writes them to the result document.
+​declare boundary-space preserve;
+
+52: Agnes has been using XQuery to design queries using path expressions. Her next project will involve multiple source documents and require more complicated criteria. She has heard that a FLWOR structure could be effective for such cases, and comes to you for assistance in developing a FLWOR structure query.
+​return
+
+53: In the for clause of a FLWOR query, the _____ attribute is optional.
+​type
+
+54: XQuery provides several tools to create formatted output.
+False
+
+55: A(n) _____ contains the declarations for namespaces, variables, and user-defined functions—which can be imported into other query documents.
+library module
+
+56: The FLWOR structure needs to be enclosed within a set of _____ so that the XQuery processor evaluates the expression before writing the query result into its containing element.
+​curly braces
+
+57: In an XQuery variable declaration, text strings need to be enclosed within single or double quotes.
+False
+
+58: In a FLWOR query structure, the _____ clause iterates through a sequence of values, calculating an expression for each item in the sequence.
+​for
+
+59: In the order by clause of a FLWOR query, the default is to sort items in descending order.
+False
+
+60: ​In an XQuery file, the query body consists of a single expression that retrieves data from a source document based on criteria provided in the query expression.
+False
+
+61: In an XQuery file, the _____ namespace is used for creating user-defined functions.
+local
+
+62: In a FLWOR query, variables defined in a for or let clause act as local variables.
+False
+
+63: To declare an external variable, add the keyword _____ to the variable declaration.
+​external
+
+64: ​The first expression in a FLWOR query structure is the _____ clause.
+​for
+
+65: XQuery is a _____ programming language like XSLT.
+​declarative
+
+66: To run a query, you need a(n) _____ that parses, analyzes, and evaluates the query.
+query processor
+
+67: Variables declared in a library module must be assigned to the module namespace.
+False
+
+68: To calculate a summary statistic like a total, enclose the query expression within the _____ function.
+sum()
+
+69: Agnes has been using XQuery to design queries using path expressions. Her next project will involve multiple source documents and require more complicated criteria. She has heard that a FLWOR structure could be effective for such cases, and comes to you for assistance in developing a FLWOR structure query.
+​return
+
+70: A path expression is usually more compact and easier to apply for simple queries compared to a FLWOR structure.
+False
+
+71: Agnes has been using XQuery to design queries using path expressions. Her next project will involve multiple source documents and require more complicated criteria. She has heard that a FLWOR structure could be effective for such cases, and comes to you for assistance in developing a FLWOR structure query.
+​where
+
+72: You can automatically generate comments for your query through the use of _____ comments, which are a standard method for creating structured documentation.
+​xqdoc
+
+73: Alfonso has been working with XQuery, and would like to create a library module to centralize the global variables and functions he's created. He has encountered some problems in implementing the library module, and comes to you for help.​
+​import statement
+
+74: In a FLWOR query structure, the _____ clause sorts the items in the sequence based on a supplied expression.
+​order by
+
+75: In XQuery, the _____ namespace is used for creating user-defined functions.
+​local
+
+76: _____ variables are variables whose values are determined when the query is run by the processor.
+External
+
+77: In an XQuery document, all string values and file references need to be enclosed within matching curly braces.
+False
+
+78: Agnes has been using XQuery to design queries using path expressions. Her next project will involve multiple source documents and require more complicated criteria. She has heard that a FLWOR structure could be effective for such cases, and comes to you for assistance in developing a FLWOR structure query.
+​for
+
+79: ​XQuery is a subset of XPath 2.0.
+False
+
+80: As with XSLT, many calculations and operations in XQuery can be performed using _____, in which the XQuery function calls itself repeatedly until a stopping condition is met.
+​recursion
+
+81: In April 2014, the W3C gave the _____ specifications Recommendation status, indicating that it was a mature and stable language ready to be deployed in working environments.
+XQuery 3.0
+
+82: One way to query data from several sources is to apply a _____ clause to each document source.
+​for
+
+83: XQuery is written in text format as a collection of _____.
+​expressions
+
+84: A well-designed query is efficient, runs quickly, and is less prone to error. You should design your queries to be clear and concise, easy to maintain, and easy for others to interpret and edit if necessary. Describe at least three of the main principles of effective query design outlined in the tutorial.​
+[Not graded]
+
+85: In the user-defined functions shown in the accompanying figure, the box labeled _____ indicates the data type returned by the function.
+​C
+
+86: ​Describe the use of joins in in XQuery, and differentiate between an inner join and outer join. Which is the default join type in XQuery?
+[Not graded]
+
+87: The _____ statement retrieves all of the variables and functions defined in a library module.
+​import
+
+88: If you do not specify a data type, XQuery applies the _____ data type, allowing the variable to contain any type of data.
+​xs:anyType
+
+89: The XQuery prolog declaration _____ specifies whether empty elements should appear last in any node ordering or first.
+​declare default order
+
+90: Agnes has been using XQuery to design queries using path expressions. Her next project will involve multiple source documents and require more complicated criteria. She has heard that a FLWOR structure could be effective for such cases, and comes to you for assistance in developing a FLWOR structure query.
+​for
+
+91: In the user-defined functions shown in the accompanying figure, the box labeled _____ indicates a function name.
+​A
+

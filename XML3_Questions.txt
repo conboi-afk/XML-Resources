@@ -1,0 +1,378 @@
+1: Case-based Critical Thinking Questions
+Judy has begun to apply the basic information that you have given her about schemas, and she would now like your help in mastering the details of how schemas work. 
+
+Judy has included the following element definition in her schema:
+
+     <xs:element name=“ingredient”>
+            <xs:complexType>
+                  <xs:sequence>
+                        <xs:element name=“name” type=“xs:string” />
+                        <xs:element name=“amount” type=“xs:string” />
+                  </xs:sequence>
+            </xs:complexType>
+     </xs:element>
+
+In this schema, what type of element is ingredient?
+an element with nested children
+
+2: A base type is one of _____ fundamental data types not defined in terms of other types.
+19
+
+3: The choice compositor requires that child elements must appear either only once or not at all.
+False
+
+4: Schemas do not allow numeric data types.
+False
+
+5: Case-based Critical Thinking Questions
+Judy wants to be able to validate the XML documents that she uses for recipes. These documents include numeric elements that specify ingredient amounts and cooking times, so you recommend that she use a schema instead of a DTD, and you teach her some of the key facts about schemas. You teach Judy about the differences between simple and complex data types. Which of the following would NOT require a complex type?
+an element containing only text
+
+6: To specify that an element contains both text and child elements, add the _____ attribute to the <complexType> of an element.
+mixed
+
+7: According to the data types defined in the accompanying figure, what is the form that the unique IDs must take?
+SI###-###-##
+
+8: DTDs employ a syntax called _____, which is different from the syntax used for XML.
+EBNF
+
+9: Attributes use the same collection of data types that simple type elements do.
+False
+
+10: If an element contains attributes, you have to extend the simple content model to include attributes through the use of the <_____> tag.
+extension
+
+11: The _____ data type allows an element to contain any text string.
+string
+
+12: Case-based Critical Thinking Questions
+Judy wants to be able to validate the XML documents that she uses for recipes. These documents include numeric elements that specify ingredient amounts and cooking times, so you recommend that she use a schema instead of a DTD, and you teach her some of the key facts about schemas. Judy has an element called “recipeName” that she uses to record the name of a recipe. This element only contains text. Which of the following would be a valid XML Schema definition for this element?
+<xs:element name=“recipeName” type=“xs:string” />
+
+13: The values belonging to the data type indicated in the accompanying figure must be _____ IDs.
+unique
+
+14: What are the limitations of mixed content elements? Under what circumstances should you not use them?
+[Not graded]
+
+15: Discuss the limits of DTDs, using examples.
+[Not graded]
+
+16: The string data type is a(n)  _____ data type, which is part of the XML Schema language.
+built-in
+
+17: A _____ expression is a text string that defines a character pattern.
+regular
+
+18: A _____ can be appended to a character type or set to specify the number of occurrences for a particular character or group of characters.
+quantifier
+
+19: The item indicated with the arrow in the accompanying figure is the XML Schema namespace _____.
+URI
+
+20: A(n) _____ data type is a list of values separated by white space.
+list
+
+21: Case-based Critical Thinking Questions
+Judy has begun to apply the basic information that you have given her about schemas, and she would now like your help in mastering the details of how schemas work. 
+
+Judy has included the following element definition in her schema:
+
+     <xs:element name=“ingredient”>
+            <xs:complexType>
+                  <xs:sequence>
+                        <xs:element name=“name” type=“xs:string” />
+                        <xs:element name=“amount” type=“xs:string” />
+                  </xs:sequence>
+            </xs:complexType>
+     </xs:element>
+
+Judy would like to indicate that the "substitution" attribute is a required attribute. Which of the following attribute definitions shows how to accomplish this?
+<xs:attribute name=“substitution” type=“xs:string” use=“required” />
+
+22: If both the maxOccurs and minOccurs attributes are missing, the element is assumed to occur _____.
+once
+
+23: XML Schema allows for ample flexibility in the date and time format.
+False
+
+24: Identify the letter of the choice that best matches the phrase or definition.
+
+String data type for a text string in which blank spaces are replaced with a single blank space and opening and closing spaces are removed 
+xs:token
+
+String data type for a text string containing valid XML names with no white space 
+xs:NMTOKEN
+
+String data type derived from the Name data type, but restricting the use of colons anywhere in the name 
+xs:NCName
+
+Properties that distinguish one data type from another 
+facet
+
+Content that contains two or more values placed within a defined structure 
+complex type
+
+Examples in XML Schema include sequence, choice, and all 
+compositor
+
+An XML document that contains validation rules for an XML vocabulary 
+schema
+
+String data type for a value matching an unparsed entity defined in a DTD 
+xs:ENTITY
+
+Data type, another name for which is the “base type” 
+primitive
+
+An XML document to be validated by a schema 
+instance document
+
+
+25: Date values must be entered in the format _____.
+yyyy-mm-dd
+
+26: The XML document to be validated is called the _____ document.
+instance
+
+27: Unlike DTDs, schemas do not use a single standard.
+False
+
+28: Case-based Critical Thinking Questions
+Judy wants to be able to validate the XML documents that she uses for recipes. These documents include numeric elements that specify ingredient amounts and cooking times, so you recommend that she use a schema instead of a DTD, and you teach her some of the key facts about schemas. Judy has an attribute called “recipeType” that she uses to record whether the recipe is for an appetizer, entree, dessert, or other type of dish. This attribute only contains text. Which of the following would be a valid XML Schema definition for this attribute?
+<xs:attribute name=“recipeType” type=“xs:string” />
+
+29: As shown in the accompanying figure, XML Schema supports _____ types of content.
+two
+
+30: The _____ facet has three values: preserve, replace, and collapse.
+whiteSpace
+
+31: Given the accompanying figure, because the ID data type is built into the XML Schema, all elements and attributes from the XML Schema vocabulary must be identified using the xs namespace prefix.
+True
+
+32: Instead of a pattern involving specific characters, you usually want a more general pattern involving _____ types that represent different kinds of characters.
+character
+
+33: To specify the number of occurrences for a particular character or group of characters, a(n) quantifier can be appended to a character type or set.
+False
+
+34: The _____ character type is a word character.
+\w
+
+35: When the mixed attribute is set to the value “true,” XML Schema assumes that the element contains both text and child elements.
+False
+
+36: The _____ data type is a text string similar to the NMTOKEN data type, except that names must begin with a letter or the character “:” or “-“.
+xs:Name
+
+37: The _____ facet specifies the maximum number of decimals in the data type’s value.
+totalDigits
+
+38: As shown in the accompanying figure, examples of a(n) _____ type of content are elements that contain attributes or elements that contain child elements.
+complex
+
+39: Case-based Critical Thinking Questions
+Judy wants to be able to validate the XML documents that she uses for recipes. These documents include numeric elements that specify ingredient amounts and cooking times, so you recommend that she use a schema instead of a DTD, and you teach her some of the key facts about schemas. You tell Judy that there are multiple vocabularies available for schema. Which of them is the most widely adopted?
+XML Schema
+
+40: A(n) _____ data type is a collection of data types that the XML Schema developers created based on the base types.
+derived
+
+41: User-derived data types fall into three categories: list, union, and restricted.
+False
+
+42: A list data type uses _____ as the delimiter.
+white space
+
+43: A(n) _____ type contains two or more values placed within a defined structure in XML Schema.
+complex
+
+44: A primitive data type is also known as a(n) _____ type.
+base
+
+45: XML Schema supports a collection of built-in data types, but does not allow users to define their own.
+False
+
+46: The _____ compositor defines a specific order for the child elements.
+sequence
+
+47: The maxOccurs attribute can have a value of _____ for unlimited occurrences of the child element.
+unbounded
+
+48: Which of the following is a valid ID according to the accompanying figure?
+SI333-567-88
+
+49: Perhaps the most commonly used data type in XML Schema is _____.
+string
+
+50: Case-based Critical Thinking Questions
+Judy has begun to apply the basic information that you have given her about schemas, and she would now like your help in mastering the details of how schemas work. 
+
+Judy has included the following element definition in her schema:
+
+     <xs:element name=“ingredient”>
+            <xs:complexType>
+                  <xs:sequence>
+                        <xs:element name=“name” type=“xs:string” />
+                        <xs:element name=“amount” type=“xs:string” />
+                  </xs:sequence>
+            </xs:complexType>
+     </xs:element>
+
+Judy would like to add a definition for an attribute called “substitution” to the element definition. It will indicate a possible substitution for the ingredient specified by the element. Where should the definition of this attribute appear in the element definition?
+between the lines for </xs:sequence> and </xs:complexType>
+
+51: A regular expression is a text string that defines a character pattern.
+False
+
+52: The xs:float data type is a double precision floating point number.
+False
+
+53: A(n) _____ data type is composed of the value and/or lexical spaces from any number of base types.
+union
+
+54: A schema is an XML document that contains validation rules for an XML vocabulary.
+False
+
+55: The namespace prefix in the accompanying figure is xs.
+True
+
+56: Case-based Critical Thinking Questions
+Judy has begun to apply the basic information that you have given her about schemas, and she would now like your help in mastering the details of how schemas work. 
+
+Judy has included the following element definition in her schema:
+
+     <xs:element name=“ingredient”>
+            <xs:complexType>
+                  <xs:sequence>
+                        <xs:element name=“name” type=“xs:string” />
+                        <xs:element name=“amount” type=“xs:string” />
+                  </xs:sequence>
+            </xs:complexType>
+     </xs:element>
+
+In her definition of the recipe element, Judy would like to reference the existing definition of the ingredient element. Which of the following element declarations accomplishes this?
+<xs:element ref=“ingredient” />
+
+57: A(n) _____ data type, or base type, is one of the fundamental data types that are not defined in terms of other types.
+primitive
+
+58: The _____ and extension elements are important tools used by XML Schema to derive new data types and design complex content models.
+simpleContent
+
+59: The _____ facet specifies the maximum number of decimal places to the right of the decimal point in the data type’s value.
+fractionDigits
+
+60: The accompanying figure shows the xs:ID data type applied to the stuID attribute.
+True
+
+61: Describe the three components involved in deriving any new data type.
+[Not graded]
+
+62: The root element in any XML Schema document is the main element.
+False
+
+63: By convention, the namespace prefix _____ is assigned to the XML Schema namespace in order to identify elements and attributes that belong to the XML Schema vocabulary.
+xsd
+
+64: DTDs employ a syntax called _____.
+Extended Backus Naur Form
+
+65: The _____ facet constrains the data type to a specified list of values.
+enumeration
+
+66: The _____ value of the use attribute means that the use of the attribute is optional with the element.
+optional
+
+67: As shown in the accompanying figure, examples of a(n) _____ type of content are the value of an attribute or the textual content of an element.
+simple
+
+68: XML Schema was created to replicate all DTD functionality in a schema; it does not support any data types beyond what can be found in DTDs.
+False
+
+69: When data values belong to a range rather than a set of values, you can create a list of possible values using the enumeration element.
+False
+
+70: The _____ value of the use attribute means that the attribute cannot be used with the element.
+prohibited
+
+71: The code to specify the location of the schema file depends on whether the instance document has been placed in a namespace.
+False
+
+72: A(n) _____ complex type has no name attribute used in the opening <complexType> tag.
+anonymous
+
+73: To indicate whether an attribute is required, you add the _____ attribute to the element declaration or reference.
+use
+
+74: The _____ data type is a text string containing valid XML names with no white space.
+xs:NMTOKEN
+
+75: Case-based Critical Thinking Questions
+Judy has begun to apply the basic information that you have given her about schemas, and she would now like your help in mastering the details of how schemas work. 
+
+Judy has included the following element definition in her schema:
+
+     <xs:element name=“ingredient”>
+            <xs:complexType>
+                  <xs:sequence>
+                        <xs:element name=“name” type=“xs:string” />
+                        <xs:element name=“amount” type=“xs:string” />
+                  </xs:sequence>
+            </xs:complexType>
+     </xs:element>
+
+Judy would like to indicate that the ingredient element must appear at least once in a recipe, and that it cannot appear more than 20 times. Which of the following should she add to the element declaration to indicate these restrictions?
+minOccurs=“1” maxOccurs=“20”
+
+76: An attribute is an example of a(n) _____ type.
+simple
+
+77: Which of the following is a category of data type in XML Schema?
+built-in
+
+78: Case-based Critical Thinking Questions
+Judy wants to be able to validate the XML documents that she uses for recipes. These documents include numeric elements that specify ingredient amounts and cooking times, so you recommend that she use a schema instead of a DTD, and you teach her some of the key facts about schemas. Which of the following is NOT an advantage of schemas over DTDs?
+They are simpler to create and maintain.
+
+79: According to the accompanying figure, the stuID values must follow the rules of what data type?
+siType
+
+80: _____ is the most widely adopted schema standard.
+XML Schema
+
+81: The _____ compositor allows any of the child elements to appear in any order in the instance document.
+all
+
+82: With the xs:float data type, non-numeric values can be represented by _____.
+NaN
+
+83: A(n) _____ data type is created by a schema author for specific data values in an instance document.
+user-derived
+
+84: A _____ is a text string of word characters around a word.
+boundary
+
+85: XML Schema divides its user-derived data types into two classes: primitive and derived.
+False
+
+86: A(n) _____ type contains a single value in XML Schema.
+simple
+
+87: In a new data type, the _____ is the set of values that correspond to the data type.
+value space
+
+88: Derived data types share many of the same characteristics as the _____ data types they are derived from, but with one or two additional restrictions or modifications.
+primitive
+
+89: A file written in XML Schema typically ends with the _____ file extension.
+.xsd
+
+90: The arrow in the accompanying figure points to the XML Schema _____.
+namespace URI
+
+91: The _____ value of the use attribute means that the attribute must always appear with the element.
+required
+

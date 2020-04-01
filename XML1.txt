@@ -1,0 +1,974 @@
+Question 1
+0 / 1 pts
+A(n) _____ provides information about the rules used in the XML document’s vocabulary.​
+
+You Answered
+
+Correct Answers
+DTD (Document type declaration) 
+Document type declaration (DTD) 
+Document type declaration 
+DTD 
+ 
+Question 2
+0 / 1 pts
+A CDATA section is a block of text that XML treats as word data only.​
+
+You Answered
+  True 
+  False 
+ 
+UnansweredQuestion 3
+0 / 1 pts
+Assume that the home page of Helen’s company, Hair Unlimited Salon, has the web address _____. This address provides customers with a unique location to access all of Hair Unlimited Salon’s online products.
+
+  ​xml://example.com/hus 
+Correct Answer
+  ​http://example.com/hus 
+  ​ftp://example.com/hus 
+  ​http://example.hus/com 
+ 
+UnansweredQuestion 4
+0 / 1 pts
+Element names may not contain _____.
+
+  ​letters 
+  ​the string "XML"
+Correct Answer
+  ​blank spaces 
+  ​the underscore character 
+ 
+UnansweredQuestion 5
+0 / 1 pts
+​Case 1-2
+
+Clarisa is tracing through her XML code to find syntax errors.
+
+
+Clarisa then reviews all of the elements with nesting, and she discovers a number of problems. Which of the following is a CORRECT use of nesting?
+
+  ​<assignment>Homework 1 <points>50<points></assignment>
+  ​<assignment>Homework 1</assignment><points>50</points>
+Correct Answer
+  ​<assignment>Homework 1<points>50</points></assignment>
+  ​<assignment>Homework 1<points>50</assignment></points>
+ 
+UnansweredQuestion 6
+0 / 1 pts
+When white space appears in places other than element content, XML treats it in the following manner: _____.
+
+Correct Answer
+  ​ignored within a document’s prolog and epilog, and within any element tags 
+  ​ignored when it is one of the character data between element tags 
+  ​within an attribute value is treated as a separate part of the attribute value 
+  ​generally ignored as part of the document’s data 
+ 
+UnansweredQuestion 7
+0 / 1 pts
+_____ space refers to nonprintable characters such as spaces (created by pressing the spacebar), new line characters (created by pressing the Enter key), or tab characters (created by pressing the Tab key).
+
+  ​Blank 
+Correct Answer
+  ​White 
+  ​Empty 
+  ​Character 
+ 
+UnansweredQuestion 8
+0 / 1 pts
+​Case 1-1
+
+Ryan is new to the use of XML, so he has a lot of basic questions about the fundamentals, including some philosophical questions about the language.
+
+
+Ryan asks you about the roots of XML. Which of the following is NOT a characteristic of SGML?
+
+  ​It is device-independent and system-independent. 
+  ​It is the chosen vehicle for creating structured documents in businesses and government organizations of all sizes.
+Correct Answer
+  ​It is an easy language to learn and to apply because of its power, scope, and flexibility. 
+  ​It provides tools to manage enormous projects. 
+ 
+UnansweredQuestion 9
+0 / 1 pts
+A CDATA section may contain most markup characters, such as _____, >, and &.
+
+Correct Answer
+  ​<
+  ​? 
+  ​* 
+  ​# 
+ 
+UnansweredQuestion 10
+0 / 1 pts
+Parsed character data includes _____.
+
+  ​comments 
+  ​empty element tags 
+  ​processing instructions 
+Correct Answer
+  ​All of the above. 
+ 
+Question 11
+0 / 1 pts
+The UTF-8 character set includes only the characters used in the English language.​
+
+You Answered
+  True 
+  False 
+ 
+UnansweredQuestion 12
+0 / 1 pts
+The only sequence of symbols that may not occur within a CDATA section is _____ because this is the marker ending a CDATA section.
+
+Correct Answer
+  ​]]
+  ​**
+  ​))
+  ​[[
+ 
+UnansweredQuestion 13
+0 / 1 pts
+ 
+
+7ced127f-969a-4277-ba3c-18df16c4967e.PNG
+
+ 
+
+ 
+
+In the accompanying figure’s tree diagram, all of the elements in the body are children of a single element called the _____ element.
+
+  ​base 
+  ​fundamental 
+Correct Answer
+  ​root 
+  ​key 
+ 
+UnansweredQuestion 14
+0 / 1 pts
+​Case 1-1
+
+Ryan is new to the use of XML, so he has a lot of basic questions about the fundamentals, including some philosophical questions about the language.
+
+
+You tell Ryan that XML can be used to create XML vocabularies, which are markup languages tailored to contain specific pieces of information. Which of the following is NOT an example of a standard XML vocabulary?
+
+  ​BSML 
+  ​OMF 
+  ​XHTML 
+Correct Answer
+  ​CDF 
+ 
+UnansweredQuestion 15
+0 / 1 pts
+ 19fe9005-0ff3-4f63-b791-cdde1573498a.PNG​
+
+ 
+
+ 
+
+The accompanying figure shows a molecule described using a(n) _____ vocabulary.
+
+​
+
+Correct Answer
+  ​XML 
+  ​CDF 
+  ​MML 
+  ​OFX 
+ 
+Question 16
+0 / 1 pts
+_____ refers to any space, new line character, or tab character in a document.​
+
+You Answered
+
+Correct Answers
+White space 
+Whitespace 
+ 
+UnansweredQuestion 17
+0 / 1 pts
+​Case 1-1
+
+Ryan is new to the use of XML, so he has a lot of basic questions about the fundamentals, including some philosophical questions about the language.
+
+
+Ryan has heard that an XML document must be well-formed. Which of the following is NOT a characteristic of a well-formed document?
+
+  ​It contains no syntax errors. 
+  ​It has a prolog, body, and epilog. 
+  ​It includes an XML declaration. 
+Correct Answer
+  ​It satisfies the rules of its DTD or schema. 
+ 
+Question 18
+0 / 1 pts
+XML is a markup language that can be extended and modified to match the needs of the author and the data content.​
+
+You Answered
+  True 
+  False 
+ 
+Question 19
+0 / 1 pts
+Declaring a(n) Android layout in XML makes it easier to visualize the structure of a user interface.​
+
+You Answered
+  True 
+  False 
+ 
+Question 20
+Not yet graded / 1 pts
+The document body in an XML document is made up of elements that contain data to be stored in the document. Elements are the basic building blocks of XML files. List three important points to remember about XML elements.​
+
+Your Answer:
+ 
+UnansweredQuestion 21
+0 / 1 pts
+​Case 1-2
+
+Clarisa is tracing through her XML code to find syntax errors.
+
+
+Clarisa next checks all of the attribute names. Which of the following is an invalid attribute name?
+
+Correct Answer
+  ​xml_type
+  ​_type
+  ​itemName
+  ​NAME
+ 
+UnansweredQuestion 22
+0 / 1 pts
+​Case 1-2
+
+Clarisa is tracing through her XML code to find syntax errors.
+
+
+Finally, Clarisa double-checks all of the entity references used in the document. Which of the following is NOT one of the entity references that XML supports?
+
+  ​&amp;
+Correct Answer
+  ​&attr;
+  ​&gt;
+  ​&quot;
+ 
+UnansweredQuestion 23
+0 / 1 pts
+ 7ced127f-969a-4277-ba3c-18df16c4967e.PNG
+
+ 
+
+ 
+
+In the tree diagram in the accompanying figure, the root element is the _____ element.
+
+Correct Answer
+  ​products 
+  ​price 
+  ​description 
+  ​productItems 
+ 
+UnansweredQuestion 24
+0 / 1 pts
+You can place any large block of text within a _____ section to avoid inadvertently inserting a character that would be misinterpreted by an XML processor (such as the ampersand symbol).
+
+  ​baseline 
+  ​header 
+Correct Answer
+  ​CDATA 
+  ​pcdata 
+ 
+Question 25
+0 / 1 pts
+XML has its roots in Standard Generalized Markup Language (SGML), a language introduced in the 1980s that describes the structure and content of any machine-dependent information.​
+
+You Answered
+  True 
+  False 
+ 
+UnansweredQuestion 26
+0 / 1 pts
+ 19fe9005-0ff3-4f63-b791-cdde1573498a.PNG​
+
+ 
+
+ 
+
+Shown in the accompanying figure, _____ was developed to code molecular information.
+
+Correct Answer
+  ​CML 
+  ​CDF 
+  ​MML 
+  ​OFX 
+ 
+UnansweredQuestion 27
+0 / 1 pts
+For different users to share a vocabulary effectively, _____ must be developed that specifically control what code and content a document from that vocabulary might contain.
+
+  ​guidelines 
+Correct Answer
+  ​rules 
+  ​goals 
+  ​objectives 
+ 
+UnansweredQuestion 28
+0 / 1 pts
+The default encoding scheme for an XML declaration is _____.
+
+  ​ISO-8859-1 
+Correct Answer
+  ​UTF-8 
+  ​Latin-1 
+  ​DTD 2.0 
+ 
+Question 29
+0 / 1 pts
+SGML has been the chosen vehicle for creating structured documents in business and government organizations of all sizes.​
+
+You Answered
+  True 
+  False 
+ 
+Question 30
+0 / 1 pts
+Character data is not processed—it is treated as pure data content.​
+
+You Answered
+  True 
+  False 
+ 
+UnansweredQuestion 31
+0 / 1 pts
+The standards for XML are developed and maintained by _____.
+
+  ​NASA 
+  ​the NSF 
+Correct Answer
+  ​the W3C 
+  ​DARPA 
+ 
+UnansweredQuestion 32
+0 / 1 pts
+To create a DTD or a schema, you need access to a _____.
+
+  ​word processor 
+  ​spreadsheet program 
+Correct Answer
+  ​text editor 
+  ​WYSIWYG authoring program 
+ 
+Question 33
+Not yet graded / 1 pts
+XML and relational databases are tightly woven together in most web applications. Describe the two distinctly different models XML and relational databases use to structure data.​
+
+Your Answer:
+ 
+Question 34
+0 / 1 pts
+Any element in an XML document can contain no more than one attribute.​
+
+You Answered
+  True 
+  False 
+ 
+UnansweredQuestion 35
+0 / 1 pts
+_____ is an XML vocabulary used for displaying and organizing musical notation and lyrics.
+
+Correct Answer
+  ​MML 
+  ​RSS 
+  ​SMIL 
+  ​CML 
+ 
+UnansweredQuestion 36
+0 / 1 pts
+The document body consists of the _____ that contain data to be stored in the document.
+
+Correct Answer
+  ​elements 
+  ​attributes 
+  ​values 
+  ​keys 
+ 
+Question 37
+0 / 1 pts
+A DTD defines the structure of the data and, very broadly, the types of data allowable.​
+
+You Answered
+  True 
+  False 
+ 
+Question 38
+0 / 1 pts
+​Identify the letter of the choice that best matches the phrase or definition.
+
+You Answered
+​Describes the content and structure of data 
+  
+Correct Answer markup language​
+You Answered
+​Signals to a program that a document is written in XML 
+  
+Correct Answer ​XML declaration
+You Answered
+​A markup language tailored to contain specific pieces of information 
+  
+Correct Answer vocabulary​
+You Answered
+​Develops and maintains the standards for XML 
+  
+Correct Answer ​W3C
+You Answered
+​The basic building block of an XML file 
+  
+Correct Answer element​
+You Answered
+​A command that provides an instruction to XML parsers 
+  
+Correct Answer ​processing instruction
+You Answered
+​Occurs after the document body in an XML document 
+  
+Correct Answer epilog​
+You Answered
+​Attached to an XML document to control what code and content a document may have 
+  
+Correct Answer ​schema
+You Answered
+​Another name for a feed reader 
+  
+Correct Answer ​aggregator
+You Answered
+​One of the more important XML vocabularies on the Internet 
+  
+Correct Answer RSS
+ 
+UnansweredQuestion 39
+0 / 1 pts
+The default version value for an XML declaration is _____.
+
+Correct Answer
+  ​1.0 
+  ​1.1 
+  ​1.2 
+  ​2.0 
+ 
+UnansweredQuestion 40
+0 / 1 pts
+Attribute values must be enclosed within _____.
+
+  ​ampersands 
+  ​carets 
+Correct Answer
+  ​single or double quotes 
+  ​colons 
+ 
+UnansweredQuestion 41
+0 / 1 pts
+​Make sure to end every entity reference with a(n) _____.
+
+  ​period 
+  ​comma 
+  ​apostrophe 
+Correct Answer
+  ​semicolon 
+ 
+UnansweredQuestion 42
+0 / 1 pts
+_____ is the style sheet standard developed for use with HTML on the web.
+
+  ​XSL 
+  ​XSM 
+Correct Answer
+  ​CSS 
+  ​MSXML 
+ 
+Question 43
+0 / 1 pts
+Documents written in SGML must be used on devices running the Unix operating system.​
+
+You Answered
+  True 
+  False 
+ 
+UnansweredQuestion 44
+0 / 1 pts
+XML is a(n) _____ language that is extensible, so it can be modified to match the needs of the document author and the data being recorded.​
+
+  ​device-dependent 
+Correct Answer
+  ​markup 
+  ​device-driven 
+  ​indexed 
+ 
+Question 45
+0 / 1 pts
+A(n) _____ section is a large block of text that XML treats as character data only.​
+
+You Answered
+
+Correct Answers
+CDATA 
+ 
+UnansweredQuestion 46
+0 / 1 pts
+An open element is also known as a(n) _____ element.
+
+  ​null 
+  ​void 
+Correct Answer
+  ​empty 
+  ​key 
+ 
+Question 47
+0 / 1 pts
+After declaring a default namespace, any _____ element or attribute is then considered part of this namespace unless a different namespace is declared within one of the child elements.​
+
+You Answered
+
+Correct Answers
+descendant 
+child 
+ 
+Question 48
+0 / 1 pts
+Multiple processing instructions can exist within the same XML document for different media types.​
+
+You Answered
+  True 
+  False 
+ 
+Question 49
+0 / 1 pts
+The string &apos; is a(n) character reference for the apostrophe.​
+
+You Answered
+  True 
+  False 
+ 
+UnansweredQuestion 50
+0 / 1 pts
+Element names cannot begin with the letters “_____.”
+
+  ​data 
+  ​http 
+Correct Answer
+  ​xml 
+  ​xsl 
+ 
+UnansweredQuestion 51
+0 / 1 pts
+To declare a namespace for an element within an XML document, you add an attribute within the opening tag for the element using the syntax _____.
+
+  ​<element xmlns:prefix=”uri” ... </element>
+  ​<element xmlns:prefix=*”uri”> ... </element>
+Correct Answer
+  ​<element xmlns:prefix=”uri”> ... </element>
+  ​</element xmlns:prefix=”uri”> ... <element>
+ 
+Question 52
+0 / 1 pts
+An element contained within another element is said to be _____.​
+
+You Answered
+
+Correct Answers
+nested 
+ 
+UnansweredQuestion 53
+0 / 1 pts
+​Case 1-2
+
+Clarisa is tracing through her XML code to find syntax errors.
+
+
+Clarisa begins by looking for incorrect element names. Which of the following is a problematic element name?
+
+  ​_recipe
+Correct Answer
+  ​street address
+  ​NAME
+  ​Item
+ 
+UnansweredQuestion 54
+0 / 1 pts
+If you want to have control over the document’s appearance, you have to physically _____ the document to a style sheet.
+
+  ​integrate 
+Correct Answer
+  ​link 
+  ​merge 
+  ​combine 
+ 
+Question 55
+0 / 1 pts
+_____ can be thought of as a lightweight version of SGML.
+
+You Answered
+
+Correct Answers
+XML 
+ 
+Question 56
+0 / 1 pts
+Most _____ feeds contain just links, headlines, or brief synopses of new information.​
+
+You Answered
+
+Correct Answers
+RSS 
+Really Simple Syndication 
+RSS (Really Simple Syndication) 
+Really Simple Syndication (RSS) 
+ 
+Question 57
+0 / 1 pts
+Subscribers to a(n) CSS feed can receive periodic updates using a software program called a feed reader or an aggregator.​
+
+You Answered
+  True 
+  False 
+ 
+Question 58
+0 / 1 pts
+_____ are the basic building blocks of XML files, containing the data to be stored in the document.​
+
+You Answered
+
+Correct Answers
+Elements 
+ 
+UnansweredQuestion 59
+0 / 1 pts
+An attribute value always must be enclosed within either single or double _____.
+
+  ​brackets 
+Correct Answer
+  ​quotes 
+  ​braces 
+  ​parentheses 
+ 
+Question 60
+0 / 1 pts
+One version of a(n) _____ is the Uniform Resource Locator (URL), which is used to identify the location of a resource on the web.​
+
+You Answered
+
+Correct Answers
+URI 
+Uniform Resource Identifier 
+Uniform Resource Identifier (URI) 
+URI (Uniform Resource Identifier) 
+ 
+Question 61
+0 / 1 pts
+A common mistake in XML documents is to forget that the apostrophe symbol is interpreted by the XML processor as a character reference and not as a character.​
+
+You Answered
+  True 
+  False 
+ 
+UnansweredQuestion 62
+0 / 1 pts
+As XML has grown in popularity, standard _____ have been developed across a wide range of disciplines.
+
+  ​legends 
+  ​elements 
+Correct Answer
+  ​vocabularies 
+  ​keys 
+ 
+Question 63
+Not yet graded / 1 pts
+What are the parts of a prolog?​
+
+Your Answer:
+ 
+UnansweredQuestion 64
+0 / 1 pts
+​Case 1-2
+
+Clarisa is tracing through her XML code to find syntax errors.
+
+
+Clarisa next looks at the elements that do not use nesting, and she finds one that is formatted incorrectly. Which of the following could it be?
+
+  ​<name>Perry</name>
+  ​<name />
+Correct Answer
+  ​<name>Perry</NAME>
+  None of these are correct. 
+ 
+Question 65
+0 / 1 pts
+Empty element tags are entered using a(n) _____ tag.​
+
+You Answered
+
+Correct Answers
+one-sided 
+ 
+Question 66
+0 / 1 pts
+The name in an element’s closing tag must match the name in the opening tag.​
+
+You Answered
+  True 
+  False 
+ 
+UnansweredQuestion 67
+0 / 1 pts
+An XML document consists of the _____, the document body, and the epilog.
+
+  ​grammar 
+  ​index 
+Correct Answer
+  ​prolog 
+  ​chapter 
+ 
+UnansweredQuestion 68
+0 / 1 pts
+An RSS file is written in _____.
+
+  ​SGML 
+  ​HTML 
+Correct Answer
+  ​XML 
+  ​AML 
+ 
+Question 69
+0 / 1 pts
+A(n) DTD more precisely defines the structure of the data and specific data restrictions.​
+
+You Answered
+  True 
+  False 
+ 
+UnansweredQuestion 70
+0 / 1 pts
+The first part of the prolog is the XML _____.
+
+  ​index 
+  ​master 
+Correct Answer
+  ​declaration 
+  ​link 
+ 
+UnansweredQuestion 71
+0 / 1 pts
+A namespace that has been declared within an element can be applied to any _____ of the element.
+
+  ​parent 
+  ​copy 
+Correct Answer
+  ​descendant 
+  ​heir 
+ 
+Question 72
+0 / 1 pts
+ 7b1d2ee8-2491-4831-bb74-138e1091d57c.PNG
+
+ 
+
+ 
+
+The orange text in the accompanying figure is an XML _____.​
+
+You Answered
+
+Correct Answers
+comment 
+ 
+UnansweredQuestion 73
+0 / 1 pts
+One of the more important XML vocabularies is _____, which is a reformulation of HTML as an XML application.
+
+  ​CML 
+Correct Answer
+  ​XHTML 
+  ​OFX 
+  ​MML 
+ 
+UnansweredQuestion 74
+0 / 1 pts
+XML has its roots in _____.
+
+  ​HTML 
+Correct Answer
+  ​SGML 
+  ​XHTML 
+  ​Perl 
+ 
+Question 75
+0 / 1 pts
+The ISO/IEC character set is an international numbering system for referencing characters from virtually any language.​
+
+You Answered
+  True 
+  False 
+ 
+Question 76
+0 / 1 pts
+A(n) compound document is an XML document composed of elements from other vocabularies or schemas.​
+
+You Answered
+  True 
+  False 
+ 
+UnansweredQuestion 77
+0 / 1 pts
+_____ is a language introduced in the 1980s that describes the content and structure of any machine-readable information.
+
+  ​XML 
+  ​HTML 
+  ​XHTML 
+Correct Answer
+  ​SGML 
+ 
+UnansweredQuestion 78
+0 / 1 pts
+Elements that are side-by-side in a document’s hierarchy are _____ elements.
+
+  ​extended 
+  ​extensible 
+Correct Answer
+  ​sibling 
+  ​familial 
+ 
+Question 79
+0 / 1 pts
+Cascading Style Sheets (CSS), the style sheet language developed for use with HTML on the web, also can be used with the elements in any XML document.​
+
+You Answered
+  True 
+  False 
+ 
+UnansweredQuestion 80
+0 / 1 pts
+​Case 1-1
+
+Ryan is new to the use of XML, so he has a lot of basic questions about the fundamentals, including some philosophical questions about the language.
+
+
+You tell Ryan about an important XML vocabulary called RSS. What is this vocabulary used for?
+
+  ​describing recreation and sports events 
+Correct Answer
+  ​distributing news articles or other changing content to subscribers 
+  ​describing recipes and menu items 
+  ​editing interactive audiovisual presentations 
+ 
+UnansweredQuestion 81
+0 / 1 pts
+A _____ document contains no syntax errors and satisfies the general specifications for XML code.
+
+  ​synthesized 
+  ​compound 
+  ​checked 
+Correct Answer
+  ​well-formed 
+ 
+Question 82
+0 / 1 pts
+When an XML document is created, it needs to be evaluated by a program known as a(n) _____.​
+
+You Answered
+
+Correct Answers
+XML parser 
+processor 
+parser 
+ 
+UnansweredQuestion 83
+0 / 1 pts
+​Case 1-1
+
+Ryan is new to the use of XML, so he has a lot of basic questions about the fundamentals, including some philosophical questions about the language.
+
+
+Ryan asks how the rules for a given XML vocabulary are specified, and you explain that it is done using either a document type definition (DTD) or schema. Which of the following is NOT a true statement about DTDs and schemas?
+
+  ​Both DTDs and schemas contain rules for how data in a document vocabulary should be structured.
+  ​A DTD defines the structure of the data and, very broadly, the types of data allowable. 
+  ​A schema more precisely defines the structure of the data and specific data restrictions. 
+Correct Answer
+  ​DTDs and schemas are required, but they are seldom helpful in ensuring that your XML documents follow a specific vocabulary.
+ 
+UnansweredQuestion 84
+0 / 1 pts
+A well-formed XML document that satisfies the rules of a DTD or schema is said to be a(n) _____ document.
+
+  ​invalid 
+Correct Answer
+  ​valid 
+  ​correct 
+  ​verified 
+ 
+UnansweredQuestion 85
+0 / 1 pts
+The XML _____ signals to the program reading the file that the document is written in XML.
+
+  ​statement 
+Correct Answer
+  ​declaration 
+  ​index 
+  ​link 
+ 
+UnansweredQuestion 86
+0 / 1 pts
+An XML document that satisfies the rules of a DTD or schema is said to be a(n) _____ document.
+
+  ​free 
+  ​indexed 
+Correct Answer
+  ​valid 
+  ​roster 
+ 
+Question 87
+0 / 1 pts
+Since it can be difficult to remember the character numbers for different symbols, some symbols can be identified using a character _____ reference.​
+
+You Answered
+
+Correct Answers
+entity 
+ 
+Question 88
+0 / 1 pts
+_____ characters fall into three categories—parsed character data, character data, and white space.​
+
+You Answered
+
+Correct Answers
+Text 
+ 
+UnansweredQuestion 89
+0 / 1 pts
+A _____ instruction is a command that tells an XML parser how to process the document.
+
+Correct Answer
+  ​processing 
+  ​parsing 
+  ​coding 
+  ​designing 
+ 
+Question 90
+0 / 1 pts
+If an XML document is part of a vocabulary which has a defined DTD or schema, it also needs to be tested to ensure that it satisfies the _____ of that vocabulary.​
+
+You Answered
+
+Correct Answers
+rules 
+ 
+Question 91
+0 / 1 pts
+A(n) namespace is a defined collection of element and attribute names.​
+
+You Answered
+  True 
+  False

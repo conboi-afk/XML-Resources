@@ -1,0 +1,273 @@
+1: "Sydney is building an application with XSLT 2.0 that relies on many date formats and calculations. He comes to you for some assistance in developing these formats and calculations correctly.br /pp data-keepme="true" style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "Sydney would like the value of the birthDate element output in the format "9/2/2017". Which of the following functions do you recommend he use to achieve this formatting correctly?
+format-date(birthDate,'[M]/[D]/[Y]')
+
+2: "In the XPath 1.0 data model, nodes are processed in _____ order.
+document
+
+3: "Sydney is building an application with XSLT 2.0 that relies on many date formats and calculations. He comes to you for some assistance in developing these formats and calculations correctly.br /pp data-keepme="true" style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "Sydney has been adding several more date calculations to the application, but has encountered an error. He has been trying to store values for changes in dates and times, but the values displaying in the result document are not at all what he expected them to be. In looking over his code, you remind him that he must use the _____ data type to store changes in dates and times.
+xs:duration
+
+4: May has experience developing applications using XSLT 1.0, and would like to take advantage of some of the added features of XSLT 2.0 in developing a new application. She comes to you for help implementing some of these new features.br /pp data-keepme="true" style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "May has heard that XPath 2.0 allows an application to retrieve data from multiple document sources. She would like to be able to retrieve data from all XML files in the same folder as the current style sheet. You suggest she use the function _____ to enable this situation.
+collection('.?select=*.xml')
+
+5: "If you are working in command line mode, you can keep the Command window open and press the _____ key on your keyboard to recall the previous command rather than retyping it.
+up arrow
+
+6: XPath 2.0 functions do not allow the programmer to create structured content in which resulting text strings are placed with element or attribute nodes.
+False
+
+7: The _____ function is an XPath 2.0 function used to retrieve XML data from external files.
+doc()
+
+8: In XSLT 1.0, there are several numeric data types including xs:integer, xs:decimal, xs:float, and xs:double.
+False
+
+9: XPath 2.0 is fundamentally based on tokenized values, which are values that cannot be broken into smaller parts.
+False
+
+10: The accompanying figure illustrates the code used to implement grouping in XSLT 2.0. In the figure, item _____ marks the attribute used to specify the values used to distinguish between groups.
+D
+
+11: The current date is displayed using the default XPath date format mm-dd-yyyy-tz.
+False
+
+12: You can create atomic values based on XML Schema data types using the _____ function.
+constructor
+
+13: The data type of an atomic value is specified using the _____ attribute.
+as
+
+14: "Sydney is building an application with XSLT 2.0 that relies on many date formats and calculations. He comes to you for some assistance in developing these formats and calculations correctly.br /pp data-keepme="true" style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "One section of the new application requires Sydney to add 2 years and 6 months to the current date. Which of the following expressions do you tell him will provide the correct result?
+current-date() + xs:yearMonthDuration('P2Y6M')
+
+15: The _____ function is an XPath 2.0 function that splits a text string into a sequence of substrings at every occurrence of a regular expression pattern.
+tokenize()
+
+16: The _____ attribute assumes that the population is sorted in a specific order and that order will be retained when the population is grouped.
+group-adjacent
+
+17: The code in the accompanying figure illustrates the use of the collection() function. The area labeled _____ creates a collection of XML files starting with "shipdoc" in the current folder.
+F
+
+18: An XPath 2.0 sequence cannot contain duplicate nodes.
+False
+
+19: "Sequences can be entered directly as a _____ list of values enclosed within a set of parentheses.
+comma-separated
+
+20: Empty sequences are entered as ().
+False
+
+21: The format-dateTime() function cannot be used with international dates and times.
+False
+
+22: The first step in converting an existing XSLT 1.0 style sheet into an XSLT 2.0 style sheet is to set the version number in the _____ element to 2.0.
+stylesheet
+
+23: XPath 2.0 introduced the doc() function to retrieve data from external XML files. The doc() function is a simplified version of the document() function introduced in XSLT 1.0. Describe at least three important differences between the doc() and document() functions.
+[Not graded]
+
+24: The accompanying figure illustrates the code used to implement grouping in XSLT 2.0. In the figure, item _____ marks the code used to display the customer whose custID attribute equals the current grouping key.
+F
+
+25: To apply a transformation that involves a named template using Saxon in Java command line mode, enter the command _____ within a command prompt window.
+java net.sf.saxon.Transform #8211;it:template style #8211;o:output
+
+26: When groups are based on a value using either the group-by or group-adjacent attribute, the key value associated with the current group is returned using the XPath 2.0 function _____.
+current-grouping-key()
+
+27: To display the current date and time, use the XPath 2.0 function _____.
+current-date()
+
+28: In XSLT 2.0, time differences are entered as _____, using the xs:dayTimeDuration data type.
+durations
+
+29: XPath 1.0 is limited to essentially three data types: text, numbers, and _____.
+Boolean values
+
+30: XPath 2.0 data formats use picture markers to specify how dates and times should be rendered.
+False
+
+31: XPath 2.0 is fundamentally based on _____ values, which are values that cannot be broken into smaller parts.
+atomic
+
+32: May has experience developing applications using XSLT 1.0, and would like to take advantage of some of the added features of XSLT 2.0 in developing a new application. She comes to you for help implementing some of these new features.br /pp data-keepme="true" style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "May would like to apply a style to each file in a collection. Which of the following do you tell her shows the correct syntax to achieve this result?
+lt;xsl:for-each select="collection(emuri/em)"gt; p style="font-size:11pt;color:#000000;font-weight:normal;"emspan style="font-family:'Courier New';"styles/em p style="font-size:11pt;color:#000000;font-weight:normal;lt;/xsl:for-eachgt;
+
+33: Applying a(n) _____ to a sequence returns a new sequence containing only those items that satisfy the specified conditions.
+predicate
+
+34: XPath 2.0 provides the _____ function to read non-XML data.
+unparsed-text()
+
+35: XML nodes with the _____ data type can be associated with any type of XML node.
+node()
+
+36: Grouping data is made much easier in XSLT 2.0 with the for-each-group element.
+False
+
+37: The group-by attribute specifies the node set containing the grouped values.
+False
+
+38: The second step in importing data from a CSV file is to read the content of the file into the style sheet as a text string.
+False
+
+39: ​Under XSLT 2.0, the value-of element returns all of the node values in a node set and not just the first node value.
+False
+
+40: The Xpath 2.0 function _____ returns an xs:dateTime data value based on an xs:date and xs:time value.
+dateTime(date, time)
+
+41: To return a sequence item by its position, use the predicate _____.
+sequence[position]
+
+42: Provide the basic structure used to create a user-defined function in XSLT 2.0, and describe each part of the syntax.
+[Not graded]
+
+43: User-defined functions are treated like built-in functions and thus can be run from within an XPath 2.0 expression.
+False
+
+44: When used to format a date value, the marker _____ displays the Day of week component.
+F
+
+45: XPath 2.0 allows the programmer to retrieve data from multiple document sources using the _____ function.
+collection()
+
+46: When used to format a date value, the marker _____ displays the A.M. or P.M. component.
+P
+
+47: "XPath 2.0 replaces the XPath 1.0 concept of the _____ with sequences, where a sequence is any ordered list of items.
+node set
+
+48: The collection() function collection('.?select=*.xml') uses the "_____" character to reference the folder of the current style sheet.
+.
+
+49: XPath 2.0 introduced the _____ function to retrieve data from external XML files.
+doc()
+
+50: May has experience developing applications using XSLT 1.0, and would like to take advantage of some of the added features of XSLT 2.0 in developing a new application. She comes to you for help implementing some of these new features.br /pp data-keepme="true" style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "May is familiar with working with a wide variety of node types in XPath 1.0, but is confused when changing to the atomic values used in XPath 2.0. You explain to her that each atomic value has a data type that describes the kind of data it contains, and this data type is specified using the _____ attribute.
+as
+
+51: One of the uses of the duration functions is to increase a date or time value by a specified amount.
+False
+
+52: The names of all user-defined functions need to be placed within a(n) namespace to ensure that the function name does not conflict with names reserved in the standard function library.
+False
+
+53: The accompanying figure illustrates the code used to implement grouping in XSLT 2.0. In the figure, item _____ marks the attribute used to specify the node set containing the grouped values.
+C
+
+54: The regular expression flag _____ specifies that white space characters within the regular expression should be ignored.
+x
+
+55: Each atomic value has a(n) _____ that describes the kind of data it contains.
+data type
+
+56: The retrieve() function is an XPath 2.0 function used to retrieve XML data from external files.
+False
+
+57: When used to format a date value, the marker _____ displays the Era component.
+E
+
+58: A(n) _____ XSLT processor supports data types defined in user-created schemas in addition to the core functionality of XSLT 2.0.
+schema-aware
+
+59: The regular expression flag _____ specifies that matches should be carried out without respect to upper- or lowercase.
+i
+
+60: Use the _____ occurrence indicator for a sequence to indicate zero-to-one values.
+?
+
+61: Identify the letter of the choice that best matches the phrase or definition.
+[MC]
+
+62: To apply a style to each file in a collection, you can use the collection() function within the _____ element.
+for-each
+
+63: May has experience developing applications using XSLT 1.0, and would like to take advantage of some of the added features of XSLT 2.0 in developing a new application. She comes to you for help implementing some of these new features.br /pp data-keepme="true" style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "May is working with regular expressions, and would like to write a function that splits the contents of the employees element into a sequence of strings at every occurrence of a white space character such as a blank space, tab, or newline character. You recommend she use the function _____.
+tokenize(employees, '\s+')
+
+64: The code in the accompanying figure illustrates the use of the collection() function. The area labeled _____ loops through each XML file in the collection.
+A
+
+65: "In XSLT 2.0, the values returned by user-defined functions are _____.
+sequences
+
+66: The regular expression flag _____ specifies that matches should be carried out in multiline mode so that the ^ character marks the beginning of a line and the $ character marks the ending of a line.
+m
+
+67: May has experience developing applications using XSLT 1.0, and would like to take advantage of some of the added features of XSLT 2.0 in developing a new application. She comes to you for help implementing some of these new features.br /pp data-keepme="true" style="font-family: times new roman; font-size: 11pt; color: #000000; font-weight: normal; "span style="font-family:'times new roman';"May is trying to create a variable named productData that contains a sequence of zero to many element nodes, referenced by the XPath expression /roducts. You suggest she use the syntax _____ to create this variable.
+lt;xs:variable name="productData" select="/roducts" as="element()*" /gt;
+
+68: To specify multiple output file destinations for the transformation result use the _____ element.
+result-document
+
+69: Make sure you use the format-dateTime() function only with values of the data type _____.
+xs:dateTime
+
+70: Sydney is building an application with XSLT 2.0 that relies on many date formats and calculations. He comes to you for some assistance in developing these formats and calculations correctly.br /pp data-keepme="true" style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "span style="font-family:'times new roman';"Once complete, Sydney will be localizing the application to international markets. Which of the following optional arguments of the format-date() function will be useful for this purpose?
+calendar
+
+71: Sydney is building an application with XSLT 2.0 that relies on many date formats and calculations. He comes to you for some assistance in developing these formats and calculations correctly.br /pp data-keepme="true" style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "Sydney would like to add the current date to the top of the output in the format "September 7, 2017". Which of the following functions do you recommend he use to achieve this formatting correctly?
+format-date(current-date(),'[MNn] [D] [Y]')
+
+72: The code in the accompanying figure illustrates the use of the collection() function. The area labeled _____ copies the shipType, items, and custID elements.
+C
+
+73: A(n) _____ is any ordered list of items and replaces the concept of node sets used in XSLT 1.0.
+sequence
+
+74: The [FNn] marker displays the weekday name in title case.
+False
+
+75: Regular expression symbols have opposite meanings when expressed in uppercase letters.
+False
+
+76: The doc() function is more flexible than the document() function.
+False
+
+77: To create structured content, you can use the XSLT 2.0 _____ element.
+analyze-string
+
+78: When used to format a date value, the marker _____ displays the Fractional seconds component.
+f
+
+79: The _____ function returns the value of the key used with the current group being displayed.
+current-grouping-key()
+
+80: In XPath 2.0, the _____ symbol acts as a concatenation operator by combining two sequences while maintaining the sequence order.
+period 
+
+81: With grouping in sequence, all items from the population that share the same grouping key value are grouped together.
+False
+
+82: You can learn information about your processor and what it supports by running the _____ function within your style sheet.
+system-property()
+
+83: The regular expression flag _____ specifies that matches should be applied so that the "." character will match any character in the text string.
+s
+
+84: Describe the five key steps to follow to convert a CSV file to XML format using XSLT 2.0.
+[Not graded]
+
+85: You can create atomic values based on XML Schema data types using the constructor function, which has the syntax _____.
+xs:dataType(value)
+
+86: The format-dateTime() function can be used only with values of the data type _____.
+xs:dateTime
+
+87: The _____ function can be used to provide an easy-to-read date format.
+format-date()
+
+88: The _____ function returns the location of an item in a sequence.
+index-of()
+
+89: A common practice is to place XPath 2.0 functions within the http://www.w3.org/2005/xpathfunctions namespace using the _____ namespace prefix.
+fn
+
+90: You can apply the _____ element under XSLT 2.0 to loop through the items within a sequence.
+for-each
+
+91: In XPath 2.0, date and time values can be stored using the _____ data type.
+xs:dateTime
+

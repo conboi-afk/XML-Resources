@@ -1,0 +1,828 @@
+UnansweredQuestion 1
+0 / 1 pts
+pp style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "Sydney is building an application with XSLT 2.0 that relies on many date formats and calculations. He comes to you for some assistance in developing these formats and calculations correctly.#8203;/pbr //ppp data-keepme="true" style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "Sydney would like the value of the birthDate element output in the format "9/2/2017". Which of the following functions do you recommend he use to achieve this formatting correctly?/p/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;format-date(birthDate,'[MNn]/[D]/[Y]')/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;format-date(birthDate,'[M]/[D,2]/[Y]')/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;format-date(birthDate,'[M]/[d]/[Y]')/span/p
+Correct Answer
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;format-date(birthDate,'[M]/[D]/[Y]')/span/p
+ 
+UnansweredQuestion 2
+0 / 1 pts
+p/ppp data-keepme="true" style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "In the XPath 1.0 data model, nodes are processed in _____ order./p/p
+  p style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203;attribute/p
+  p style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203;element/p
+Correct Answer
+  p style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203;document/p
+  p style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203;ascending/p
+ 
+UnansweredQuestion 3
+0 / 1 pts
+pp style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "Sydney is building an application with XSLT 2.0 that relies on many date formats and calculations. He comes to you for some assistance in developing these formats and calculations correctly.#8203;/pbr //ppp data-keepme="true" style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "Sydney has been adding several more date calculations to the application, but has encountered an error. He has been trying to store values for changes in dates and times, but the values displaying in the result document are not at all what he expected them to be. In looking over his code, you remind him that he must use the _____ data type to store changes in dates and times./p/p
+Correct Answer
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;xs:duration/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;xs:dateTime/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;xs:timeChange/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;xs:time/span/p
+ 
+UnansweredQuestion 4
+0 / 1 pts
+pp style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "#8203;/p p style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "May has experience developing applications using XSLT 1.0, and would like to take advantage of some of the added features of XSLT 2.0 in developing a new application. She comes to you for help implementing some of these new features./pbr //ppp data-keepme="true" style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "May has heard that XPath 2.0 allows an application to retrieve data from multiple document sources. She would like to be able to retrieve data from all XML files in the same folder as the current style sheet. You suggest she use the function _____ to enable this situation./p/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;collection('/?select=*.xml')/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;document('.?select=*.xml')/span/p
+Correct Answer
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;collection('.?select=*.xml')/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;document('/?select=*.xml')/span/p
+ 
+UnansweredQuestion 5
+0 / 1 pts
+p/ppp data-keepme="true" style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "If you are working in command line mode, you can keep the Command window open and press the _____ key on your keyboard to recall the previous command rather than retyping it./p/p
+  p style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203;down arrow/p
+  p style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203;Escape/p
+Correct Answer
+  p style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203;up arrow/p
+  p style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203;tilde/p
+ 
+Question 6
+0 / 1 pts
+XPath 2.0 functions do not allow the programmer to create structured content in which resulting text strings are placed with element or attribute nodes.
+
+You Answered
+  True 
+  False 
+ 
+Question 7
+0 / 1 pts
+p/ppp style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "The _____ function is an XPath 2.0 function used to retrieve XML datanbsp;from external files./p/p
+You Answered
+
+Correct Answers
+doc() 
+ 
+Question 8
+0 / 1 pts
+In XSLT 1.0, there are several numeric data types including xs:integer, xs:decimal, xs:float, and xs:double.
+
+You Answered
+  True 
+  False 
+ 
+Question 9
+0 / 1 pts
+XPath 2.0 is fundamentally based on tokenized values, which are values that cannot be broken into smaller parts.
+
+You Answered
+  True 
+  False 
+ 
+UnansweredQuestion 10
+0 / 1 pts
+pp style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203; //pbr //ppp data-keepme="true" style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "The accompanying figure illustrates the code used to implement grouping in XSLT 2.0. In the figure, item _____ marks the attribute used to specify the values used to distinguish between groups./p/p
+
+ 
+
+0d9af100-0570-4e62-87da-d567e05b2f25.PNG
+
+  p style="font-family:'times new roman';font-size:11pt;color:#000000;font-weight:normal;"#8203;B/p
+  p style="font-family:'times new roman';font-size:11pt;color:#000000;font-weight:normal;"#8203;C/p
+Correct Answer
+  p style="font-family:'times new roman';font-size:11pt;color:#000000;font-weight:normal;"#8203;D/p
+  p style="font-family:'times new roman';font-size:11pt;color:#000000;font-weight:normal;"#8203;F/p
+ 
+Question 11
+0 / 1 pts
+The current date is displayed using the default XPath date format mm-dd-yyyy-tz.
+
+You Answered
+  True 
+  False 
+ 
+Question 12
+0 / 1 pts
+p/ppp style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "You can create atomic values based on XML Schema data types using the _____ function./p/p
+You Answered
+
+Correct Answers
+constructor 
+ 
+UnansweredQuestion 13
+0 / 1 pts
+p/ppp data-keepme="true" style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "The data type of an atomic value is specified using the _____ attribute./p/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"using/span/p
+Correct Answer
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"as/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"type/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;dataType/span/p
+ 
+UnansweredQuestion 14
+0 / 1 pts
+pp style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "Sydney is building an application with XSLT 2.0 that relies on many date formats and calculations. He comes to you for some assistance in developing these formats and calculations correctly.#8203;/pbr //ppp data-keepme="true" style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "One section of the new application requires Sydney to add 2 years and 6 months to the current date. Which of the following expressions do you tell him will provide the correct result?/p/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;current-date() + xs:yearMonthDuration('p2y6m')/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;current-date() + xs:yearMonthDuration('PY2M6')/span/p
+Correct Answer
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;current-date() + xs:yearMonthDuration('P2Y6M')/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;current-date() + xs:yearMonthDuration('py2m6')/span/p
+ 
+Question 15
+0 / 1 pts
+p/ppp style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "The _____ function is an XPath 2.0 function that splits a text string into a sequence of substrings at every occurrence of a regular expression pattern./p/p
+You Answered
+
+Correct Answers
+tokenize() 
+ 
+UnansweredQuestion 16
+0 / 1 pts
+p/ppp data-keepme="true" style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "The _____ attribute assumes that the population is sorted in a specific order andnbsp;that order will be retained when the population is grouped./p/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;group-by/span/p
+Correct Answer
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;group-adjacent/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;group-starting-with/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;group-ending-with/span/p
+ 
+UnansweredQuestion 17
+0 / 1 pts
+pp style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203;img alt="" src="ppg/cognero/Tutorial_8_Building_Applications_with_XSLT_2.0/media/9574e0a1-650d-40f0-a030-1d5ffed5ebe0.PNG" //pbr //ppp data-keepme="true" style="font-family: times new roman; font-size: 11pt; color: #000000; font-weight: normal; "span style="font-family:'times new roman';"The code in the accompanying figure illustrates the use of the/span span style="font-family:'Courier New';"collection()/span span style="font-family:'times new roman';"function. The area labeled _____ creates a collection of XML files starting with "shipdoc" in the current folder./span/p/p
+
+ 
+
+9574e0a1-650d-40f0-a030-1d5ffed5ebe0.PNG
+
+  p style="font-family:'times new roman';font-size:11pt;color:#000000;font-weight:normal;"#8203;A/p
+  p style="font-family:'times new roman';font-size:11pt;color:#000000;font-weight:normal;"#8203;B/p
+  p style="font-family:'times new roman';font-size:11pt;color:#000000;font-weight:normal;"#8203;E/p
+Correct Answer
+  p style="font-family:'times new roman';font-size:11pt;color:#000000;font-weight:normal;"#8203;F/p
+ 
+Question 18
+0 / 1 pts
+An XPath 2.0 sequence cannot contain duplicate nodes.
+
+You Answered
+  True 
+  False 
+ 
+UnansweredQuestion 19
+0 / 1 pts
+p/ppp data-keepme="true" style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "Sequences can be entered directly as a _____ list of values enclosed within a set of parentheses./p/p
+Correct Answer
+  p style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203;comma-separated/p
+  p style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203;tab-delimited/p
+  p style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203;fixed width/p
+  p style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203;colon-separated/p
+ 
+Question 20
+0 / 1 pts
+Empty sequences are entered as ().
+
+You Answered
+  True 
+  False 
+ 
+Question 21
+0 / 1 pts
+The format-dateTime() function cannot be used with international dates and times.
+
+You Answered
+  True 
+  False 
+ 
+UnansweredQuestion 22
+0 / 1 pts
+p/ppp data-keepme="true" style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "The first step in converting an existing XSLT 1.0 style sheet into an XSLT 2.0 style sheet is to set the version number in the _____ element to 2.0./p/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"root/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"output/span/p
+Correct Answer
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"stylesheet/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"xml/span/p
+ 
+Question 23
+Not yet graded / 1 pts
+p/ppp style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "span style="font-family: 'times new roman';"#8203;XPath 2.0 introduced the/span span style="font-family: 'Courier New';"doc()/span span style="font-family: 'times new roman';"function to retrieve data from external XML files. The/span span style="font-family: 'Courier New';"doc()/span span style="font-family: 'times new roman';"function is a simplified version of the/span span style="font-family: 'Courier New';"document()/span span style="font-family: 'times new roman';"function introduced in XSLT 1.0. Describe at least three important differences between the/span span style="font-family: 'Courier New';"doc()/span span style="font-family: 'times new roman';"and/span span style="font-family: 'Courier New';"document()/span span style="font-family: 'times new roman';"functions./span/p/p
+Your Answer:
+ 
+UnansweredQuestion 24
+0 / 1 pts
+pp style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203 //pbr //ppp data-keepme="true" style="font-family: times new roman; font-size: 11pt; color: #000000; font-weight: normal; "span style="font-family:'times new roman';"The accompanying figure illustrates the code used to implement grouping in XSLT 2.0. In the figure, item _____ marks the code used to display the customer whose/span span style="font-family:'Courier New';"custID/span span style="font-family:'times new roman';"attribute equals the current grouping key./span/p/p
+
+ 
+
+0d9af100-0570-4e62-87da-d567e05b2f25.PNG
+
+  p style="font-family:'times new roman';font-size:11pt;color:#000000;font-weight:normal;"#8203;B/p
+  p style="font-family:'times new roman';font-size:11pt;color:#000000;font-weight:normal;"#8203;C/p
+  p style="font-family:'times new roman';font-size:11pt;color:#000000;font-weight:normal;"#8203;D/p
+Correct Answer
+  p style="font-family:'times new roman';font-size:11pt;color:#000000;font-weight:normal;"#8203;F/p
+ 
+UnansweredQuestion 25
+0 / 1 pts
+p/ppp data-keepme="true" style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "To apply a transformation that involves a named template using Saxon in Java command line mode, enter the command _____ within a command prompt window./p/p
+Correct Answer
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;java net.sf.saxon.Transform #8211;it:template style #8211;o:output/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;java net.sf.saxon.Transform #8211;t:template style #8211;o:output/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;java net.sf.saxon.Transform template style #8211;o:output/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;java net.sf.saxon.Transform #8211;i:template style #8211;o:output/span/p
+ 
+UnansweredQuestion 26
+0 / 1 pts
+p/ppp data-keepme="true" style="font-family: times new roman; font-size: 11pt; color: #000000; font-weight: normal; "span style="font-family:'times new roman';"When groups are based on a value using either the/span span style="font-family:'Courier New';"group-by/span span style="font-family:'times new roman';"or/span span style="font-family:'Courier New';"group-adjacent/span span style="font-family:'times new roman';"attribute, the key value associated with the current group is returned using the XPath 2.0 function _____./span/p/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;current-key()/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;grouping-key()/span/p
+Correct Answer
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;current-grouping-key()/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;key()/span/p
+ 
+UnansweredQuestion 27
+0 / 1 pts
+p/ppp data-keepme="true" style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "To display the current date and time, use the XPath 2.0 function _____./p/p
+Correct Answer
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;current-date()/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;today()/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;date()/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;current-time()/span/p
+ 
+Question 28
+0 / 1 pts
+p/ppp style="font-family: times new roman; font-size: 11pt; color: #000000; font-weight: normal; "span style="font-family: 'times new roman';"In XSLT 2.0, time differences are entered as _____, using the/span span style="font-family: 'Courier New';"xs:dayTimeDuration/span span style="font-family: 'times new roman';"data type./span/p/p
+You Answered
+
+Correct Answers
+durations 
+ 
+UnansweredQuestion 29
+0 / 1 pts
+p/ppp data-keepme="true" style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "XPath 1.0 is limited to essentially three data types: text, numbers, and _____./p/p
+Correct Answer
+  p style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203;Boolean values/p
+  p style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203;sequences/p
+  p style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203;date values/p
+  p style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203;time durations/p
+ 
+Question 30
+0 / 1 pts
+XPath 2.0 data formats use picture markers to specify how dates and times should be rendered.
+
+You Answered
+  True 
+  False 
+ 
+Question 31
+0 / 1 pts
+p/ppp style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "XPath 2.0 is fundamentally based on _____ values, which are values that cannot be broken into smaller parts./p/p
+You Answered
+
+Correct Answers
+atomic 
+ 
+UnansweredQuestion 32
+0 / 1 pts
+pp style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "#8203;/p p style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "May has experience developing applications using XSLT 1.0, and would like to take advantage of some of the added features of XSLT 2.0 in developing a new application. She comes to you for help implementing some of these new features./pbr //ppp data-keepme="true" style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "May would like to apply a style to each file in a collection. Which of the following do you tell her shows the correct syntax to achieve this result?/p/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;lt;xsl:for-each select="emstyles/em"gt;/span/p p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"collection(emuri/em)/span/p p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"lt;/xsl:for-eachgt;/span/p
+Correct Answer
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"lt;xsl:for-each select="collection(emuri/em)"gt;/span/p p style="font-size:11pt;color:#000000;font-weight:normal;"emspan style="font-family:'Courier New';"styles/span/em/p p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"lt;/xsl:for-eachgt;/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;lt;xsl:for-each use="collection(emuri/em)"gt;/span/p p style="font-size:11pt;color:#000000;font-weight:normal;"emspan style="font-family:'Courier New';"styles/span/em/p p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"lt;/xsl:for-eachgt;/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;lt;xsl:for-each use="emstyles/em"gt;/span/p p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"collection(emuri/em)/span/p p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"lt;/xsl:for-eachgt;/span/p
+ 
+Question 33
+0 / 1 pts
+p/ppp style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "Applying a(n) _____ to a sequence returns a new sequence containing only those items that satisfy the specified conditions./p/p
+You Answered
+
+Correct Answers
+predicate 
+ 
+UnansweredQuestion 34
+0 / 1 pts
+p/ppp data-keepme="true" style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "XPath 2.0 provides the _____ function to read non-XML data./p/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;read-text()/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;parsed-text()/span/p
+Correct Answer
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;unparsed-text()/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;import-text()/span/p
+ 
+UnansweredQuestion 35
+0 / 1 pts
+p/ppp data-keepme="true" style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "XML nodes with the _____ data type can be associated with any type of XML node./p/p
+Correct Answer
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;node()/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;element()/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"item()/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;text()/span/p
+ 
+Question 36
+0 / 1 pts
+p/ppp style="font-family: times new roman; font-size: 11pt; color: #000000; font-weight: normal; "span style="font-family: 'times new roman';"Grouping data is made much easier in XSLT 2.0 with the/span span style="text-decoration: underline;"span style="font-family: 'Courier New';"for-each-group/span/span span style="font-family: 'times new roman';"element./span/p/p
+You Answered
+  True 
+  False 
+ 
+Question 37
+0 / 1 pts
+p/ppp style="font-family: times new roman; font-size: 11pt; color: #000000; font-weight: normal; "span style="font-family: 'times new roman';"The/span span style="text-decoration: underline;"span style="font-family: 'Courier New';"group-by/span/span span style="font-family: 'times new roman';"attribute specifies the node set containing the grouped values./span/p/p
+You Answered
+  True 
+  False 
+ 
+Question 38
+0 / 1 pts
+p/ppp style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "The span style="text-decoration: underline;"second/span step in importing data from a CSV file is to read the content of the file intonbsp;the style sheet as a text string./p/p
+You Answered
+  True 
+  False 
+ 
+Question 39
+0 / 1 pts
+​Under XSLT 2.0, the value-of element returns all of the node values in a node set and not just the first node value.
+
+You Answered
+  True 
+  False 
+ 
+UnansweredQuestion 40
+0 / 1 pts
+p/ppp data-keepme="true" style="font-family: times new roman; font-size: 11pt; color: #000000; font-weight: normal; "span style="font-family:'times new roman';"The Xpath 2.0 function _____ returns an/span span style="font-family:'Courier New';"xs:dateTime/span span style="font-family:'times new roman';"data value based on an/span span style="font-family:'Courier New';"xs:date/spanspan style="font-family:'times new roman';"nbsp;and/span span style="font-family:'Courier New';"xs:time/span span style="font-family:'times new roman';"value./span/p/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;current-date()/span/p
+Correct Answer
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;dateTime(date, time)/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;day-from-date(date)/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;current-dateTime()/span/p
+ 
+UnansweredQuestion 41
+0 / 1 pts
+p/ppp data-keepme="true" style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "To return a sequence item by its position, use the predicate _____./p/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;index-of[position]/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;sequence[value]/span/p
+Correct Answer
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;sequence[position]/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;index-of[value]/span/p
+ 
+Question 42
+Not yet graded / 1 pts
+p/ppp style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "Provide the basic structure used to create a user-defined function in XSLT 2.0, and describe each part of the syntax./p/p
+Your Answer:
+ 
+Question 43
+0 / 1 pts
+User-defined functions are treated like built-in functions and thus can be run from within an XPath 2.0 expression.
+
+You Answered
+  True 
+  False 
+ 
+UnansweredQuestion 44
+0 / 1 pts
+p/ppp data-keepme="true" style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "When used to format a date value, the marker _____ displays the Day of week component./p/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"D/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;f/span/p
+Correct Answer
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;F/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"W/span/p
+ 
+UnansweredQuestion 45
+0 / 1 pts
+p/ppp data-keepme="true" style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "XPath 2.0 allows the programmer to retrieve data from multiple document sources using the _____ function./p/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;doc()/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;copy()/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;import()/span/p
+Correct Answer
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"collection()/span/p
+ 
+UnansweredQuestion 46
+0 / 1 pts
+p/ppp data-keepme="true" style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "When used to format a date value, the marker _____ displays the A.M. or P.M. component./p/p
+Correct Answer
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;P/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;f/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;C/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;E/span/p
+ 
+UnansweredQuestion 47
+0 / 1 pts
+p/ppp data-keepme="true" style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "XPath 2.0 replaces the XPath 1.0 concept of the _____ with sequences, where a sequence is any ordered list of items./p/p
+  p style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203;list/p
+  p style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203;data set/p
+  p style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203;library/p
+Correct Answer
+  p style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203;node set/p
+ 
+UnansweredQuestion 48
+0 / 1 pts
+p/ppp data-keepme="true" style="font-family: times new roman; font-size: 11pt; color: #000000; font-weight: normal; "span style="font-family:'times new roman';"The/span span style="font-family:'Courier New';"collection()/span span style="font-family:'times new roman';"function/span span style="font-family:'Courier New';"collection('.?select=*.xml')/span span style="font-family:'times new roman';"uses the "_____" character to reference the folder of the current style sheet./span/p/p
+Correct Answer
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;./span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;?/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;*/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;'/span/p
+ 
+UnansweredQuestion 49
+0 / 1 pts
+p/ppp data-keepme="true" style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "XPath 2.0 introduced the _____ function to retrieve data from external XML files./p/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;document()/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;import()/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;retrieve()/span/p
+Correct Answer
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;doc()/span/p
+ 
+UnansweredQuestion 50
+0 / 1 pts
+pp style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "#8203;/p p style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "May has experience developing applications using XSLT 1.0, and would like to take advantage of some of the added features of XSLT 2.0 in developing a new application. She comes to you for help implementing some of these new features./pbr //ppp data-keepme="true" style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "May is familiar with working with a wide variety of node types in XPath 1.0, but is confused when changing to the atomic values used in XPath 2.0. You explain to her that each atomic value has a data type that describes the kind of data it contains, and this data type is specified using the _____ attribute./p/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"select/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"use/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"type/span/p
+Correct Answer
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"as/span/p
+ 
+Question 51
+0 / 1 pts
+One of the uses of the duration functions is to increase a date or time value by a specified amount.
+
+You Answered
+  True 
+  False 
+ 
+Question 52
+0 / 1 pts
+p/ppp style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "The names of all user-defined functions need to be placed within a(n) span style="text-decoration: underline;"namespace/span to ensure that the function name does not conflict with names reserved in the standard function library./p/p
+You Answered
+  True 
+  False 
+ 
+UnansweredQuestion 53
+0 / 1 pts
+pp style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203; //pbr //ppp data-keepme="true" style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "The accompanying figure illustrates the code used to implement grouping in XSLT 2.0. In the figure, item _____ marks the attribute used to specify the node set containing the grouped values./p/p
+
+0d9af100-0570-4e62-87da-d567e05b2f25.PNG
+
+  p style="font-family:'times new roman';font-size:11pt;color:#000000;font-weight:normal;"#8203;B/p
+Correct Answer
+  p style="font-family:'times new roman';font-size:11pt;color:#000000;font-weight:normal;"#8203;C/p
+  p style="font-family:'times new roman';font-size:11pt;color:#000000;font-weight:normal;"#8203;D/p
+  p style="font-family:'times new roman';font-size:11pt;color:#000000;font-weight:normal;"#8203;F/p
+ 
+UnansweredQuestion 54
+0 / 1 pts
+p/ppp data-keepme="true" style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "The regular expression flag _____ specifies that white space characters within the regular expression should be ignored./p/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;i/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"s/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"m/span/p
+Correct Answer
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"x/span/p
+ 
+Question 55
+0 / 1 pts
+p/ppp style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "Each atomic value has a(n) _____ that describes the kind of data it contains./p/p
+You Answered
+
+Correct Answers
+data type 
+ 
+Question 56
+0 / 1 pts
+The retrieve() function is an XPath 2.0 function used to retrieve XML data from external files.
+
+You Answered
+  True 
+  False 
+ 
+UnansweredQuestion 57
+0 / 1 pts
+p/ppp data-keepme="true" style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "When used to format a date value, the marker _____ displays the Era component.#8203;/p/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"P/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;f/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;C/span/p
+Correct Answer
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"E/span/p
+ 
+UnansweredQuestion 58
+0 / 1 pts
+p/ppp data-keepme="true" style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "A(n) _____ XSLT processor supports data types defined in user-created schemas in addition to the corenbsp;functionality of XSLT 2.0./p/p
+  p style="font-family:'times new roman';font-size:11pt;color:#000000;font-weight:normal;"#8203;basic/p
+Correct Answer
+  p style="font-family:'times new roman';font-size:11pt;color:#000000;font-weight:normal;"#8203;schema-aware/p
+  p style="font-family:'times new roman';font-size:11pt;color:#000000;font-weight:normal;"#8203;default/p
+  p style="font-family:'times new roman';font-size:11pt;color:#000000;font-weight:normal;"#8203;advanced/p
+ 
+UnansweredQuestion 59
+0 / 1 pts
+p/ppp data-keepme="true" style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "The regular expression flag _____ specifies that matches should be carried out without respect to upper- or lowercase./p/p
+Correct Answer
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"i/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;s/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"m/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"x/span/p
+ 
+Question 60
+0 / 1 pts
+p/ppp style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "Use the _____ occurrence indicator for a sequence to indicate zero-to-one values./p/p
+You Answered
+
+Correct Answers
+? 
+question mark 
+ 
+Question 61
+0 / 1 pts
+p/ppp data-keepme="true" style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "Identify the letter of the choice that best matches the phrase or definition.#8203;/p/p
+You Answered
+p style="font-family:'times new roman';font-size:11pt;color:#000000;font-weight:normal;"#8203;Date format used to return the week of the month (1#8211;5)/p 
+  
+Correct Answer p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-size:11pt;font-weight:normal;font-family:'Courier New';color:#000000;"#8203;w/span/p
+You Answered
+p style="font-family:'times new roman';font-size:11pt;color:#000000;font-weight:normal;"#8203;Contains a collection of files that you want to retrieve into the style sheet/p 
+  
+Correct Answer p style="font-family:'Times New Roman';font-size:11pt;color:#000000;font-weight:normal;"span style="font-size:11pt;font-weight:normal;font-family:'Times New Roman';color:#000000;"#8203;catalog file/span/p
+You Answered
+p style="font-family:'times new roman';font-size:11pt;color:#000000;font-weight:normal;"#8203;Common non-XML format used for transferring data from one application to another/p 
+  
+Correct Answer p style="font-family:'Times New Roman';font-size:11pt;color:#000000;font-weight:normal;"span style="font-size:11pt;font-weight:normal;font-family:'Times New Roman';color:#000000;"#8203;CSV/span/p
+You Answered
+p style="font-family:'times new roman';font-size:11pt;color:#000000;font-weight:normal;"Function used to learn information about an XSLT processor#8203;/p 
+  
+Correct Answer p style="font-family:'Times New Roman';font-size:11pt;color:#000000;font-weight:normal;"span style="font-size:11pt;font-weight:normal;font-family:'Times New Roman';color:#000000;"#8203;system-property()/span/p
+You Answered
+p style="font-family:'times new roman';font-size:11pt;color:#000000;font-weight:normal;"Values that cannot be broken down into smaller parts#8203;/p 
+  
+Correct Answer p style="font-family:'Times New Roman';font-size:11pt;color:#000000;font-weight:normal;"span style="font-size:11pt;font-weight:normal;font-family:'Times New Roman';color:#000000;"#8203;atomic/span/p
+You Answered
+p style="font-family:'times new roman';font-size:11pt;color:#000000;font-weight:normal;"Operator that returns every item from the first sequence that is not present in the second sequence#8203;/p 
+  
+Correct Answer p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Times New Roman';font-size:11pt;font-weight:normal;color:#000000;"#8203;/spanspan style="font-size:11pt;font-weight:normal;font-family:'Courier New';color:#000000;"except/span/p
+You Answered
+p style="font-family:'times new roman';font-size:11pt;color:#000000;font-weight:normal;"Date format used to return the week of the year (1#8211;52)#8203;/p 
+  
+Correct Answer p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-size:11pt;font-weight:normal;font-family:'Courier New';color:#000000;"#8203;W/span/p
+You Answered
+p style="font-family:'times new roman';font-size:11pt;color:#000000;font-weight:normal;"Element used to create a conditional expression#8203;/p 
+  
+Correct Answer p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Times New Roman';font-size:11pt;font-weight:normal;color:#000000;"#8203;/spanspan style="font-size:11pt;font-weight:normal;font-family:'Courier New';color:#000000;"choose/span/p
+You Answered
+p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"Returns the day component from an/span span style="font-family:'Courier New';"xs:date/span span style="font-family:'times new roman';"value#8203;/span/p 
+  
+Correct Answer p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Times New Roman';font-size:11pt;font-weight:normal;color:#000000;"#8203;/spanspan style="font-size:11pt;font-weight:normal;font-family:'Courier New';color:#000000;"day-from-date(emdate/em)/span/p
+You Answered
+p style="font-family:'times new roman';font-size:11pt;color:#000000;font-weight:normal;"A sequence of items to be grouped#8203;/p 
+  
+Correct Answer p style="font-family:'Times New Roman';font-size:11pt;color:#000000;font-weight:normal;"span style="font-size:11pt;font-weight:normal;font-family:'Times New Roman';color:#000000;"#8203;population/span/p
+ 
+UnansweredQuestion 62
+0 / 1 pts
+p/ppp data-keepme="true" style="font-family: times new roman; font-size: 11pt; color: #000000; font-weight: normal; "span style="font-family:'times new roman';"To apply a style to each file in a collection, you can use the/span span style="font-family:'Courier New';"collection()/span span style="font-family:'times new roman';"function within the _____ element./span/p/p
+Correct Answer
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;for-each/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"apply-all/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;for-each-group/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"while/span/p
+ 
+UnansweredQuestion 63
+0 / 1 pts
+pp style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "#8203;/p p style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "May has experience developing applications using XSLT 1.0, and would like to take advantage of some of the added features of XSLT 2.0 in developing a new application. She comes to you for help implementing some of these new features./pbr //ppp data-keepme="true" style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "May is working with regular expressions, and would like to write a function that splits the contents of the employees element into a sequence of strings at every occurrence of a white space character such as a blank space, tab, or newline character. You recommend she use the function _____./p/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;tokenize(employees, '\s-')/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"tokenize(employees, '\x+')/span/p
+Correct Answer
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;tokenize(employees, '\s+')/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;tokenize(employees, '\x-')/span/p
+ 
+UnansweredQuestion 64
+0 / 1 pts
+The code in the accompanying figure illustrates the use of the/span span style="font-family:'Courier New';"collection()/span span style="font-family:'times new roman';"function. The area labeled _____ loops through each XML file in the collection./span/p/p
+
+ 
+
+Correct Answer
+  p style="font-family:'times new roman';font-size:11pt;color:#000000;font-weight:normal;"#8203;A/p
+  p style="font-family:'times new roman';font-size:11pt;color:#000000;font-weight:normal;"#8203;D/p
+  p style="font-family:'times new roman';font-size:11pt;color:#000000;font-weight:normal;"#8203;E/p
+  p style="font-family:'times new roman';font-size:11pt;color:#000000;font-weight:normal;"#8203;G/p
+ 
+UnansweredQuestion 65
+0 / 1 pts
+p/ppp data-keepme="true" style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "In XSLT 2.0, the values returned by user-defined functions are _____./p/p
+Correct Answer
+  p style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203;sequences/p
+  p style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203;nodes/p
+  p style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203;variables/p
+  p style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203;predicates/p
+ 
+UnansweredQuestion 66
+0 / 1 pts
+p/ppp data-keepme="true" style="font-family: times new roman; font-size: 11pt; color: #000000; font-weight: normal; "span style="font-family:'times new roman';"The regular expression flag _____ specifies that matches should be carried out in multiline mode so that the/span span style="font-family:'Courier New';"^/span span style="font-family:'times new roman';"character marks the beginning of a line and the/span span style="font-family:'Courier New';"$/span span style="font-family:'times new roman';"character marks the ending of a line./span/p/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;i/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;s/span/p
+Correct Answer
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"m/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;x/span/p
+ 
+UnansweredQuestion 67
+0 / 1 pts
+pp style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "#8203;/p p style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "May has experience developing applications using XSLT 1.0, and would like to take advantage of some of the added features of XSLT 2.0 in developing a new application. She comes to you for help implementing some of these new features./pbr //ppp data-keepme="true" style="font-family: times new roman; font-size: 11pt; color: #000000; font-weight: normal; "span style="font-family:'times new roman';"May is trying to create a variable named/span span style="font-family:'Courier New';"productData/span span style="font-family:'times new roman';"that contains a sequence of zero to many element nodes, referenced by the XPath expression/span span style="font-family:'Courier New';"//products/spanspan style="font-family:'times new roman';". You suggest she use the syntax _____ to create this variable./span/p/p
+Correct Answer
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;lt;xs:variable name="productData" select="//products" as="element()*" /gt;/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;lt;xs:variable name="productData" select="//products" as="element()" /gt;/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;lt;xs:variable name="productData" as="//products" select="element()*" /gt;/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;lt;xs:variable name="productData" as="//products" select="element()" /gt;/span/p
+ 
+UnansweredQuestion 68
+0 / 1 pts
+p/ppp data-keepme="true" style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "To specify multiple output file destinations for the transformation result use the _____ element./p/p
+Correct Answer
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;result-document/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;multiple-output/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"multiple-result/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;output-document/span/p
+ 
+Question 69
+0 / 1 pts
+p/ppp style="font-family: times new roman; font-size: 11pt; color: #000000; font-weight: normal; "span style="font-family: 'times new roman';"Make sure you use the/span span style="font-family: 'Courier New';"format-dateTime()/span span style="font-family: 'times new roman';"function only with values of the data type _____./span/p/p
+You Answered
+
+Correct Answers
+xs:dateTime 
+dateTime 
+ 
+UnansweredQuestion 70
+0 / 1 pts
+pp style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "Sydney is building an application with XSLT 2.0 that relies on many date formats and calculations. He comes to you for some assistance in developing these formats and calculations correctly.#8203;/pbr //ppp data-keepme="true" style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "span style="font-family:'times new roman';"Once complete, Sydney will be localizing the application to international markets. Which of the following optional arguments of the/span span style="font-family:'Courier New';"format-date()/span span style="font-family:'times new roman';"function will be useful for this purpose?/span/p/p
+Correct Answer
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"calendar/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"clock/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;timeCode/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"region/span/p
+ 
+UnansweredQuestion 71
+0 / 1 pts
+pp style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "Sydney is building an application with XSLT 2.0 that relies on many date formats and calculations. He comes to you for some assistance in developing these formats and calculations correctly.#8203;/pbr //ppp data-keepme="true" style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "Sydney would like to add the current date to the top of the output in the format "September 7, 2017". Which of the following functions do you recommend he use to achieve this formatting correctly?/p/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;format-date(current-date(),'[MN] [D] [Y]')/span/p
+Correct Answer
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;format-date(current-date(),'[MNn] [D] [Y]')/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;format-date(current-date(),'[Mn] [D] [Y]')/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;format-date(current-date(),'[MNn] [D,2] [Y]')/span/p
+ 
+UnansweredQuestion 72
+0 / 1 pts
+pp style="font-family: Times New Roman; font-size: 11pt; color: #000000; font-weight: normal; "#8203; //pbr //ppp data-keepme="true" style="font-family: times new roman; font-size: 11pt; color: #000000; font-weight: normal; "span style="font-family:'times new roman';"The code in the accompanying figure illustrates the use of the/span span style="font-family:'Courier New';"collection()/span span style="font-family:'times new roman';"function. The area labeled _____ copies the/span span style="font-family:'Courier New';"shipType/spanspan style="font-family:'times new roman';",/span span style="font-family:'Courier New';"items/spanspan style="font-family:'times new roman';", and/span span style="font-family:'Courier New';"custID/span span style="font-family:'times new roman';"elements./span/p/p
+
+ 
+
+9574e0a1-650d-40f0-a030-1d5ffed5ebe0.PNG
+
+  p style="font-family:'times new roman';font-size:11pt;color:#000000;font-weight:normal;"#8203;B/p
+Correct Answer
+  p style="font-family:'times new roman';font-size:11pt;color:#000000;font-weight:normal;"#8203;C/p
+  p style="font-family:'times new roman';font-size:11pt;color:#000000;font-weight:normal;"#8203;D/p
+  p style="font-family:'times new roman';font-size:11pt;color:#000000;font-weight:normal;"#8203;F/p
+ 
+Question 73
+0 / 1 pts
+p/ppp style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "A(n) _____ is any ordered list of items and replaces the concept of node sets used in XSLT 1.0./p/p
+You Answered
+
+Correct Answers
+sequence 
+ 
+Question 74
+0 / 1 pts
+The [FNn] marker displays the weekday name in title case.
+
+You Answered
+  True 
+  False 
+ 
+Question 75
+0 / 1 pts
+p/ppp style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "Regular expression symbols have opposite meanings when expressed in span style="text-decoration: underline;"uppercase/span letters./p/p
+You Answered
+  True 
+  False 
+ 
+Question 76
+0 / 1 pts
+The doc() function is more flexible than the document() function.
+
+You Answered
+  True 
+  False 
+ 
+Question 77
+0 / 1 pts
+p/ppp style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "To create structured content, you can use the XSLT 2.0 _____ element./p/p
+You Answered
+
+Correct Answers
+analyze-string 
+ 
+UnansweredQuestion 78
+0 / 1 pts
+p/ppp data-keepme="true" style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "When used to format a date value, the marker _____ displays the Fractional seconds component.#8203;/p/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"D/span/p
+Correct Answer
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;f/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;F/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;s/span/p
+ 
+Question 79
+0 / 1 pts
+p/ppp style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "The _____ function returns the value of the key used with the current group being displayed./p/p
+You Answered
+
+Correct Answers
+current-grouping-key() 
+ 
+UnansweredQuestion 80
+0 / 1 pts
+p/ppp data-keepme="true" style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "In XPath 2.0, the _____ symbol acts as a concatenation operator by combining two sequences while maintaining the sequence order./p/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;comma (/spanspan style="font-family:'Courier New';",/spanspan style="font-family:'times new roman';")/span/p
+Correct Answer
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;period (/spanspan style="font-family:'Courier New';"./spanspan style="font-family:'times new roman';")/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;plus sign (/spanspan style="font-family:'Courier New';"+/spanspan style="font-family:'times new roman';")/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;hyphen (/spanspan style="font-family:'Courier New';"-/spanspan style="font-family:'times new roman';")/span/p
+ 
+Question 81
+0 / 1 pts
+p/ppp style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "With grouping span style="text-decoration: underline;"in sequence/span, all items from the population that share the same grouping key value are grouped together./p/p
+You Answered
+  True 
+  False 
+ 
+UnansweredQuestion 82
+0 / 1 pts
+p/ppp data-keepme="true" style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "You can learn information about your processor and what it supports by running the _____ function within your style sheet./p/p
+Correct Answer
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;system-property()/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;processor-property()/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;system-information()/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;processor-information()/span/p
+ 
+UnansweredQuestion 83
+0 / 1 pts
+p/ppp data-keepme="true" style="font-family: times new roman; font-size: 11pt; color: #000000; font-weight: normal; "span style="font-family:'times new roman';"The regular expression flag _____ specifies that matches should be applied so that the "/spanspan style="font-family:'Courier New';"./spanspan style="font-family:'times new roman';"" character will match any character in the text string./span/p/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;i/span/p
+Correct Answer
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;s/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;m/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"x/span/p
+ 
+Question 84
+Not yet graded / 1 pts
+p/ppp style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "#8203;Describe the five key steps to follow to convert a CSV file to XML format using XSLT 2.0./p/p
+Your Answer:
+ 
+UnansweredQuestion 85
+0 / 1 pts
+p/ppp data-keepme="true" style="font-family: times new roman; font-size: 11pt; color: #000000; font-weight: normal; "span style="font-family:'times new roman';"You can create atomic values based on XML Schema data types using the/span span style="font-family:'Courier New';"constructor/span span style="font-family:'times new roman';"function, which has the syntax _____./span/p/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;xs:constructor(dataType="value")/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;dataType(xs:value)/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;constructor:xs(dataType="value")/span/p
+Correct Answer
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;xs:dataType(value)/span/p
+ 
+UnansweredQuestion 86
+0 / 1 pts
+p/ppp data-keepme="true" style="font-family: times new roman; font-size: 11pt; color: #000000; font-weight: normal; "span style="font-family:'times new roman';"The/span span style="font-family:'Courier New';"format-dateTime()/span span style="font-family:'times new roman';"function can be used only with values of the data type _____./span/p/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;xs:date/span/p
+Correct Answer
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;xs:dateTime/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;xs:time/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;xs:dateFormat/span/p
+ 
+Question 87
+0 / 1 pts
+p/ppp style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "The _____ function can be used to provide an easy-to-read date format./p/p
+You Answered
+
+Correct Answers
+format-date() 
+ 
+Question 88
+0 / 1 pts
+p/ppp style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "The _____ function returns the location of an item in a sequence./p/p
+You Answered
+
+Correct Answers
+index-of() 
+ 
+UnansweredQuestion 89
+0 / 1 pts
+p/ppp data-keepme="true" style="font-family: times new roman; font-size: 11pt; color: #000000; font-weight: normal; "span style="font-family:'times new roman';"A common practice is to place XPath 2.0 functions within the/span span style="font-family:'Courier New';"http://www.w3.org/2005/xpathfunctions/span span style="font-family:'times new roman';"namespace using the _____ namespace prefix./span/p/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;fx/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"xfn/span/p
+Correct Answer
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"fn/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'times new roman';"#8203;/spanspan style="font-family:'Courier New';"xfx/span/p
+ 
+Question 90
+0 / 1 pts
+p/ppp style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "You can apply the _____ element under XSLT 2.0 to loop through the items within a sequence./p/p
+You Answered
+
+Correct Answers
+for-each 
+ 
+UnansweredQuestion 91
+0 / 1 pts
+p/ppp data-keepme="true" style="font-family: 'times new roman'; font-size: 11pt; color: #000000; font-weight: normal; "In XPath 2.0, date and time values can be stored using the _____ data type./p/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;xs:date/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;xs:time/span/p
+Correct Answer
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;xs:dateTime/span/p
+  p style="font-size:11pt;color:#000000;font-weight:normal;"span style="font-family:'Courier New';"#8203;xs:timeDate/span/p
