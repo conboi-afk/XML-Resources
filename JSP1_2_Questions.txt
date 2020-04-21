@@ -1,0 +1,48 @@
+1: Using a/an external ________________ file provides a way to separate the formatting of HTML pages from the content of the pages.
+CSS
+
+2: A/an ________________ file contains the tags that define the content of a web page.
+HTML
+
+3: In the Model 2 pattern, ________________ objects define the model.
+business
+
+4: In the MVC pattern, the controller is a ________________.
+servlet
+
+5: To minimize the amount of Java code in your JSPs, you
+use servlets to handle the processing requirements
+
+6: A/an ________________ is a type of Java class that runs on a server and does the processing for the dynamic web pages of a web application.
+servlet
+
+7: A JavaBean, or bean, is a Java class that
+none of the above
+
+8: A/an  ________________ consists of special Java tags such as Expression Language (EL) tags that are embedded within HTML.
+JSP
+
+9: Which of the following is not a benefit of using the MVC pattern for an application?
+it requires less code
+
+10: The controller manages the flow of the application, and this work is done by one or more
+servlets
+
+11: Since the web.xml file describes how the web application should be configured when it is deployed on a server, the file is known as the
+deployment descriptor (DD)
+
+12: When you use the Model 1 pattern, ________________ handle all of the processing and presentation for the application.
+JSPs
+
+13: A web.xml file is always stored in the  _________________ directory of an application.
+WEB-INF
+
+14: When you use the MVC pattern, the controller directs the flow of control to
+the view and the model
+
+15: In the MVC pattern, the view consists of HTML pages and ________________.
+JavaServer Pages
+
+16: When you use the MVC pattern, you
+make each layer as independent as possible
+

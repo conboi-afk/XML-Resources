@@ -1,0 +1,387 @@
+1: A ________________ web page is one that doesn’t change.
+static
+
+2: A web application runs on the server computer under the control of ________________ software.
+web server
+
+3: To work with servlets and JSPs, the web server must contain the JDK, web server software, and a servlet/JSP ________________.
+engine
+
+4: A web page that changes based on the parameters that are sent to the web application from another page is called a/an ________________ .
+dynamic web page
+
+5: To develop Java web applications, you can use an Integrated Development Environment (IDE) such as:
+NetBeans or Eclipse
+
+6: To transfer your web application files to a web server, you can use a/an ___________ client such as FileZilla.
+FTP (File Transfer Protocol)
+
+7: For web applications, data can be stored in
+all of the above
+
+8: ________________ is the language that the web browser converts into the web pages of a web application.
+HTML
+
+9: There are many approaches to developing web applications with Java besides using servlets and JavaServer Pages. Name two other approaches.
+JSF and Spring
+
+10: The top-level directory for a web application is know as its ________________  directory.
+root
+
+11: The client typically uses a ________________ to interact with a web application over the Internet.
+browser
+
+12: A JavaServer Page typically contains the _________________ for the web page.
+HTML
+
+13: The protocol that’s used by web browsers and web servers to communicate is ________________.
+HTTP
+
+14: The presentation layer for a typical servlet/JSP web application consists of
+HTML pages and JSPs
+
+15: The specification that describes how web servers can interact with all Java web technolgies is know as
+The Java Enterprise Edition (Java EE)
+
+16: The context.xml file is always stored in the  _________________ directory of an application.
+META-INF
+
+17: A web application is a type of
+client/server application
+
+18: An HTTP request
+is sent from the web browser to a web server
+
+19: A servlet
+runs on a server
+
+20: A set of pages that are generated in response to user requests is called a/an
+web application
+
+21: A web server replies to an HTTP request by sending a message known as a/an ________________ .
+HTTP response
+
+22: A servlet/JSP application typically contains a presentation layer, a business rules layer, and a _________________.
+data access layer
+
+23: Which directory stores the Java classes of a servlet/JSP application?
+WEB-INF\classes
+
+24: Which of the following is an API for working with databases?
+JPA
+
+1: Using a/an external ________________ file provides a way to separate the formatting of HTML pages from the content of the pages.
+CSS
+
+2: A/an ________________ file contains the tags that define the content of a web page.
+HTML
+
+3: In the Model 2 pattern, ________________ objects define the model.
+business
+
+4: In the MVC pattern, the controller is a ________________.
+servlet
+
+5: To minimize the amount of Java code in your JSPs, you
+use servlets to handle the processing requirements
+
+6: A/an ________________ is a type of Java class that runs on a server and does the processing for the dynamic web pages of a web application.
+servlet
+
+7: A JavaBean, or bean, is a Java class that
+none of the above
+
+8: A/an  ________________ consists of special Java tags such as Expression Language (EL) tags that are embedded within HTML.
+JSP
+
+9: Which of the following is not a benefit of using the MVC pattern for an application?
+it requires less code
+
+10: The controller manages the flow of the application, and this work is done by one or more
+servlets
+
+11: Since the web.xml file describes how the web application should be configured when it is deployed on a server, the file is known as the
+deployment descriptor (DD)
+
+12: When you use the Model 1 pattern, ________________ handle all of the processing and presentation for the application.
+JSPs
+
+13: A web.xml file is always stored in the  _________________ directory of an application.
+WEB-INF
+
+14: When you use the MVC pattern, the controller directs the flow of control to
+the view and the model
+
+15: In the MVC pattern, the view consists of HTML pages and ________________.
+JavaServer Pages
+
+16: When you use the MVC pattern, you
+make each layer as independent as possible
+
+1: When the server removes a servlet from memory, it calls the servlet’s ______________________ method.
+destroy
+
+2: When one element is coded within another element, it can be called a/an ________________ element.
+child
+
+3: To map a servlet to a URL pattern, you can use the @WebServlet annotation, or you can add code to the ______________________ file.
+web.xml
+
+4: When the doGet method of a servlet is called, it receives
+the request and response objects
+
+5: You can use ________________, or ________________ to perform data validation on the client.
+JavaScript, jQuery
+
+6: The following code
+returns all values of the mail parameter or null if none exist
+
+7: To define a/an ________________ initialization parameter that’s available to a specific servlet, you can code a/an ________________ element within a servlet element.
+servlet, init-param
+
+8: In the code that follows, DiagnoseTrouble
+is the internal name for the servlet class that’s used in the deployment descriptor
+
+9: To define a/an ________________ initialization parameter that’s available to all servlets in the web application, you code a/an ________________ element.
+context, context-param
+
+10: Which of the following statements gets the value of the parameter named occupation?
+String occupation = request.getParameter("occupation")
+
+11: To make sure that parameter values aren’t displayed in the URL when a servlet is requested, you should use the ____________________ method in the form tag.
+post
+
+12: Initialization parameters can be added to the ________________ file.
+web.xml
+
+13: The init method of a servlet class is called
+the first time a servlet is requested but before the service method
+
+14: Within a servlet, instance variables are not ________________ and can result in serious problems.
+thread-safe
+
+15: The root element for the web.xml file is the ________________ element.
+web-app
+
+16: You can use the web.xml file or @WebServlet annotations to provide ________________ that apply to the entire web application or to specific servlets.
+initialization parameters
+
+17: The doGet method of a servlet is called when the servlet receives an HTTP ______________________ request.
+GET
+
+18: In the code that follows, the servlet is mapped to 
+the /diagnostics/diagnoseTrouble URL of the document root directory
+
+19: To write debugging messages from a servlet class to your servlet container’s log files, you can use the ______________________ method that you can call directly from any class that extends the HttpServlet class.
+log
+
+20: If you need to run some code when a servlet is initialized and loaded into memory, you can use the ______________________ method of the servlet.
+init
+
+21: The web.xml file consists of XML ________________ that define XML elements.
+tags
+
+22: The log file for debugging messages can usually be found in the logs directory of the ________________________.
+web server
+
+23: When an HTML page requests a servlet with the HTTP POST method, the _______________________ method of the servlet class is called.
+doPost
+
+24: A/an ________________ is the chain of method calls for any statement that calls a method.
+stack trace
+
+25: You can use ________________ to perform data validation on the server.
+a servlet
+
+26: A servlet is a Java class that extends the
+HttpServlet class
+
+27: The following code from a servlet class
+prints text to the standard output stream
+
+1: To include a file in a JSP at compile-time, you can use the ________________ directive.
+include
+
+2: If the following JSP tag is coded in a JSP named index.jsp, what happens when the reports.jsp file is updated?
+the changes appear for subsequent requests for the index.jsp file
+
+3: A scriptlet contains one or more ________________ statements.
+Java
+
+4: EL makes it easy to access the _______________ of JavaBeans.
+properties
+
+5: Whenever you us EL, you begin by coding a
+dollar sign
+
+6: To include HTML or JSP files within a JSP at runtime, you can use a/an ________________ import tag.
+JSTL
+
+7: Before you can use JSTL tags, you must import the ____________________ to make the jstl-impl.jar and jstl-api.jar files available to the application.
+JSTL library
+
+8: The ________________ of a bean refers to the object that stores the bean. This controls how long the bean is available to the application.
+scope
+
+9: ___________________ provides tags for common tasks that need to be performed in JSPs.
+The JSP Standard Tag Library (JSTL)
+
+10: A JavaBean is a Java class that
+all of the above
+
+11: Which of the following is a valid JSP comment?
+<%-- comment --%>
+
+12: With a standard JSP tag, you can use the ________________ tag to get the values stored in a bean.
+getProperty
+
+13: JavaBeans are a type of ____________________.
+plain old Java object
+
+14: A/an ____________________ is a special type of object that provides a standard way to access its properties.
+JavaBean
+
+15: ________________ provides a compact syntax that lets you get data from a JavaBean that has been stored as an attribute of the request.
+Expression Language (EL)
+
+16: The advantages of EL are
+all of the above
+
+17: If you attempt to run a JSP that contains a coding error, the server typically returns an error page with HTTP Status __________.
+500
+
+18: Before you can use the core JSTL tags in a JSP, you must code a/an ________________ for the core JSTL library.
+taglib directive
+
+1: The cookie named mediaCookie in the following statement can be accessed by
+the entire web application
+
+2: It is not recommended to implement session tracking by using URL encoding, because it can lead to session ________________.
+hijacking
+
+3: Persistent cookies
+exist after the session ends
+
+4: The advantages of using hidden fields over URL rewriting to pass parameters from a browser to the server are
+both a and c
+
+5: Typical uses for cookies are
+all of the above
+
+6: To store the data for each session, the server creates a/an ________________.
+session object
+
+7: By default, the servlet API uses a/an ________________ to store a session ID in each browser.
+cookie
+
+8: A session ends when
+both a and b
+
+9: ________________ cookies are deleted when the session ends.
+Per-session
+
+10: A servlet can retrieve the current session object by using the getSession method of the
+the request object
+
+11: The following link demonstrates how to use
+URL rewriting
+
+12: Cookies are stored
+on the client
+
+13: Since it can be tedious to loop through an array of cookies whenever you want to get the value for one cookie, it is common to place the code that loops through the array of cookies in a/an ________________ class.
+utility
+
+14: To create a cookie, you create an instance of the ________________ class.
+Cookie
+
+15: A session object is created
+the first time a browser makes a request to a site
+
+16: Which of the following statements causes an error?
+String name = session.getAttribute("name");
+
+17: The current session object is available
+to both servlets and JSPs
+
+18: ________________ cookies are stored on the user’s computer and are available for subsequent sessions.
+Persistent
+
+19: To delete a persistent cookie, set the age of a cookie to
+0
+
+20: To create a persistent cookie, set the cookie’s maximum age to
+a positive number
+
+21: When you set an attribute in the session object, the attributes are
+all of the above
+
+22: Keeping track of users as they move around a web site is known as ________________.
+session tracking
+
+23: You can use the ________________ method of the response object to add a cookie to the computer that made the request.
+addCookie
+
+24: When you set an attribute in the request object, the attributes are ________________.
+removed when the request has been completed
+
+25: To get an array of all the cookies stored by the browser, you use the ________________ method of the request object.
+getCookies
+
+26: Which statement is true?
+HTTP doesn’t maintain state
+
+1: In a left outer join, the result set includes
+all rows in the first table and matched rows in the second table
+
+2: INSERT, UPDATE, and DELETE statements are part of SQL’s _____________________.
+Data Manipulation Language
+
+3: A file that stores one or more SQL statements is known as a __________________________________________.
+SQL script
+
+4: MySQL is a/an ________________ that can manage one or more databases.
+relational database management system (RDMS)
+
+5: When you code a script that contains more than one statement, you must code a/an ________________ at the end of each statement.
+semicolon
+
+6: CREATE DATABASE and DROP DATABASE are
+SQL statements
+
+7: When you code a/an ________________ join, rows are only included when the key of a row in the first table matches the key of a row in the second table.
+inner
+
+8: To specify how the result set should be sorted, you use the ________________ clause.
+ORDER BY
+
+9: SQL statements such as the CREATE TABLE and DROP TABLE statements are part of SQL’s ___________________________.
+Data Definition Language
+
+10: Before you can work with a database in MySQL Workbench, you need to connect to the ________________.
+database server
+
+11: The INSERT statement that follows inserts
+one row and four columns into the Download table
+
+12: To determine which rows in a table are selected, you code a _____________________       clause in a SELECT statement.
+WHERE
+
+13: Write a SELECT statement that returns all of the columns and rows from a table named UserRoles.
+SELECT * FROM UserRoles
+
+14: To select data from two or more tables, you can code a _____________________ clause.
+JOIN
+
+15: Which is not true about MySQL?
+it does not support referential integrity or tranasction processing.
+
+16: When a SELECT statement is executed, it returns a _______________________________.
+result set
+
+17: A/an ________________ is a column that is used to relate each row in one table with one or more rows in another table.
+foreign key
+
+18: The result set retrieved by the following SELECT statement contains rows that have
+two columns from the Accounts table where Balance column is less than 0
+

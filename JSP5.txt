@@ -1,0 +1,160 @@
+Question 1
+0 / 1 pts
+In a left outer join, the result set includes
+  matched rows in both tables and unmatched rows in the second table
+  all rows in the second table and matched rows in the first table
+  matched rows in both tables and unmatched rows that don’t contain nulls
+Correct Answer
+  all rows in the first table and matched rows in the second table
+ 
+Question 2
+0 / 1 pts
+INSERT, UPDATE, and DELETE statements are part of SQL’s _____________________.
+You Answered
+
+Correct Answers
+Data Manipulation Language 
+DML 
+ 
+Question 3
+0 / 1 pts
+A file that stores one or more SQL statements is known as a __________________________________________.
+You Answered
+
+Correct Answers
+SQL script 
+ 
+UnansweredQuestion 4
+0 / 1 pts
+MySQL is a/an ________________ that can manage one or more databases.
+  Structured Query Langage (SQL)
+Correct Answer
+  relational database management system (RDMS)
+  Data Definition Language (DDL)
+  Data Manipulation Language (DML)
+ 
+UnansweredQuestion 5
+0 / 1 pts
+When you code a script that contains more than one statement, you must code a/an ________________ at the end of each statement.
+Correct Answer
+  semicolon
+  colon
+  comma
+  period
+ 
+UnansweredQuestion 6
+0 / 1 pts
+CREATE DATABASE and DROP DATABASE are
+  result sets
+  MySQL commands
+  foreign keys
+Correct Answer
+  SQL statements
+ 
+Question 7
+0 / 1 pts
+When you code a/an ________________ join, rows are only included when the key of a row in the first table matches the key of a row in the second table.
+You Answered
+
+Correct Answers
+inner 
+ 
+UnansweredQuestion 8
+0 / 1 pts
+To specify how the result set should be sorted, you use the ________________ clause.
+  WHERE
+  FROM
+Correct Answer
+  ORDER BY
+  SELECT
+ 
+Question 9
+0 / 1 pts
+SQL statements such as the CREATE TABLE and DROP TABLE statements are part of SQL’s ___________________________.
+You Answered
+
+Correct Answers
+Data Definition Language 
+DDL 
+ 
+Question 10
+0 / 1 pts
+Before you can work with a database in MySQL Workbench, you need to connect to the ________________.
+You Answered
+
+Correct Answers
+database server 
+ 
+UnansweredQuestion 11
+0 / 1 pts
+The INSERT statement that follows inserts
+INSERT INTO Download (UserID, DownloadDate, DownloadFilename, ProductCode)
+VALUES (1, NOW(), 'jr01_filter.mp3', 'jr01')
+  four rows and four columns into the Download table
+Correct Answer
+  one row and four columns into the Download table
+  four rows and one column into the Download table
+  one row and three columns into the Download table
+ 
+Question 12
+0 / 1 pts
+To determine which rows in a table are selected, you code a _____________________       clause in a SELECT statement.
+You Answered
+
+Correct Answers
+WHERE 
+ 
+Question 13
+0 / 1 pts
+Write a SELECT statement that returns all of the columns and rows from a table named UserRoles.
+________________________________________________________________
+You Answered
+
+Correct Answers
+SELECT * FROM UserRoles 
+ 
+Question 14
+0 / 1 pts
+To select data from two or more tables, you can code a _____________________ clause.
+You Answered
+
+Correct Answers
+JOIN 
+ 
+UnansweredQuestion 15
+0 / 1 pts
+Which is not true about MySQL?
+  it supports SQL
+  it can protect access to your data so only authorized users can view the data
+Correct Answer
+  it does not support referential integrity or tranasction processing.
+  all of the above
+ 
+Question 16
+0 / 1 pts
+When a SELECT statement is executed, it returns a _______________________________.
+You Answered
+
+Correct Answers
+result set 
+result table 
+ 
+Question 17
+0 / 1 pts
+A/an ________________ is a column that is used to relate each row in one table with one or more rows in another table.
+You Answered
+
+Correct Answers
+foreign key 
+ 
+UnansweredQuestion 18
+0 / 1 pts
+The result set retrieved by the following SELECT statement contains rows that have
+SELECT Balance, Num
+FROM Accounts
+WHERE Balance < 0
+  one column from the Balance table where the Num column is less than 0
+  two columns from the Balance table where the Num column is less than 0
+  all columns from the Accounts table where the Balance column is less than 0
+Correct Answer
+  two columns from the Accounts table where Balance column is less than 0

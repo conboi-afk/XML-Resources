@@ -1,0 +1,210 @@
+Question 1
+0 / 1 pts
+A ________________ web page is one that doesn’t change.
+You Answered
+
+Correct Answers
+static 
+ 
+Question 2
+0 / 1 pts
+A web application runs on the server computer under the control of ________________ software.
+You Answered
+
+Correct Answers
+web server 
+ 
+Question 3
+0 / 1 pts
+To work with servlets and JSPs, the web server must contain the JDK, web server software, and a servlet/JSP ________________.
+You Answered
+
+Correct Answers
+engine 
+container 
+ 
+Question 4
+0 / 1 pts
+A web page that changes based on the parameters that are sent to the web application from another page is called a/an ________________ .
+You Answered
+
+Correct Answers
+dynamic web page 
+dynamic 
+ 
+UnansweredQuestion 5
+0 / 1 pts
+To develop Java web applications, you can use an Integrated Development Environment (IDE) such as:
+Correct Answer
+  NetBeans or Eclipse
+  Foxfire or Netscape
+  FileZilla or CuteFTP
+  Tomcat or Apache
+ 
+UnansweredQuestion 6
+0 / 1 pts
+To transfer your web application files to a web server, you can use a/an ___________ client such as FileZilla.
+  HTTP (Hypertext Transfer Protocol)
+  JDK (Java Development Kit)
+  HTML (Hypertext Markup Language)
+Correct Answer
+  FTP (File Transfer Protocol)
+ 
+UnansweredQuestion 7
+0 / 1 pts
+For web applications, data can be stored in
+  text files
+  databases
+  XML files
+Correct Answer
+  all of the above
+ 
+Question 8
+0 / 1 pts
+________________ is the language that the web browser converts into the web pages of a web application.
+You Answered
+
+Correct Answers
+HTML 
+Hypertext Markup Language 
+ 
+UnansweredQuestion 9
+0 / 1 pts
+There are many approaches to developing web applications with Java besides using servlets and JavaServer Pages. Name two other approaches.
+  HTML and CSS
+Correct Answer
+  JSF and Spring
+  Glassfish and Tomcat
+  JavaScript and jQuery
+ 
+Question 10
+0 / 1 pts
+The top-level directory for a web application is know as its ________________  directory.
+You Answered
+
+Correct Answers
+root 
+ 
+Question 11
+0 / 1 pts
+The client typically uses a ________________ to interact with a web application over the Internet.
+You Answered
+
+Correct Answers
+browser 
+web browser 
+ 
+Question 12
+0 / 1 pts
+A JavaServer Page typically contains the _________________ for the web page.
+You Answered
+
+Correct Answers
+HTML 
+ 
+Question 13
+0 / 1 pts
+The protocol that’s used by web browsers and web servers to communicate is ________________.
+You Answered
+
+Correct Answers
+HTTP 
+Hypertext Transfer Protocol 
+ 
+UnansweredQuestion 14
+0 / 1 pts
+The presentation layer for a typical servlet/JSP web application consists of
+  Java classes
+  servlets
+Correct Answer
+  HTML pages and JSPs
+  data access classes
+ 
+UnansweredQuestion 15
+0 / 1 pts
+The specification that describes how web servers can interact with all Java web technolgies is know as
+  The  Java Development Kit (JDK)
+Correct Answer
+  The Java Enterprise Edition (Java EE)
+  The Application Server
+  The HyperText Transfer Protocal
+ 
+Question 16
+0 / 1 pts
+The context.xml file is always stored in the  _________________ directory of an application.
+You Answered
+
+Correct Answers
+META-INF 
+ 
+UnansweredQuestion 17
+0 / 1 pts
+A web application is a type of
+Correct Answer
+  client/server application
+  database application
+  JSP application
+  Java application
+ 
+UnansweredQuestion 18
+0 / 1 pts
+An HTTP request
+Correct Answer
+  is sent from the web browser to a web server
+  is sent from the web browser to the client
+  is sent from the servlet engine to the client
+  is sent from the client to the servlet engine
+ 
+UnansweredQuestion 19
+0 / 1 pts
+A servlet
+  runs in a JSP
+Correct Answer
+  runs on a server
+  runs on the client
+  runs within HTML code
+ 
+UnansweredQuestion 20
+0 / 1 pts
+A set of pages that are generated in response to user requests is called a/an
+  servlet
+  JSP
+  domain name
+Correct Answer
+  web application
+ 
+Question 21
+0 / 1 pts
+A web server replies to an HTTP request by sending a message known as a/an ________________ .
+You Answered
+
+Correct Answers
+HTTP response 
+response 
+ 
+Question 22
+0 / 1 pts
+A servlet/JSP application typically contains a presentation layer, a business rules layer, and a _________________.
+You Answered
+
+Correct Answers
+data access layer 
+data layer 
+ 
+UnansweredQuestion 23
+0 / 1 pts
+Which directory stores the Java classes of a servlet/JSP application?
+  WEB-INF
+Correct Answer
+  WEB-INF\classes
+  META-INF
+  META-INF\classes
+ 
+UnansweredQuestion 24
+0 / 1 pts
+Which of the following is an API for working with databases?
+Correct Answer
+  JPA
+  JSF
+  EJB
+  Spring

@@ -1,0 +1,227 @@
+Question 1
+0 / 1 pts
+The cookie named mediaCookie in the following statement can be accessed by
+mediaCookie.setPath("/");
+  only the current directory
+Correct Answer
+  the entire web application
+  the entire web server
+  anyone
+ 
+Question 2
+0 / 1 pts
+It is not recommended to implement session tracking by using URL encoding, because it can lead to session ________________.
+You Answered
+
+Correct Answers
+hijacking 
+ 
+UnansweredQuestion 3
+0 / 1 pts
+Persistent cookies
+  are removed after the session ends
+Correct Answer
+  exist after the session ends
+  can’t be deleted
+  are often called hidden fields
+ 
+UnansweredQuestion 4
+0 / 1 pts
+The advantages of using hidden fields over URL rewriting to pass parameters from a browser to the server are
+  a hidden field can contain spaces and other special characters that are difficult to work with when using URL rewriting
+  the user can see the parameters by using the browser to look at the page’s source code
+  no limit to the number of characters that can be stored in a hidden field
+  both a and b
+Correct Answer
+  both a and c
+ 
+UnansweredQuestion 5
+0 / 1 pts
+Typical uses for cookies are
+  to allow users to skip login and registration forms
+  to customize pages that display info like weather reports, sports scores, etc.
+  to focus advertising like banner ads that target the user’s interests
+Correct Answer
+  all of the above
+ 
+Question 6
+0 / 1 pts
+To store the data for each session, the server creates a/an ________________.
+You Answered
+
+Correct Answers
+session object 
+ 
+Question 7
+0 / 1 pts
+By default, the servlet API uses a/an ________________ to store a session ID in each browser.
+You Answered
+
+Correct Answers
+cookie 
+ 
+UnansweredQuestion 8
+0 / 1 pts
+A session ends when
+  when a specified amount of time elapses without another request
+  when the user exits the browser
+Correct Answer
+  both a and b
+  none of the above
+ 
+Question 9
+0 / 1 pts
+________________ cookies are deleted when the session ends.
+You Answered
+
+Correct Answers
+Per-session 
+ 
+UnansweredQuestion 10
+0 / 1 pts
+A servlet can retrieve the current session object by using the getSession method of the
+  HttpSession class
+  response object
+Correct Answer
+  the request object
+  the ServletContext object
+ 
+UnansweredQuestion 11
+0 / 1 pts
+The following link demonstrates how to use
+<a href="schedule?user_id=${user.id}" >
+   View your schedule
+</a>
+Correct Answer
+  URL rewriting
+  URL encoding
+  hidden fields
+  cookies
+ 
+UnansweredQuestion 12
+0 / 1 pts
+Cookies are stored
+  in a database
+  on the web server that sent the cookie
+  on the web server that created the cookie
+Correct Answer
+  on the client
+ 
+Question 13
+0 / 1 pts
+Since it can be tedious to loop through an array of cookies whenever you want to get the value for one cookie, it is common to place the code that loops through the array of cookies in a/an ________________ class.
+You Answered
+
+Correct Answers
+utility 
+ 
+Question 14
+0 / 1 pts
+To create a cookie, you create an instance of the ________________ class.
+You Answered
+
+Correct Answers
+Cookie 
+ 
+UnansweredQuestion 15
+0 / 1 pts
+A session object is created
+  every time a browser makes a request for a web page
+  every time a browser requests a servlet
+  every time a browser requests a jsp
+Correct Answer
+  the first time a browser makes a request to a site
+ 
+UnansweredQuestion 16
+0 / 1 pts
+Which of the following statements causes an error?
+Correct Answer
+  String name = session.getAttribute("name");
+  Book book = (Book) session.getAttribute("book");
+  session.setAttribute("name", "Ted Andrews");
+  session.removeAttribute("name");
+ 
+UnansweredQuestion 17
+0 / 1 pts
+The current session object is available
+  only to JSPs
+  only to servlets
+Correct Answer
+  to both servlets and JSPs
+ 
+Question 18
+0 / 1 pts
+________________ cookies are stored on the user’s computer and are available for subsequent sessions.
+You Answered
+
+Correct Answers
+Persistent 
+ 
+UnansweredQuestion 19
+0 / 1 pts
+To delete a persistent cookie, set the age of a cookie to
+  -1
+  1
+Correct Answer
+  0
+  none of the above
+ 
+UnansweredQuestion 20
+0 / 1 pts
+To create a persistent cookie, set the cookie’s maximum age to
+  0
+  -1
+Correct Answer
+  a positive number
+  none of the above
+ 
+UnansweredQuestion 21
+0 / 1 pts
+When you set an attribute in the session object, the attributes are
+  available until the user closes the browser
+  available until the session times out
+  available until you use the removeAttribute method to remove an attribute from the session object
+Correct Answer
+  all of the above
+ 
+Question 22
+0 / 1 pts
+Keeping track of users as they move around a web site is known as ________________.
+You Answered
+
+Correct Answers
+session tracking 
+ 
+Question 23
+0 / 1 pts
+You can use the ________________ method of the response object to add a cookie to the computer that made the request.
+You Answered
+
+Correct Answers
+addCookie 
+ 
+UnansweredQuestion 24
+0 / 1 pts
+When you set an attribute in the request object, the attributes are ________________.
+  available until the user closes the browser
+Correct Answer
+  removed when the request has been completed
+  available until the session times out
+  none of the above
+ 
+Question 25
+0 / 1 pts
+To get an array of all the cookies stored by the browser, you use the ________________ method of the request object.
+You Answered
+
+Correct Answers
+getCookies 
+ 
+UnansweredQuestion 26
+0 / 1 pts
+Which statement is true?
+Correct Answer
+  HTTP doesn’t maintain state
+  HTTP maintains state
+  FTP doesn’t maintain state
+  all of the above

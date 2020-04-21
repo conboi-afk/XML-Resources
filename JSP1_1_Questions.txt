@@ -1,0 +1,72 @@
+1: A ________________ web page is one that doesn’t change.
+static
+
+2: A web application runs on the server computer under the control of ________________ software.
+web server
+
+3: To work with servlets and JSPs, the web server must contain the JDK, web server software, and a servlet/JSP ________________.
+engine
+
+4: A web page that changes based on the parameters that are sent to the web application from another page is called a/an ________________ .
+dynamic web page
+
+5: To develop Java web applications, you can use an Integrated Development Environment (IDE) such as:
+NetBeans or Eclipse
+
+6: To transfer your web application files to a web server, you can use a/an ___________ client such as FileZilla.
+FTP (File Transfer Protocol)
+
+7: For web applications, data can be stored in
+all of the above
+
+8: ________________ is the language that the web browser converts into the web pages of a web application.
+HTML
+
+9: There are many approaches to developing web applications with Java besides using servlets and JavaServer Pages. Name two other approaches.
+JSF and Spring
+
+10: The top-level directory for a web application is know as its ________________  directory.
+root
+
+11: The client typically uses a ________________ to interact with a web application over the Internet.
+browser
+
+12: A JavaServer Page typically contains the _________________ for the web page.
+HTML
+
+13: The protocol that’s used by web browsers and web servers to communicate is ________________.
+HTTP
+
+14: The presentation layer for a typical servlet/JSP web application consists of
+HTML pages and JSPs
+
+15: The specification that describes how web servers can interact with all Java web technolgies is know as
+The Java Enterprise Edition (Java EE)
+
+16: The context.xml file is always stored in the  _________________ directory of an application.
+META-INF
+
+17: A web application is a type of
+client/server application
+
+18: An HTTP request
+is sent from the web browser to a web server
+
+19: A servlet
+runs on a server
+
+20: A set of pages that are generated in response to user requests is called a/an
+web application
+
+21: A web server replies to an HTTP request by sending a message known as a/an ________________ .
+HTTP response
+
+22: A servlet/JSP application typically contains a presentation layer, a business rules layer, and a _________________.
+data access layer
+
+23: Which directory stores the Java classes of a servlet/JSP application?
+WEB-INF\classes
+
+24: Which of the following is an API for working with databases?
+JPA
+

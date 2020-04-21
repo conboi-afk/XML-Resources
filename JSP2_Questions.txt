@@ -1,0 +1,81 @@
+1: When the server removes a servlet from memory, it calls the servlet’s ______________________ method.
+destroy
+
+2: When one element is coded within another element, it can be called a/an ________________ element.
+child
+
+3: To map a servlet to a URL pattern, you can use the @WebServlet annotation, or you can add code to the ______________________ file.
+web.xml
+
+4: When the doGet method of a servlet is called, it receives
+the request and response objects
+
+5: You can use ________________, or ________________ to perform data validation on the client.
+JavaScript, jQuery
+
+6: The following code
+returns all values of the mail parameter or null if none exist
+
+7: To define a/an ________________ initialization parameter that’s available to a specific servlet, you can code a/an ________________ element within a servlet element.
+servlet, init-param
+
+8: In the code that follows, DiagnoseTrouble
+is the internal name for the servlet class that’s used in the deployment descriptor
+
+9: To define a/an ________________ initialization parameter that’s available to all servlets in the web application, you code a/an ________________ element.
+context, context-param
+
+10: Which of the following statements gets the value of the parameter named occupation?
+String occupation = request.getParameter("occupation")
+
+11: To make sure that parameter values aren’t displayed in the URL when a servlet is requested, you should use the ____________________ method in the form tag.
+post
+
+12: Initialization parameters can be added to the ________________ file.
+web.xml
+
+13: The init method of a servlet class is called
+the first time a servlet is requested but before the service method
+
+14: Within a servlet, instance variables are not ________________ and can result in serious problems.
+thread-safe
+
+15: The root element for the web.xml file is the ________________ element.
+web-app
+
+16: You can use the web.xml file or @WebServlet annotations to provide ________________ that apply to the entire web application or to specific servlets.
+initialization parameters
+
+17: The doGet method of a servlet is called when the servlet receives an HTTP ______________________ request.
+GET
+
+18: In the code that follows, the servlet is mapped to 
+the /diagnostics/diagnoseTrouble URL of the document root directory
+
+19: To write debugging messages from a servlet class to your servlet container’s log files, you can use the ______________________ method that you can call directly from any class that extends the HttpServlet class.
+log
+
+20: If you need to run some code when a servlet is initialized and loaded into memory, you can use the ______________________ method of the servlet.
+init
+
+21: The web.xml file consists of XML ________________ that define XML elements.
+tags
+
+22: The log file for debugging messages can usually be found in the logs directory of the ________________________.
+web server
+
+23: When an HTML page requests a servlet with the HTTP POST method, the _______________________ method of the servlet class is called.
+doPost
+
+24: A/an ________________ is the chain of method calls for any statement that calls a method.
+stack trace
+
+25: You can use ________________ to perform data validation on the server.
+a servlet
+
+26: A servlet is a Java class that extends the
+HttpServlet class
+
+27: The following code from a servlet class
+prints text to the standard output stream
+

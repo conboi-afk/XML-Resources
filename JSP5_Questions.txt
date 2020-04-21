@@ -1,0 +1,54 @@
+1: In a left outer join, the result set includes
+all rows in the first table and matched rows in the second table
+
+2: INSERT, UPDATE, and DELETE statements are part of SQL’s _____________________.
+Data Manipulation Language
+
+3: A file that stores one or more SQL statements is known as a __________________________________________.
+SQL script
+
+4: MySQL is a/an ________________ that can manage one or more databases.
+relational database management system (RDMS)
+
+5: When you code a script that contains more than one statement, you must code a/an ________________ at the end of each statement.
+semicolon
+
+6: CREATE DATABASE and DROP DATABASE are
+SQL statements
+
+7: When you code a/an ________________ join, rows are only included when the key of a row in the first table matches the key of a row in the second table.
+inner
+
+8: To specify how the result set should be sorted, you use the ________________ clause.
+ORDER BY
+
+9: SQL statements such as the CREATE TABLE and DROP TABLE statements are part of SQL’s ___________________________.
+Data Definition Language
+
+10: Before you can work with a database in MySQL Workbench, you need to connect to the ________________.
+database server
+
+11: The INSERT statement that follows inserts
+one row and four columns into the Download table
+
+12: To determine which rows in a table are selected, you code a _____________________       clause in a SELECT statement.
+WHERE
+
+13: Write a SELECT statement that returns all of the columns and rows from a table named UserRoles.
+SELECT * FROM UserRoles
+
+14: To select data from two or more tables, you can code a _____________________ clause.
+JOIN
+
+15: Which is not true about MySQL?
+it does not support referential integrity or tranasction processing.
+
+16: When a SELECT statement is executed, it returns a _______________________________.
+result set
+
+17: A/an ________________ is a column that is used to relate each row in one table with one or more rows in another table.
+foreign key
+
+18: The result set retrieved by the following SELECT statement contains rows that have
+two columns from the Accounts table where Balance column is less than 0
+

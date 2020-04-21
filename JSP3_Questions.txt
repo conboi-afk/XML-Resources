@@ -1,0 +1,54 @@
+1: To include a file in a JSP at compile-time, you can use the ________________ directive.
+include
+
+2: If the following JSP tag is coded in a JSP named index.jsp, what happens when the reports.jsp file is updated?
+the changes appear for subsequent requests for the index.jsp file
+
+3: A scriptlet contains one or more ________________ statements.
+Java
+
+4: EL makes it easy to access the _______________ of JavaBeans.
+properties
+
+5: Whenever you us EL, you begin by coding a
+dollar sign
+
+6: To include HTML or JSP files within a JSP at runtime, you can use a/an ________________ import tag.
+JSTL
+
+7: Before you can use JSTL tags, you must import the ____________________ to make the jstl-impl.jar and jstl-api.jar files available to the application.
+JSTL library
+
+8: The ________________ of a bean refers to the object that stores the bean. This controls how long the bean is available to the application.
+scope
+
+9: ___________________ provides tags for common tasks that need to be performed in JSPs.
+The JSP Standard Tag Library (JSTL)
+
+10: A JavaBean is a Java class that
+all of the above
+
+11: Which of the following is a valid JSP comment?
+<%-- comment --%>
+
+12: With a standard JSP tag, you can use the ________________ tag to get the values stored in a bean.
+getProperty
+
+13: JavaBeans are a type of ____________________.
+plain old Java object
+
+14: A/an ____________________ is a special type of object that provides a standard way to access its properties.
+JavaBean
+
+15: ________________ provides a compact syntax that lets you get data from a JavaBean that has been stored as an attribute of the request.
+Expression Language (EL)
+
+16: The advantages of EL are
+all of the above
+
+17: If you attempt to run a JSP that contains a coding error, the server typically returns an error page with HTTP Status __________.
+500
+
+18: Before you can use the core JSTL tags in a JSP, you must code a/an ________________ for the core JSTL library.
+taglib directive
+

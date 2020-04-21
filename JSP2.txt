@@ -1,0 +1,239 @@
+Question 1
+0 / 1 pts
+When the server removes a servlet from memory, it calls the servlet’s ______________________ method.
+You Answered
+
+Correct Answers
+destroy 
+ 
+Question 2
+0 / 1 pts
+When one element is coded within another element, it can be called a/an ________________ element.
+You Answered
+
+Correct Answers
+child 
+ 
+Question 3
+0 / 1 pts
+To map a servlet to a URL pattern, you can use the @WebServlet annotation, or you can add code to the ______________________ file.
+You Answered
+
+Correct Answers
+web.xml 
+ 
+UnansweredQuestion 4
+0 / 1 pts
+When the doGet method of a servlet is called, it receives
+  the request and ServletContext objects
+Correct Answer
+  the request and response objects
+  the request, response, and ServletException objects
+  the request, ServletContext, and ServletException objects
+ 
+UnansweredQuestion 5
+0 / 1 pts
+You can use ________________, or ________________ to perform data validation on the client.
+  jQuery, a servlet
+  JavaScript, a servlet
+Correct Answer
+  JavaScript, jQuery
+  a servlet, HTML5
+ 
+UnansweredQuestion 6
+0 / 1 pts
+The following code
+String[] mailTypes = request.getParameterValues("mail");
+  returns the name of all request parameters from the mail.jsp page
+  returns the first value of the mail parameter or null if none exist
+Correct Answer
+  returns all values of the mail parameter or null if none exist
+  returns the values of all request parameters from the mail.jsp page
+  is invalid
+ 
+UnansweredQuestion 7
+0 / 1 pts
+To define a/an ________________ initialization parameter that’s available to a specific servlet, you can code a/an ________________ element within a servlet element.
+  context, init-param
+Correct Answer
+  servlet, init-param
+  servlet, context-param
+  context, context-param
+ 
+UnansweredQuestion 8
+0 / 1 pts
+In the code that follows, DiagnoseTrouble
+<servlet-mapping>
+    <servlet-name>DiagnoseTrouble</servlet-name>
+    <url-pattern>/diagnostics/diagnoseTrouble</url-pattern>
+</servlet-mapping>
+  is the name of the servlet class
+Correct Answer
+  is the internal name for the servlet class that’s used in the deployment descriptor
+  is the name that’s used to request the servlet
+ 
+UnansweredQuestion 9
+0 / 1 pts
+To define a/an ________________ initialization parameter that’s available to all servlets in the web application, you code a/an ________________ element.
+  context, init-param
+  servlet, init-param
+  servlet, context-param
+Correct Answer
+  context, context-param
+ 
+UnansweredQuestion 10
+0 / 1 pts
+Which of the following statements gets the value of the parameter named occupation?
+  String occupation = response.getParameter("occupation");
+Correct Answer
+  String occupation = request.getParameter("occupation")
+  String occupation = response.getValue("occupation");
+  String occupation = request.getValue("occupation")
+  None of the above
+ 
+Question 11
+0 / 1 pts
+To make sure that parameter values aren’t displayed in the URL when a servlet is requested, you should use the ____________________ method in the form tag.
+You Answered
+
+Correct Answers
+post 
+ 
+Question 12
+0 / 1 pts
+Initialization parameters can be added to the ________________ file.
+You Answered
+
+Correct Answers
+web.xml 
+ 
+UnansweredQuestion 13
+0 / 1 pts
+The init method of a servlet class is called
+Correct Answer
+  the first time a servlet is requested but before the service method
+  each time the servlet is requested but before the service method
+  the first time a servlet is requested but after the service method
+  each time the servlet is requested but after the service method
+ 
+Question 14
+0 / 1 pts
+Within a servlet, instance variables are not ________________ and can result in serious problems.
+You Answered
+
+Correct Answers
+thread-safe 
+ 
+Question 15
+0 / 1 pts
+The root element for the web.xml file is the ________________ element.
+You Answered
+
+Correct Answers
+web-app 
+ 
+Question 16
+0 / 1 pts
+You can use the web.xml file or @WebServlet annotations to provide ________________ that apply to the entire web application or to specific servlets.
+You Answered
+
+Correct Answers
+initialization parameters 
+ 
+Question 17
+0 / 1 pts
+The doGet method of a servlet is called when the servlet receives an HTTP ______________________ request.
+You Answered
+
+Correct Answers
+GET 
+ 
+UnansweredQuestion 18
+0 / 1 pts
+In the code that follows, the servlet is mapped to 
+<servlet-mapping>
+    <servlet-name>DiagnoseTrouble</servlet-name>
+    <url-pattern>/diagnostics/diagnoseTrouble</url-pattern>
+</servlet-mapping>
+Correct Answer
+  the /diagnostics/diagnoseTrouble URL of the document root directory
+  the /diagnostics/diagnoseTrouble URL of the current directory
+  any URL in the /diagnostics/diagnoseTrouble directory of the document root directory
+  any URL in the /diagnostics/diagnoseTrouble directory of the current directory
+ 
+Question 19
+0 / 1 pts
+To write debugging messages from a servlet class to your servlet container’s log files, you can use the ______________________ method that you can call directly from any class that extends the HttpServlet class.
+You Answered
+
+Correct Answers
+log 
+ 
+Question 20
+0 / 1 pts
+If you need to run some code when a servlet is initialized and loaded into memory, you can use the ______________________ method of the servlet.
+You Answered
+
+Correct Answers
+init 
+ 
+Question 21
+0 / 1 pts
+The web.xml file consists of XML ________________ that define XML elements.
+You Answered
+
+Correct Answers
+tags 
+ 
+Question 22
+0 / 1 pts
+The log file for debugging messages can usually be found in the logs directory of the ________________________.
+You Answered
+
+Correct Answers
+web server 
+servlet container/engine 
+ 
+Question 23
+0 / 1 pts
+When an HTML page requests a servlet with the HTTP POST method, the _______________________ method of the servlet class is called.
+You Answered
+
+Correct Answers
+doPost 
+ 
+Question 24
+0 / 1 pts
+A/an ________________ is the chain of method calls for any statement that calls a method.
+You Answered
+
+Correct Answers
+stack trace 
+ 
+UnansweredQuestion 25
+0 / 1 pts
+You can use ________________ to perform data validation on the server.
+  jQuery
+Correct Answer
+  a servlet
+  JavaScript
+  HTML5
+ 
+UnansweredQuestion 26
+0 / 1 pts
+A servlet is a Java class that extends the
+  Servlet class
+  HttpGenericServlet class
+Correct Answer
+  HttpServlet class
+  HttpServletRequest class
+ 
+UnansweredQuestion 27
+0 / 1 pts
+The following code from a servlet class
+System.out.println("Check with system administrator");
+Correct Answer
+  prints text to the standard output stream
+  prints text to an HTML page
+  prints text to a JSP page
+  prints text to a servlet

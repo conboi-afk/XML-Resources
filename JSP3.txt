@@ -1,0 +1,154 @@
+Question 1
+0 / 1 pts
+To include a file in a JSP at compile-time, you can use the ________________ directive.
+You Answered
+
+Correct Answers
+include 
+ 
+UnansweredQuestion 2
+0 / 1 pts
+If the following JSP tag is coded in a JSP named index.jsp, what happens when the reports.jsp file is updated?
+<jsp:include page="includes/reports.jsp" />
+  the changes don’t appear in the subsequent requests for the index.jsp file
+Correct Answer
+  the changes appear for subsequent requests for the index.jsp file
+  a JSP error is thrown
+ 
+Question 3
+0 / 1 pts
+A scriptlet contains one or more ________________ statements.
+You Answered
+
+Correct Answers
+Java 
+ 
+UnansweredQuestion 4
+0 / 1 pts
+EL makes it easy to access the _______________ of JavaBeans.
+  instance variables
+  attributes
+  methods
+Correct Answer
+  properties
+ 
+UnansweredQuestion 5
+0 / 1 pts
+Whenever you us EL, you begin by coding a
+  semi-colon
+Correct Answer
+  dollar sign
+  colon
+  none of the above
+ 
+Question 6
+0 / 1 pts
+To include HTML or JSP files within a JSP at runtime, you can use a/an ________________ import tag.
+You Answered
+
+Correct Answers
+JSTL 
+ 
+Question 7
+0 / 1 pts
+Before you can use JSTL tags, you must import the ____________________ to make the jstl-impl.jar and jstl-api.jar files available to the application.
+You Answered
+
+Correct Answers
+JSTL library 
+ 
+Question 8
+0 / 1 pts
+The ________________ of a bean refers to the object that stores the bean. This controls how long the bean is available to the application.
+You Answered
+
+Correct Answers
+scope 
+ 
+UnansweredQuestion 9
+0 / 1 pts
+___________________ provides tags for common tasks that need to be performed in JSPs.
+Correct Answer
+  The JSP Standard Tag Library (JSTL)
+  Expression Language (EL)
+  Standard JSP
+  A scriptlet
+ 
+UnansweredQuestion 10
+0 / 1 pts
+A JavaBean is a Java class that
+  provides a zero-argument constructor
+  implements the Serializable or Externalizable interface
+  provides get and set methods for all of its private instance variables that follow standard Java naming conventions
+Correct Answer
+  all of the above
+ 
+UnansweredQuestion 11
+0 / 1 pts
+Which of the following is a valid JSP comment?
+  // comment
+  <!--comment -->
+Correct Answer
+  <%-- comment --%>
+  </comment>
+ 
+Question 12
+0 / 1 pts
+With a standard JSP tag, you can use the ________________ tag to get the values stored in a bean.
+You Answered
+
+Correct Answers
+getProperty 
+ 
+Question 13
+0 / 1 pts
+JavaBeans are a type of ____________________.
+You Answered
+
+Correct Answers
+plain old Java object 
+POJO 
+ 
+Question 14
+0 / 1 pts
+A/an ____________________ is a special type of object that provides a standard way to access its properties.
+You Answered
+
+Correct Answers
+JavaBean 
+ 
+UnansweredQuestion 15
+0 / 1 pts
+________________ provides a compact syntax that lets you get data from a JavaBean that has been stored as an attribute of the request.
+  The JSP Standard Tag Library (JSTL)
+Correct Answer
+  Expression Language (EL)
+  Standard JSP
+  A scriptlet
+ 
+UnansweredQuestion 16
+0 / 1 pts
+The advantages of EL are
+  more elegant and compact syntax
+  allows you to access nested properties
+  does a better job of handling null values
+  more functionality
+Correct Answer
+  all of the above
+ 
+Question 17
+0 / 1 pts
+If you attempt to run a JSP that contains a coding error, the server typically returns an error page with HTTP Status __________.
+You Answered
+
+Correct Answers
+500 
+ 
+UnansweredQuestion 18
+0 / 1 pts
+Before you can use the core JSTL tags in a JSP, you must code a/an ________________ for the core JSTL library.
+Correct Answer
+  taglib directive
+  page directive
+  scriptlet
+  request objec
